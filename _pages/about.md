@@ -1,13 +1,14 @@
 ---
 permalink: /
 title: "About Our Lab"
+excerpt: "About Jeewoong Derm Lab"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Welcome to Jeewoong Derm Lab
+# Jeewoong Derm Lab
 **Dermatology · Cutaneous Microbiome · Epidemiological Modeling · Computational Biology**
 
-[앞서 만들어 드린 index.md의 4대 핵심 축 및 랩 소개 내용 삽입]
+Directed by **Jeewoong (Jiwoong) Choi, MD, PhD** (Ajou University / NIH NIAMS Alum)...
