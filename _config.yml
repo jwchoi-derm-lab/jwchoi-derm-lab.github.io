@@ -1,31 +1,28 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Jeewoong Derm Lab"
 title_separator          : "-"
 name                     : "Jeewoong (Jiwoong) Choi, MD, PhD"
-description              : "Dermatology · Cutaneous Microbiome · Epidemiological Modeling · Computational Biology"
+description              : "Dermatology · Skin Microbiome · Epidemiology · Bioinformatics"
 url                      : "https://jwchoi-derm-lab.github.io"
 baseurl                  : ""
 repository               : "jwchoi-derm-lab/jwchoi-derm-lab.github.io"
-teaser                   : # filename of teaser fallback image
+teaser                   :
 
 # Site Author
 author:
   name             : "Jeewoong (Jiwoong) Choi, MD, PhD"
-  avatar           : "profile.png" # Place your image at /images/profile.png or keep profile.png
+  avatar           : "/images/profile.png" # Upload your photo as /images/profile.png or profile.jpg
   bio              : "Dermatologic Surgeon & Computational Biologist"
   location         : "Suwon & Seongnam, South Korea"
   employer         : "Ajou University School of Medicine"
   uri              : "https://www.ajoumc.or.kr/medicineEn/univ/profView.do?deptTp=&deptNo=65&no=660"
-  email            : "jwchoi@ajou.ac.kr"
-  researchgate     : # Add if available
-  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Choi+JW%5BAuthor%5D+Ajou"
-  googlescholar    : # "YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "jwchoi.derm.lab@gmail.com"
+  researchgate     :
+  pubmed           : # Removed pubmed link as requested
+  googlescholar    :
   github           : "jwchoi-derm-lab"
 
 # Reading Files
@@ -88,7 +85,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -99,14 +95,12 @@ defaults:
       comments: false
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -114,7 +108,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -122,7 +115,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -130,7 +122,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _talks
   - scope:
       path: ""
       type: talks
