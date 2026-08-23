@@ -14,7 +14,7 @@ teaser                   :
 # Site Author
 author:
   name             : "Jeewoong (Jiwoong) Choi, MD, PhD"
-  avatar           : "/images/profile.png" # Upload your photo as /images/profile.png or profile.jpg
+  avatar           : "profile.jpg" # Upload your photo as /images/profile.png or profile.jpg
   bio              : "Dermatologic Surgeon & Computational Biologist"
   location         : "Suwon & Seongnam, South Korea"
   employer         : "Ajou University School of Medicine"
