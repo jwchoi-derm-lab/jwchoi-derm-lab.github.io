@@ -1,14 +1,158 @@
-title: "Jeewoong Derm Lab"
-url: "https://jwchoi-derm-lab.github.io"
-repository: "jwchoi-derm-lab/jwchoi-derm-lab.github.io"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 
+# Site Settings
+locale                   : "en-US"
+title                    : "Jeewoong Derm Lab"
+title_separator          : "-"
+name                     : "Jeewoong (Jiwoong) Choi, MD, PhD"
+description              : "Dermatology · Cutaneous Microbiome · Epidemiological Modeling · Computational Biology"
+url                      : "https://jwchoi-derm-lab.github.io"
+baseurl                  : ""
+repository               : "jwchoi-derm-lab/jwchoi-derm-lab.github.io"
+teaser                   : # filename of teaser fallback image
+
+# Site Author
 author:
-  name: "Jeewoong (Jiwoong) Choi, MD, PhD"
-  avatar: "/images/profile.jpg"  # 사진을 images 폴더에 넣고 경로 지정
-  bio: "Dermatologic Surgeon & Computational Biologist"
-  location: "Suwon & Seongnam, South Korea"
-  employer: "Ajou University School of Medicine"
-  uri: "https://www.ajoumc.or.kr/medicineEn/univ/profView.do?deptTp=&deptNo=65&no=660"
-  email: "jwchoi@ajou.ac.kr"
-  github: "jwchoi-derm-lab"
-  googlescholar: "YOUR_GOOGLE_SCHOLAR_ID"  # 구글스칼라 ID 있을 경우 입력
+  name             : "Jeewoong (Jiwoong) Choi, MD, PhD"
+  avatar           : "profile.png" # Place your image at /images/profile.png or keep profile.png
+  bio              : "Dermatologic Surgeon & Computational Biologist"
+  location         : "Suwon & Seongnam, South Korea"
+  employer         : "Ajou University School of Medicine"
+  uri              : "https://www.ajoumc.or.kr/medicineEn/univ/profView.do?deptTp=&deptNo=65&no=660"
+  email            : "jwchoi@ajou.ac.kr"
+  researchgate     : # Add if available
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Choi+JW%5BAuthor%5D+Ajou"
+  googlescholar    : # "YOUR_GOOGLE_SCHOLAR_ID"
+  github           : "jwchoi-derm-lab"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _posts
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Analytics
+analytics:
+  provider               : false
