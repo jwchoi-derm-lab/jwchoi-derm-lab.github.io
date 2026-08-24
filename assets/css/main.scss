@@ -71,3 +71,53 @@
   border: 3px solid #FFFFFF !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
 }
+/* ========================================================
+   Custom Styles: Layout, Word-Wrap, and UI Clean up
+   ======================================================== */
+
+/* 1. 상단 다크모드/테마 전환 아이콘 숨기기 */
+.theme-toggle,
+button#theme-toggle,
+.masthead__menu-item:has(.fa-cog),
+.masthead__menu-item:has(button) {
+  display: none !important;
+}
+
+/* 2. 좌측 사이드바 텍스트 자동 줄바꿈 및 공간 확보 */
+.sidebar,
+.author__urls-wrapper,
+.author__urls {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+.author__urls li {
+  white-space: normal !important;
+  word-break: break-word !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 3. 사이드바 너비 살짝 확장 & 내부 여백 조정 */
+.sidebar.sticky {
+  min-width: 240px !important;
+}
+
+/* 4. 프로필 사진 박스 크기 및 중앙 정렬 */
+.author__avatar {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 1rem !important;
+}
+
+.author__avatar img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  border: 3px solid #ffffff !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
