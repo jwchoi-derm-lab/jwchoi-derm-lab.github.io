@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Translational Dermatology & Computational Biology"
+title: ""
 excerpt: "Academic Dermatology, Cutaneous Metagenomics, and Big Data Epidemiology"
 author_profile: true
 redirect_from: 
