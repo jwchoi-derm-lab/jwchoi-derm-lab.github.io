@@ -154,3 +154,62 @@ button#theme-toggle,
 .sidebar.sticky {
   min-width: 250px !important;
 }
+
+/* ========================================================
+   Fancy Publication Cards & Badges
+   ======================================================== */
+
+.pub-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-left: 4px solid #1976d2 !important;
+  border-radius: 8px !important;
+  padding: 1rem 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.12) !important;
+}
+
+.pub-title {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: #1a202c !important;
+  margin-bottom: 0.35rem !important;
+  line-height: 1.4 !important;
+}
+
+.pub-authors {
+  font-size: 0.9rem !important;
+  color: #4a5568 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pub-journal {
+  font-size: 0.88rem !important;
+  color: #2b6cb0 !important;
+  margin-bottom: 0.6rem !important;
+}
+
+/* Category & Journal Badges */
+.pub-tag {
+  display: inline-block !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  padding: 0.2rem 0.6rem !important;
+  border-radius: 9999px !important;
+  margin-right: 0.4rem !important;
+  margin-top: 0.2rem !important;
+}
+
+.tag-microbiome { background-color: #e6fffa !important; color: #234e52 !important; border: 1px solid #b2f5ea !important; }
+.tag-oncology   { background-color: #fff5f5 !important; color: #742a2a !important; border: 1px solid #fed7d7 !important; }
+.tag-hair       { background-color: #f7fafc !important; color: #2d3748 !important; border: 1px solid #e2e8f0 !important; }
+.tag-epi        { background-color: #ebf8ff !important; color: #2a4365 !important; border: 1px solid #bee3f8 !important; }
+.tag-surgery    { background-color: #faf5ff !important; color: #44337a !important; border: 1px solid #e9d8fd !important; }
+.tag-nail       { background-color: #fffaf0 !important; color: #7b341e !important; border: 1px solid #feebc8 !important; }
+.tag-featured   { background-color: #feebc8 !important; color: #744210 !important; border: 1px solid #fbd38d !important; font-weight: 700 !important; }
