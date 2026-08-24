@@ -31,7 +31,7 @@ redirect_from:
   <div class="pillar-card">
     <div class="pillar-icon">🩺</div>
     <div class="pillar-content">
-      <h3>Dermato-Oncology & Mohs Surgery</h3>
+      <h3>Dermato-Oncology & Dermato-Surgery</h3>
       <p>Optimizing clinical outcomes, surgical margins, and reconstructive flap designs for melanoma and non-melanoma skin cancer (NMSC) with nationwide clinical registries.</p>
     </div>
   </div>
