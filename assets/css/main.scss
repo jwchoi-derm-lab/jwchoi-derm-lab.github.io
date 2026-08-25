@@ -673,3 +673,174 @@ button#theme-toggle,
 
 .btn-contact { background: #1976d2 !important; color: #ffffff !important; }
 .btn-github  { background: #334155 !important; color: #ffffff !important; }
+
+/* ========================================================
+   Projects Hub & Detailed Project View Styles
+   ======================================================== */
+
+/* 1. 프로젝트 목록 그리드 */
+.project-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 1.4rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+.proj-card {
+  display: block !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  padding: 1.4rem !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+}
+
+.proj-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 22px rgba(25, 118, 210, 0.12) !important;
+  border-color: #90caf9 !important;
+}
+
+.card-microbiome { border-left: 5px solid #0d9488 !important; }
+.card-oncology   { border-left: 5px solid #e11d48 !important; }
+.card-epi        { border-left: 5px solid #2563eb !important; }
+
+.proj-card-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.proj-badge {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  padding: 0.2rem 0.5rem !important;
+  border-radius: 4px !important;
+}
+.badge-microbiome { background: #ccfbf1 !important; color: #115e59 !important; }
+.badge-oncology   { background: #ffe4e6 !important; color: #9f1239 !important; }
+.badge-epi        { background: #dbeafe !important; color: #1e40af !important; }
+
+.proj-status {
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  padding: 0.15rem 0.45rem !important;
+  border-radius: 9999px !important;
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+}
+
+.proj-card-title {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  line-height: 1.4 !important;
+  margin: 0.4rem 0 !important;
+}
+
+.proj-card-desc {
+  font-size: 0.86rem !important;
+  color: #475569 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1rem !important;
+}
+
+.proj-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.35rem !important;
+}
+
+.proj-tags span {
+  font-size: 0.72rem !important;
+  background: #f8fafc !important;
+  color: #64748b !important;
+  padding: 0.15rem 0.45rem !important;
+  border-radius: 4px !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* 2. 상세 프로젝트 페이지 헤더 박스 */
+.project-header-box {
+  background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%) !important;
+  border-left: 5px solid #0d9488 !important;
+  border-radius: 10px !important;
+  padding: 1.5rem !important;
+  margin-bottom: 1.8rem !important;
+}
+
+.proj-meta-badge {
+  font-size: 0.75rem !important;
+  font-weight: 800 !important;
+  color: #0d9488 !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.proj-lead-text {
+  font-size: 1rem !important;
+  color: #1e293b !important;
+  line-height: 1.6 !important;
+  margin: 0 0 1rem 0 !important;
+}
+
+.proj-info-bar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 1.2rem !important;
+  font-size: 0.82rem !important;
+  color: #475569 !important;
+  border-top: 1px dashed #cbd5e1 !important;
+  padding-top: 0.8rem !important;
+}
+
+/* 3. 방법론 특징 그리드 */
+.feature-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 1rem !important;
+  margin: 1.2rem 0 !important;
+}
+
+.feature-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+}
+
+.feature-card h4 {
+  margin: 0 0 0.4rem 0 !important;
+  font-size: 0.92rem !important;
+  color: #0f172a !important;
+}
+
+.feature-card p {
+  margin: 0 !important;
+  font-size: 0.82rem !important;
+  color: #64748b !important;
+  line-height: 1.45 !important;
+}
+
+/* 4. 하단 네비게이션 버튼 */
+.project-nav-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-top: 2.5rem !important;
+  padding-top: 1.2rem !important;
+  border-top: 1px solid #e2e8f0 !important;
+}
+
+.btn-back, .btn-inquire {
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  padding: 0.45rem 0.9rem !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+}
+
+.btn-back { background: #f1f5f9 !important; color: #334155 !important; }
+.btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
