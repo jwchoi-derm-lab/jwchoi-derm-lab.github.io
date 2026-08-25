@@ -99,34 +99,27 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
 
 ## 🧭 Project Workflow & Current Progress
 
-<!-- Chevron Arrow Ribbon Progress Bar -->
+<!-- Universal Standard 7-Step Progress Bar -->
 <div class="arrow-progress-container">
   <div class="arrow-step step-done step-c1">
-    <span class="step-idx">.01</span>
-    <span class="step-name">Concept</span>
+    <span class="step-name">Conceptualization</span>
   </div>
   <div class="arrow-step step-done step-c2">
-    <span class="step-idx">.02</span>
-    <span class="step-name">SRA Mining</span>
+    <span class="step-name">IRB & Study Initiation</span>
   </div>
   <div class="arrow-step step-done step-c3">
-    <span class="step-idx">.03</span>
-    <span class="step-name">DADA2</span>
+    <span class="step-name">Data Acquisition</span>
   </div>
   <div class="arrow-step step-done step-c4">
-    <span class="step-idx">.04</span>
-    <span class="step-name">Analysis</span>
+    <span class="step-name">Analysis & Viz</span>
   </div>
   <div class="arrow-step step-done step-c5">
-    <span class="step-idx">.05</span>
-    <span class="step-name">Manuscript</span>
+    <span class="step-name">Manuscript Prep</span>
   </div>
   <div class="arrow-step step-active step-c6">
-    <span class="step-idx">.06</span>
     <span class="step-name">Peer Review</span>
   </div>
   <div class="arrow-step step-pending step-c7">
-    <span class="step-idx">.07</span>
     <span class="step-name">Publication</span>
   </div>
 </div>
@@ -135,8 +128,8 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
 <div class="status-highlight-card">
   <div class="status-badge-pulse">CURRENT STAGE</div>
   <div class="status-content-wrap">
-    <h3>Stage .06: Peer Review Underway</h3>
-    <p>The full research manuscript and reproducible analytical pipeline have been finalized and submitted to a peer-reviewed academic journal for expert evaluation.</p>
+    <h3>Submission & Peer Review Underway</h3>
+    <p>The research manuscript has been finalized and submitted for expert peer evaluation in an academic journal.</p>
   </div>
 </div>
 
