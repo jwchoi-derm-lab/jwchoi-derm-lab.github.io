@@ -40,17 +40,33 @@
 
 
 /* ========================================================
-   Custom Header & Navigation Styles
+   1. Site Background & Layout Engine
    ======================================================== */
 
-/* 1. Masthead background (Pastel Green) */
+/* Body & Main Container Background */
+body, #main {
+  background-color: #f8fafc !important;
+}
+
+/* Hide auto-generated duplicate single page titles on Home/Pages */
+.layout--single .page__title,
+.page__inner-wrap > .page__title {
+  display: none !important;
+}
+
+
+/* ========================================================
+   2. Header & Top Navigation Bar (Masthead)
+   ======================================================== */
+
+/* Masthead background (Pastel Green) */
 .masthead,
 .masthead__inner-wrap {
   background-color: #E8F5E9 !important;
   border-bottom: 2px solid #C8E6C9 !important;
 }
 
-/* 2. Site Title: Blue color, remove underline, adjust spacing */
+/* Site Title: Deep Blue color, bold, remove underlines */
 .masthead__menu-item--lg {
   padding-left: 0.5rem !important;
   padding-right: 1.5rem !important;
@@ -72,7 +88,7 @@
   border-bottom: none !important;
 }
 
-/* 3. Hide Theme / Dark Mode toggle button & cog icon completely */
+/* Hide Theme / Dark Mode toggle button & cog icons */
 #theme-toggle,
 .theme-toggle,
 button#theme-toggle,
@@ -91,10 +107,9 @@ button#theme-toggle,
 
 
 /* ========================================================
-   Custom Sidebar Styles (Left Section)
+   3. Sidebar Profile Card (Left Column)
    ======================================================== */
 
-/* 1. Sidebar container: Light Sky Blue, top margin to move down */
 .sidebar,
 .author__content,
 .author__urls-wrapper {
@@ -109,7 +124,7 @@ button#theme-toggle,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
 
-/* 2. Perfect circular profile avatar without clipping */
+/* Perfect Circular Profile Avatar */
 .author__avatar {
   display: block !important;
   width: 150px !important;
@@ -135,7 +150,7 @@ button#theme-toggle,
   border: none !important;
 }
 
-/* 3. Text word-wrapping for long names/institutions */
+/* Word-wrapping for affiliations and URLs */
 .sidebar,
 .author__urls-wrapper,
 .author__urls {
@@ -155,341 +170,11 @@ button#theme-toggle,
   min-width: 250px !important;
 }
 
-/* ========================================================
-   Fancy Publication Cards & Badges
-   ======================================================== */
-
-.pub-card {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-left: 4px solid #1976d2 !important;
-  border-radius: 8px !important;
-  padding: 1rem 1.25rem !important;
-  margin-bottom: 1.25rem !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-}
-
-.pub-card:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.12) !important;
-}
-
-.pub-title {
-  font-size: 1.05rem !important;
-  font-weight: 700 !important;
-  color: #1a202c !important;
-  margin-bottom: 0.35rem !important;
-  line-height: 1.4 !important;
-}
-
-.pub-authors {
-  font-size: 0.9rem !important;
-  color: #4a5568 !important;
-  margin-bottom: 0.25rem !important;
-}
-
-.pub-journal {
-  font-size: 0.88rem !important;
-  color: #2b6cb0 !important;
-  margin-bottom: 0.6rem !important;
-}
-
-/* Category & Journal Badges */
-.pub-tag {
-  display: inline-block !important;
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
-  padding: 0.2rem 0.6rem !important;
-  border-radius: 9999px !important;
-  margin-right: 0.4rem !important;
-  margin-top: 0.2rem !important;
-}
-
-.tag-microbiome { background-color: #e6fffa !important; color: #234e52 !important; border: 1px solid #b2f5ea !important; }
-.tag-oncology   { background-color: #fff5f5 !important; color: #742a2a !important; border: 1px solid #fed7d7 !important; }
-.tag-hair       { background-color: #f7fafc !important; color: #2d3748 !important; border: 1px solid #e2e8f0 !important; }
-.tag-epi        { background-color: #ebf8ff !important; color: #2a4365 !important; border: 1px solid #bee3f8 !important; }
 
 /* ========================================================
-   Journal Hub Grid & Monthly Accordions
+   4. Our Lab (Home) Page: Hero, Pillars Grid & PI Box
    ======================================================== */
 
-.journal-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
-  gap: 1rem !important;
-  margin: 1.5rem 0 !important;
-}
-
-.journal-card {
-  display: flex !important;
-  align-items: center !important;
-  padding: 1rem !important;
-  border-radius: 12px !important;
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  text-decoration: none !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-}
-
-.journal-card:hover {
-  transform: translateY(-3px) !important;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08) !important;
-}
-
-/* Journal-specific color borders */
-.jaad-card { border-left: 5px solid #0056b3 !important; }
-.bjd-card  { border-left: 5px solid #800020 !important; }
-.jama-card { border-left: 5px solid #990000 !important; }
-.jid-card  { border-left: 5px solid #006644 !important; }
-
-.journal-badge {
-  font-weight: 800 !important;
-  font-size: 0.9rem !important;
-  padding: 0.4rem 0.6rem !important;
-  border-radius: 6px !important;
-  margin-right: 0.8rem !important;
-  background: #f1f5f9 !important;
-  color: #1e293b !important;
-}
-
-.journal-info h3 {
-  font-size: 0.95rem !important;
-  margin: 0 0 0.2rem 0 !important;
-  color: #1a202c !important;
-  line-height: 1.3 !important;
-}
-
-.journal-info p {
-  font-size: 0.75rem !important;
-  margin: 0 !important;
-  color: #718096 !important;
-}
-
-/* Monthly Accordion Styling */
-.monthly-accordion {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 10px !important;
-  margin-bottom: 0.8rem !important;
-  padding: 0.6rem 1rem !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02) !important;
-}
-
-.accordion-summary {
-  font-weight: 700 !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  font-size: 1.05rem !important;
-  color: #2d3748 !important;
-}
-
-.year-badge {
-  background: #ebf8ff !important;
-  color: #2b6cb0 !important;
-  padding: 0.15rem 0.5rem !important;
-  border-radius: 4px !important;
-  font-size: 0.8rem !important;
-}
-
-.post-count {
-  margin-left: auto !important;
-  font-size: 0.75rem !important;
-  color: #a0aec0 !important;
-}
-
-.accordion-content {
-  margin-top: 1rem !important;
-  padding-top: 0.8rem !important;
-  border-top: 1px dashed #e2e8f0 !important;
-}
-
-.digest-topic h4 {
-  font-size: 0.95rem !important;
-  color: #2b6cb0 !important;
-  margin: 0.8rem 0 0.3rem 0 !important;
-}
-
-.digest-topic ul {
-  padding-left: 1.2rem !important;
-  font-size: 0.9rem !important;
-  color: #4a5568 !important;
-}
-.tag-surgery    { background-color: #faf5ff !important; color: #44337a !important; border: 1px solid #e9d8fd !important; }
-.tag-nail       { background-color: #fffaf0 !important; color: #7b341e !important; border: 1px solid #feebc8 !important; }
-.tag-featured   { background-color: #feebc8 !important; color: #744210 !important; border: 1px solid #fbd38d !important; font-weight: 700 !important; }
-
-
-/* ========================================================
-   Journal Updates Hub: Clean Buttons, Focus Box & Cards
-   ======================================================== */
-
-/* 1. 상단 저널 심플 링크 네비게이션 바 */
-.journal-nav-bar {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 0.8rem !important;
-  margin: 1.5rem 0 !important;
-}
-
-.jlink {
-  flex: 1 1 120px !important;
-  text-align: center !important;
-  padding: 0.75rem 1rem !important;
-  font-weight: 700 !important;
-  font-size: 0.95rem !important;
-  text-decoration: none !important;
-  background: #ffffff !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.04) !important;
-  transition: all 0.2s ease !important;
-}
-
-.jlink:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08) !important;
-}
-
-/* 저널별 지정 테두리 색상 */
-.jlink-jaad { border: 2px solid #0056b3 !important; color: #0056b3 !important; }
-.jlink-jama { border: 2px solid #2e7d32 !important; color: #2e7d32 !important; }
-.jlink-bjd  { border: 2px solid #d32f2f !important; color: #d32f2f !important; }
-.jlink-jid  { border: 2px solid #800020 !important; color: #800020 !important; }
-
-/* 2. 섹션 타이틀 */
-.section-title {
-  font-size: 1.3rem !important;
-  margin: 1.5rem 0 1rem 0 !important;
-  padding-bottom: 0.4rem !important;
-}
-.title-jaad { color: #0056b3 !important; border-bottom: 2px solid #0056b3 !important; }
-.title-jama { color: #2e7d32 !important; border-bottom: 2px solid #2e7d32 !important; }
-.title-bjd  { color: #d32f2f !important; border-bottom: 2px solid #d32f2f !important; }
-.title-jid  { color: #800020 !important; border-bottom: 2px solid #800020 !important; }
-
-/* 3. 월별 이슈 아코디언 */
-.monthly-issue-accordion {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 10px !important;
-  margin-bottom: 1.2rem !important;
-  padding: 0.8rem 1.2rem !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
-}
-
-.issue-summary {
-  font-weight: 700 !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  font-size: 1.1rem !important;
-  color: #2d3748 !important;
-}
-
-.issue-tag {
-  margin-left: auto !important;
-  font-size: 0.75rem !important;
-  background: #f1f5f9 !important;
-  color: #475569 !important;
-  padding: 0.2rem 0.6rem !important;
-  border-radius: 4px !important;
-}
-
-.issue-body {
-  margin-top: 1.2rem !important;
-  padding-top: 1rem !important;
-  border-top: 1px dashed #e2e8f0 !important;
-}
-
-/* 4. 관심 토픽 추천 하이라이트 박스 */
-.focus-box {
-  background: #f8fafc !important;
-  border: 1px solid #cbd5e1 !important;
-  border-radius: 8px !important;
-  padding: 1.2rem !important;
-  margin-bottom: 1.8rem !important;
-}
-
-.focus-box h3 {
-  margin: 0 0 0.8rem 0 !important;
-  font-size: 1.05rem !important;
-  color: #1e293b !important;
-}
-
-.focus-group {
-  margin-bottom: 0.8rem !important;
-}
-
-.focus-label {
-  display: inline-block !important;
-  font-size: 0.75rem !important;
-  font-weight: 700 !important;
-  padding: 0.15rem 0.5rem !important;
-  border-radius: 4px !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.label-cancer     { background: #fee2e2 !important; color: #991b1b !important; }
-.label-hair       { background: #fef3c7 !important; color: #92400e !important; }
-.label-microbiome { background: #ccfbf1 !important; color: #115e59 !important; }
-
-.focus-list {
-  margin: 0 !important;
-  padding-left: 1.2rem !important;
-  font-size: 0.88rem !important;
-  color: #334155 !important;
-}
-
-/* 5. 개별 아티클 요약 카드 */
-.articles-header {
-  font-size: 1.05rem !important;
-  color: #1e293b !important;
-  margin: 1.5rem 0 1rem 0 !important;
-}
-
-.article-card {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-left: 4px solid #0056b3 !important;
-  border-radius: 6px !important;
-  padding: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-
-.art-title a {
-  font-weight: 700 !important;
-  font-size: 0.98rem !important;
-  color: #0f172a !important;
-  text-decoration: none !important;
-}
-
-.art-title a:hover {
-  text-decoration: underline !important;
-  color: #0056b3 !important;
-}
-
-.art-meta {
-  font-size: 0.8rem !important;
-  color: #64748b !important;
-  margin: 0.3rem 0 0.6rem 0 !important;
-}
-
-.art-summary p {
-  font-size: 0.86rem !important;
-  line-height: 1.5 !important;
-  color: #334155 !important;
-  margin: 0.2rem 0 !important;
-}
-
-/* ========================================================
-   Our Lab (Home) Page: Hero, Pillars Grid & PI Card
-   ======================================================== */
-
-/* 1. 상단 히어로 배너 */
 .lab-hero-banner {
   background: linear-gradient(135deg, #f0f7ff 0%, #e8f5e9 100%) !important;
   border-left: 5px solid #1976d2 !important;
@@ -522,7 +207,7 @@ button#theme-toggle,
   margin: 0 !important;
 }
 
-/* 2. 4대 연구 축 카드 그리드 (2x2) */
+/* 4 Core Pillars Grid */
 .pillars-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
@@ -566,7 +251,7 @@ button#theme-toggle,
   margin: 0 !important;
 }
 
-/* 3. PI 프로필 상세 박스 */
+/* PI Profile Box */
 .pi-profile-box {
   background: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
@@ -633,13 +318,13 @@ button#theme-toggle,
   line-height: 1.6 !important;
 }
 
-/* 4. 협업 카드 */
+/* Collaboration Callout */
 .collab-action-card {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: center !important;
   justify-content: space-between !important;
-  background: #f8fafc !important;
+  background: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
   border-radius: 10px !important;
   padding: 1.2rem 1.5rem !important;
@@ -674,11 +359,226 @@ button#theme-toggle,
 .btn-contact { background: #1976d2 !important; color: #ffffff !important; }
 .btn-github  { background: #334155 !important; color: #ffffff !important; }
 
+
 /* ========================================================
-   Projects Hub & Detailed Project View Styles
+   5. Publications Page: Cards & Category Badges
    ======================================================== */
 
-/* 1. 프로젝트 목록 그리드 */
+.pub-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-left: 4px solid #1976d2 !important;
+  border-radius: 8px !important;
+  padding: 1rem 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.12) !important;
+}
+
+.pub-title {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: #1a202c !important;
+  margin-bottom: 0.35rem !important;
+  line-height: 1.4 !important;
+}
+
+.pub-authors {
+  font-size: 0.9rem !important;
+  color: #4a5568 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pub-journal {
+  font-size: 0.88rem !important;
+  color: #2b6cb0 !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.pub-tag {
+  display: inline-block !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  padding: 0.2rem 0.6rem !important;
+  border-radius: 9999px !important;
+  margin-right: 0.4rem !important;
+  margin-top: 0.2rem !important;
+}
+
+.tag-microbiome { background-color: #e6fffa !important; color: #234e52 !important; border: 1px solid #b2f5ea !important; }
+.tag-oncology   { background-color: #fff5f5 !important; color: #742a2a !important; border: 1px solid #fed7d7 !important; }
+.tag-hair       { background-color: #f7fafc !important; color: #2d3748 !important; border: 1px solid #e2e8f0 !important; }
+.tag-epi        { background-color: #ebf8ff !important; color: #2a4365 !important; border: 1px solid #bee3f8 !important; }
+.tag-surgery    { background-color: #faf5ff !important; color: #44337a !important; border: 1px solid #e9d8fd !important; }
+.tag-nail       { background-color: #fffaf0 !important; color: #7b341e !important; border: 1px solid #feebc8 !important; }
+.tag-featured   { background-color: #feebc8 !important; color: #744210 !important; border: 1px solid #fbd38d !important; font-weight: 700 !important; }
+
+
+/* ========================================================
+   6. Journal Updates Hub (Academic Briefs)
+   ======================================================== */
+
+.journal-nav-bar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.8rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+.jlink {
+  flex: 1 1 120px !important;
+  text-align: center !important;
+  padding: 0.75rem 1rem !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  text-decoration: none !important;
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04) !important;
+  transition: all 0.2s ease !important;
+}
+
+.jlink:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08) !important;
+}
+
+.jlink-jaad { border: 2px solid #0056b3 !important; color: #0056b3 !important; }
+.jlink-jama { border: 2px solid #2e7d32 !important; color: #2e7d32 !important; }
+.jlink-bjd  { border: 2px solid #d32f2f !important; color: #d32f2f !important; }
+.jlink-jid  { border: 2px solid #800020 !important; color: #800020 !important; }
+
+.section-title {
+  font-size: 1.3rem !important;
+  margin: 1.5rem 0 1rem 0 !important;
+  padding-bottom: 0.4rem !important;
+}
+.title-jaad { color: #0056b3 !important; border-bottom: 2px solid #0056b3 !important; }
+.title-jama { color: #2e7d32 !important; border-bottom: 2px solid #2e7d32 !important; }
+.title-bjd  { color: #d32f2f !important; border-bottom: 2px solid #d32f2f !important; }
+.title-jid  { color: #800020 !important; border-bottom: 2px solid #800020 !important; }
+
+.monthly-issue-accordion {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  margin-bottom: 1.2rem !important;
+  padding: 0.8rem 1.2rem !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
+}
+
+.issue-summary {
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 1.1rem !important;
+  color: #2d3748 !important;
+}
+
+.issue-tag {
+  margin-left: auto !important;
+  font-size: 0.75rem !important;
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+  padding: 0.2rem 0.6rem !important;
+  border-radius: 4px !important;
+}
+
+.issue-body {
+  margin-top: 1.2rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px dashed #e2e8f0 !important;
+}
+
+.focus-box {
+  background: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  padding: 1.2rem !important;
+  margin-bottom: 1.8rem !important;
+}
+
+.focus-box h3 {
+  margin: 0 0 0.8rem 0 !important;
+  font-size: 1.05rem !important;
+  color: #1e293b !important;
+}
+
+.focus-group {
+  margin-bottom: 0.8rem !important;
+}
+
+.focus-label {
+  display: inline-block !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  padding: 0.15rem 0.5rem !important;
+  border-radius: 4px !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.label-cancer     { background: #fee2e2 !important; color: #991b1b !important; }
+.label-hair       { background: #fef3c7 !important; color: #92400e !important; }
+.label-microbiome { background: #ccfbf1 !important; color: #115e59 !important; }
+
+.focus-list {
+  margin: 0 !important;
+  padding-left: 1.2rem !important;
+  font-size: 0.88rem !important;
+  color: #334155 !important;
+}
+
+.articles-header {
+  font-size: 1.05rem !important;
+  color: #1e293b !important;
+  margin: 1.5rem 0 1rem 0 !important;
+}
+
+.article-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-left: 4px solid #0056b3 !important;
+  border-radius: 6px !important;
+  padding: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.art-title a {
+  font-weight: 700 !important;
+  font-size: 0.98rem !important;
+  color: #0f172a !important;
+  text-decoration: none !important;
+}
+
+.art-title a:hover {
+  text-decoration: underline !important;
+  color: #0056b3 !important;
+}
+
+.art-meta {
+  font-size: 0.8rem !important;
+  color: #64748b !important;
+  margin: 0.3rem 0 0.6rem 0 !important;
+}
+
+.art-summary p {
+  font-size: 0.86rem !important;
+  line-height: 1.5 !important;
+  color: #334155 !important;
+  margin: 0.2rem 0 !important;
+}
+
+
+/* ========================================================
+   7. Projects Hub & Detail Pages
+   ======================================================== */
+
 .project-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
@@ -704,6 +604,7 @@ button#theme-toggle,
 }
 
 .card-microbiome { border-left: 5px solid #0d9488 !important; }
+.card-disease    { border-left: 5px solid #6366f1 !important; }
 .card-oncology   { border-left: 5px solid #e11d48 !important; }
 .card-epi        { border-left: 5px solid #2563eb !important; }
 
@@ -721,6 +622,7 @@ button#theme-toggle,
   border-radius: 4px !important;
 }
 .badge-microbiome { background: #ccfbf1 !important; color: #115e59 !important; }
+.badge-disease    { background: #e0e7ff !important; color: #3730a3 !important; }
 .badge-oncology   { background: #ffe4e6 !important; color: #9f1239 !important; }
 .badge-epi        { background: #dbeafe !important; color: #1e40af !important; }
 
@@ -741,29 +643,7 @@ button#theme-toggle,
   margin: 0.4rem 0 !important;
 }
 
-.proj-card-desc {
-  font-size: 0.86rem !important;
-  color: #475569 !important;
-  line-height: 1.5 !important;
-  margin-bottom: 1rem !important;
-}
-
-.proj-tags {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 0.35rem !important;
-}
-
-.proj-tags span {
-  font-size: 0.72rem !important;
-  background: #f8fafc !important;
-  color: #64748b !important;
-  padding: 0.15rem 0.45rem !important;
-  border-radius: 4px !important;
-  border: 1px solid #e2e8f0 !important;
-}
-
-/* 2. 상세 프로젝트 페이지 헤더 박스 */
+/* Detail Page Header Box */
 .project-header-box {
   background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%) !important;
   border-left: 5px solid #0d9488 !important;
@@ -797,137 +677,7 @@ button#theme-toggle,
   padding-top: 0.8rem !important;
 }
 
-/* 3. 방법론 특징 그리드 */
-.feature-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
-  gap: 1rem !important;
-  margin: 1.2rem 0 !important;
-}
-
-.feature-card {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 8px !important;
-  padding: 1rem !important;
-}
-
-.feature-card h4 {
-  margin: 0 0 0.4rem 0 !important;
-  font-size: 0.92rem !important;
-  color: #0f172a !important;
-}
-
-.feature-card p {
-  margin: 0 !important;
-  font-size: 0.82rem !important;
-  color: #64748b !important;
-  line-height: 1.45 !important;
-}
-
-/* 4. 하단 네비게이션 버튼 */
-.project-nav-footer {
-  display: flex !important;
-  justify-content: space-between !important;
-  margin-top: 2.5rem !important;
-  padding-top: 1.2rem !important;
-  border-top: 1px solid #e2e8f0 !important;
-}
-
-.btn-back, .btn-inquire {
-  font-size: 0.85rem !important;
-  font-weight: 700 !important;
-  padding: 0.45rem 0.9rem !important;
-  border-radius: 6px !important;
-  text-decoration: none !important;
-}
-
-.btn-back { background: #f1f5f9 !important; color: #334155 !important; }
-.btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
-
-/* ========================================================
-   Project Detail View: Progress Bar & Method Cards
-   ======================================================== */
-
-/* 1. 단계별 프로그레스 트래커 바 */
-.progress-tracker {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 12px !important;
-  padding: 1.2rem 1rem !important;
-  margin: 1.5rem 0 1rem 0 !important;
-  overflow-x: auto !important;
-}
-
-.step {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  min-width: 80px !important;
-  text-align: center !important;
-}
-
-.step-num {
-  width: 32px !important;
-  height: 32px !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  font-size: 0.85rem !important;
-  font-weight: 800 !important;
-  margin-bottom: 0.4rem !important;
-}
-
-.step.completed .step-num { background: #dcfce7 !important; color: #15803d !important; }
-.step.current .step-num   { background: #1976d2 !important; color: #ffffff !important; box-shadow: 0 0 0 4px #dbeafe !important; }
-.step.pending .step-num   { background: #f1f5f9 !important; color: #94a3b8 !important; }
-
-.step-label {
-  font-size: 0.72rem !important;
-  font-weight: 700 !important;
-  color: #475569 !important;
-  line-height: 1.2 !important;
-}
-
-.step.current .step-label { color: #1976d2 !important; font-weight: 800 !important; }
-
-.step-line {
-  flex-grow: 1 !important;
-  height: 3px !important;
-  background: #e2e8f0 !important;
-  margin: 0 4px 1.2rem 4px !important;
-}
-
-.step-line.active { background: #22c55e !important; }
-
-/* 2. 현재 상태 알림 콜아웃 */
-.status-callout {
-  display: flex !important;
-  align-items: center !important;
-  background: #eff6ff !important;
-  border: 1px solid #bfdbfe !important;
-  border-radius: 8px !important;
-  padding: 0.75rem 1rem !important;
-  font-size: 0.88rem !important;
-  color: #1e40af !important;
-  margin-bottom: 1.8rem !important;
-}
-
-.status-indicator-dot {
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 50% !important;
-  background: #2563eb !important;
-  margin-right: 0.6rem !important;
-  display: inline-block !important;
-  animation: pulse 2s infinite !important;
-}
-
-/* 3. 방법론 4대 카드 그리드 */
+/* Methods 4-Card Grid */
 .method-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
@@ -963,73 +713,61 @@ button#theme-toggle,
 
 
 /* ========================================================
-   Chevron Arrow Ribbon Progress Bar & Highlight Card
+   8. Standard 7-Stage Workflow Ribbon (Final Refined)
    ======================================================== */
 
-/* 1. 화살표 리본 컨테이너 */
 .arrow-progress-container {
   display: flex !important;
   align-items: center !important;
-  margin: 1.5rem 0 !important;
-  overflow-x: auto !important;
-  padding: 0.5rem 0 !important;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06)) !important;
+  width: 100% !important;
+  margin: 1.5rem 0 1rem 0 !important;
+  overflow: hidden !important; /* Prevents scrollbar */
+  padding: 0.3rem 0 !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05)) !important;
 }
 
-/* 2. 각 화살표 조각 (Chevron Shape) */
 .arrow-step {
   position: relative !important;
   flex: 1 1 0 !important;
-  min-width: 95px !important;
-  height: 48px !important;
+  height: 44px !important;
   display: flex !important;
-  flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  margin-right: -10px !important; /* 화살표 겹침 효과 */
-  clip-path: polygon(0% 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 0% 100%, 15px 50%) !important;
+  margin-right: -8px !important;
+  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%, 10px 50%) !important;
   color: #ffffff !important;
-  font-weight: 700 !important;
-  padding-left: 10px !important;
+  padding: 0 4px 0 10px !important;
   text-align: center !important;
   transition: all 0.2s ease !important;
 }
 
 .arrow-step:first-child {
-  clip-path: polygon(0% 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 0% 100%) !important;
-  padding-left: 0 !important;
-}
-
-/* 각 단계별 파스텔 컬러 (첨부 이미지 색상 매핑) */
-.step-c1 { background-color: #93c5fd !important; } /* Light Blue */
-.step-c2 { background-color: #86efac !important; } /* Mint Green */
-.step-c3 { background-color: #64748b !important; } /* Slate Gray */
-.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Yellow */
-.step-c5 { background-color: #fca5a5 !important; } /* Soft Coral */
-.step-c6 { background-color: #2563eb !important; } /* Deep Royal Blue (Active) */
-.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Light Gray (Pending) */
-
-.step-idx {
-  font-size: 0.82rem !important;
-  line-height: 1 !important;
-  opacity: 0.9 !important;
+  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%) !important;
+  padding-left: 4px !important;
 }
 
 .step-name {
-  font-size: 0.68rem !important;
-  line-height: 1.1 !important;
-  margin-top: 2px !important;
-  white-space: nowrap !important;
+  font-size: 0.67rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
 }
 
-/* 3. 현재 단계(.06) 강조 효과 */
+/* 7 Stages Color Mapping */
+.step-c1 { background-color: #93c5fd !important; } /* Conceptualization (Sky Blue) */
+.step-c2 { background-color: #86efac !important; } /* IRB & Initiation (Mint) */
+.step-c3 { background-color: #64748b !important; } /* Data Acquisition (Slate) */
+.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Analysis & Viz (Yellow) */
+.step-c5 { background-color: #fca5a5 !important; } /* Manuscript Prep (Coral) */
+.step-c6 { background-color: #1d4ed8 !important; } /* Peer Review (Deep Blue - Active) */
+.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Publication (Light Gray) */
+
 .step-active {
-  transform: scale(1.08) !important;
-  z-index: 10 !important;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35) !important;
+  z-index: 5 !important;
+  transform: scaleY(1.08) !important;
 }
 
-/* 4. 최하단 하이라이트 상태 알림 카드 */
+/* Active Highlight Card */
 .status-highlight-card {
   display: flex !important;
   align-items: flex-start !important;
@@ -1065,6 +803,22 @@ button#theme-toggle,
   margin: 0 !important;
   line-height: 1.5 !important;
 }
-/* Clinical Dysbiosis Card Accent */
-.card-disease { border-left: 5px solid #6366f1 !important; }
-.badge-disease { background: #e0e7ff !important; color: #3730a3 !important; }
+
+.project-nav-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-top: 2.5rem !important;
+  padding-top: 1.2rem !important;
+  border-top: 1px solid #e2e8f0 !important;
+}
+
+.btn-back, .btn-inquire {
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  padding: 0.45rem 0.9rem !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+}
+
+.btn-back { background: #f1f5f9 !important; color: #334155 !important; }
+.btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
