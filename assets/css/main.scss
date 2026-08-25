@@ -819,6 +819,90 @@ button#theme-toggle,
   border-radius: 6px !important;
   text-decoration: none !important;
 }
+/* ========================================================
+   8. Standard 7-Stage Workflow Ribbon (Refined & Highlighted)
+   ======================================================== */
 
+.arrow-progress-container {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 1.5rem 0 1.2rem 0 !important;
+  overflow: hidden !important; /* 스크롤바 완전 제거 */
+  padding: 0.4rem 0 !important;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.06)) !important;
+}
+
+.arrow-step {
+  position: relative !important;
+  flex: 1 1 0 !important;
+  height: 52px !important; /* 2줄 텍스트 수용을 위한 높이 확장 */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: -8px !important;
+  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%, 10px 50%) !important;
+  color: #ffffff !important;
+  padding: 0 4px 0 10px !important;
+  text-align: center !important;
+  transition: all 0.2s ease !important;
+}
+
+.arrow-step:first-child {
+  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%) !important;
+  padding-left: 4px !important;
+}
+
+.step-name {
+  font-size: 0.65rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
+  display: block !important;
+}
+
+/* 현재 단계 위에 붙는 미니 CURRENT 배지 */
+.step-badge {
+  font-size: 0.55rem !important;
+  font-weight: 900 !important;
+  background: #ffffff !important;
+  color: #1d4ed8 !important;
+  padding: 0.08rem 0.35rem !important;
+  border-radius: 9999px !important;
+  margin-bottom: 2px !important;
+  line-height: 1 !important;
+}
+
+/* 7단계 색상 매핑 */
+.step-c1 { background-color: #93c5fd !important; } /* Concept */
+.step-c2 { background-color: #86efac !important; } /* IRB & Initiation */
+.step-c3 { background-color: #64748b !important; } /* Data Acquisition */
+.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Analysis & Viz */
+.step-c5 { background-color: #fca5a5 !important; } /* Manuscript Prep */
+.step-c6 { 
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important; 
+  color: #ffffff !important;
+} /* Peer Review (Active) */
+.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Publication */
+
+/* 현재 활성화된 피어리뷰 단계 강조 효과 */
+.step-active {
+  z-index: 10 !important;
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 4px 10px rgba(37, 99, 235, 0.45)) !important;
+}
+
+/* 하단 알림 카드 */
+.status-highlight-card {
+  display: flex !important;
+  align-items: flex-start !important;
+  background: #eff6ff !important;
+  border-left: 5px solid #2563eb !important;
+  border-radius: 8px !important;
+  padding: 1.2rem 1.4rem !important;
+  margin: 1.2rem 0 2rem 0 !important;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.05) !important;
+}
 .btn-back { background: #f1f5f9 !important; color: #334155 !important; }
 .btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
