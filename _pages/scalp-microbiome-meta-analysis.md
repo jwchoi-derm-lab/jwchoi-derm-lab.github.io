@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Integrative Pooled Analysis of the Normal Scalp Microbiome: Bacteriome Profiles and Variation Across Public 16S rRNA Datasets"
 permalink: /projects/scalp-microbiome-meta-analysis/
 author_profile: true
 toc: true
@@ -10,14 +9,14 @@ toc_icon: "dna"
 
 <div class="project-header-box">
   <div class="proj-meta-badge">BIOINFORMATICS & TRANSLATIONAL MICROBIOME</div>
-  <h2 style="margin: 0.3rem 0 0.8rem 0; font-size: 1.35rem; color: #0f172a;">Integrative Pooled Analysis of the Normal Scalp Microbiome</h2>
+  <h2 style="margin: 0.3rem 0 0.8rem 0; font-size: 1.35rem; color: #0f172a; line-height: 1.3;">Integrative Pooled Analysis of the Normal Scalp Microbiome: Bacteriome Profiles and Variation Across Public 16S rRNA Datasets</h2>
   <p class="proj-lead-text">
     Establishing a unified global reference for the healthy human scalp bacteriome by integrating <b>975 normal samples</b> across <b>17 public NCBI BioProjects</b> with a standardized computational pipeline.
   </p>
   <div class="proj-info-bar">
-    <span><b>PI:</b> Jee Woong Choi, MD, PhD</span>
-    <span><b>Study Type:</b> Pooled Meta-Analysis</span>
-    <span><b>Stack:</b> R, DADA2, phyloseq, PICRUSt2</span>
+    <span><b>PI:</b> Jee Woong Choi, MD, PhD (Ajou Univ.)</span>
+    <span><b>Study Type:</b> Large-Scale Pooled Meta-Analysis</span>
+    <span><b>Stack:</b> R, DADA2, phyloseq, PICRUSt2, SRA-Toolkit</span>
   </div>
 </div>
 
@@ -100,7 +99,7 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
 
 ## 🧭 Project Workflow & Current Progress
 
-<!-- Chevron / Arrow Ribbon Progress Bar -->
+<!-- Chevron Arrow Ribbon Progress Bar -->
 <div class="arrow-progress-container">
   <div class="arrow-step step-done step-c1">
     <span class="step-idx">.01</span>
@@ -125,7 +124,6 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
   <div class="arrow-step step-active step-c6">
     <span class="step-idx">.06</span>
     <span class="step-name">Peer Review</span>
-    <div class="pulse-ring"></div>
   </div>
   <div class="arrow-step step-pending step-c7">
     <span class="step-idx">.07</span>
@@ -133,12 +131,12 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
   </div>
 </div>
 
-<!-- Highlighted Active Status Card (Bottom of Content) -->
+<!-- Highlighted Active Status Card -->
 <div class="status-highlight-card">
   <div class="status-badge-pulse">CURRENT STAGE</div>
   <div class="status-content-wrap">
     <h3>Stage .06: Peer Review Underway</h3>
-    <p>The full manuscript and reproducible analytical pipeline have been finalized and submitted to a peer-reviewed academic journal for expert evaluation.</p>
+    <p>The full research manuscript and reproducible analytical pipeline have been finalized and submitted to a peer-reviewed academic journal for expert evaluation.</p>
   </div>
 </div>
 
