@@ -844,3 +844,119 @@ button#theme-toggle,
 
 .btn-back { background: #f1f5f9 !important; color: #334155 !important; }
 .btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
+
+/* ========================================================
+   Project Detail View: Progress Bar & Method Cards
+   ======================================================== */
+
+/* 1. 단계별 프로그레스 트래커 바 */
+.progress-tracker {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  padding: 1.2rem 1rem !important;
+  margin: 1.5rem 0 1rem 0 !important;
+  overflow-x: auto !important;
+}
+
+.step {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  min-width: 80px !important;
+  text-align: center !important;
+}
+
+.step-num {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.step.completed .step-num { background: #dcfce7 !important; color: #15803d !important; }
+.step.current .step-num   { background: #1976d2 !important; color: #ffffff !important; box-shadow: 0 0 0 4px #dbeafe !important; }
+.step.pending .step-num   { background: #f1f5f9 !important; color: #94a3b8 !important; }
+
+.step-label {
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  color: #475569 !important;
+  line-height: 1.2 !important;
+}
+
+.step.current .step-label { color: #1976d2 !important; font-weight: 800 !important; }
+
+.step-line {
+  flex-grow: 1 !important;
+  height: 3px !important;
+  background: #e2e8f0 !important;
+  margin: 0 4px 1.2rem 4px !important;
+}
+
+.step-line.active { background: #22c55e !important; }
+
+/* 2. 현재 상태 알림 콜아웃 */
+.status-callout {
+  display: flex !important;
+  align-items: center !important;
+  background: #eff6ff !important;
+  border: 1px solid #bfdbfe !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.88rem !important;
+  color: #1e40af !important;
+  margin-bottom: 1.8rem !important;
+}
+
+.status-indicator-dot {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background: #2563eb !important;
+  margin-right: 0.6rem !important;
+  display: inline-block !important;
+  animation: pulse 2s infinite !important;
+}
+
+/* 3. 방법론 4대 카드 그리드 */
+.method-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 1.2rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+.method-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 1.2rem !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
+}
+
+.method-icon {
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.method-card h4 {
+  font-size: 0.95rem !important;
+  color: #0f172a !important;
+  margin: 0 0 0.4rem 0 !important;
+}
+
+.method-card p {
+  font-size: 0.84rem !important;
+  color: #64748b !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
