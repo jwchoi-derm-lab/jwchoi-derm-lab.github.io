@@ -98,24 +98,25 @@ By curating 6 BioProjects with platform-matched healthy controls and applying un
 
 ## 🧭 Project Workflow & Current Progress
 
-<!-- Universal Standard 7-Step Progress Bar -->
+<!-- Universal Standard 7-Step Progress Bar (Optimized Two-Line Wrap) -->
 <div class="arrow-progress-container">
   <div class="arrow-step step-done step-c1">
-    <span class="step-name">Conceptualization</span>
+    <span class="step-name">Concept</span>
   </div>
   <div class="arrow-step step-done step-c2">
-    <span class="step-name">IRB & Study Initiation</span>
+    <span class="step-name">IRB &<br>Initiation</span>
   </div>
   <div class="arrow-step step-done step-c3">
-    <span class="step-name">Data Acquisition</span>
+    <span class="step-name">Data<br>Acquisition</span>
   </div>
   <div class="arrow-step step-done step-c4">
-    <span class="step-name">Analysis & Viz</span>
+    <span class="step-name">Analysis &<br>Viz</span>
   </div>
   <div class="arrow-step step-done step-c5">
-    <span class="step-name">Manuscript Prep</span>
+    <span class="step-name">Manuscript<br>Prep</span>
   </div>
   <div class="arrow-step step-active step-c6">
+    <span class="step-badge">CURRENT</span>
     <span class="step-name">Peer Review</span>
   </div>
   <div class="arrow-step step-pending step-c7">
@@ -127,7 +128,7 @@ By curating 6 BioProjects with platform-matched healthy controls and applying un
 <div class="status-highlight-card">
   <div class="status-badge-pulse">CURRENT STAGE</div>
   <div class="status-content-wrap">
-    <h3>Submission & Peer Review Underway</h3>
+    <h3>Stage: Submission & Peer Review Underway</h3>
     <p>The research manuscript investigating comparative scalp dysbiosis across AA, AGA, and SD has been completed and submitted for peer-reviewed journal evaluation.</p>
   </div>
 </div>
