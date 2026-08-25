@@ -12,59 +12,13 @@ toc_icon: "dna"
   <div class="proj-meta-badge">BIOINFORMATICS & TRANSLATIONAL MICROBIOME</div>
   <h2 style="margin: 0.3rem 0 0.8rem 0; font-size: 1.35rem; color: #0f172a;">Integrative Pooled Analysis of the Normal Scalp Microbiome</h2>
   <p class="proj-lead-text">
-    Establishing a unified global reference for the healthy human scalp bacteriome by integrating <b>975 normal samples</b> across <b>17 public NCBI BioProjects</b> with a standardized, reproducible computational pipeline.
+    Establishing a unified global reference for the healthy human scalp bacteriome by integrating <b>975 normal samples</b> across <b>17 public NCBI BioProjects</b> with a standardized computational pipeline.
   </p>
   <div class="proj-info-bar">
-    <span><b>PI:</b> Jee Woong Choi, MD, PhD (Ajou Univ.)</span>
-    <span><b>Study Type:</b> Large-Scale Pooled Meta-Analysis</span>
-    <span><b>Stack:</b> R, DADA2, phyloseq, PICRUSt2, SRA-Toolkit</span>
+    <span><b>PI:</b> Jee Woong Choi, MD, PhD</span>
+    <span><b>Study Type:</b> Pooled Meta-Analysis</span>
+    <span><b>Stack:</b> R, DADA2, phyloseq, PICRUSt2</span>
   </div>
-</div>
-
----
-
-## 🧭 Project Workflow & Current Progress
-
-<div class="progress-tracker">
-  <div class="step completed">
-    <div class="step-num">✓</div>
-    <div class="step-label">1. Conceptualization</div>
-  </div>
-  <div class="step-line active"></div>
-  <div class="step completed">
-    <div class="step-num">✓</div>
-    <div class="step-label">2. Public SRA Mining</div>
-  </div>
-  <div class="step-line active"></div>
-  <div class="step completed">
-    <div class="step-num">✓</div>
-    <div class="step-label">3. DADA2 Harmonization</div>
-  </div>
-  <div class="step-line active"></div>
-  <div class="step completed">
-    <div class="step-num">✓</div>
-    <div class="step-label">4. Statistical Modeling</div>
-  </div>
-  <div class="step-line active"></div>
-  <div class="step completed">
-    <div class="step-num">✓</div>
-    <div class="step-label">5. Manuscript Finalization</div>
-  </div>
-  <div class="step-line active"></div>
-  <div class="step current">
-    <div class="step-num">6</div>
-    <div class="step-label">6. Peer Review (Current)</div>
-  </div>
-  <div class="step-line"></div>
-  <div class="step pending">
-    <div class="step-num">7</div>
-    <div class="step-label">7. Publication</div>
-  </div>
-</div>
-
-<div class="status-callout">
-  <span class="status-indicator-dot"></span>
-  <b>Current Status: Under Peer Review (2026)</b> — Full research manuscript finalized and submitted for academic journal review.
 </div>
 
 ---
@@ -123,7 +77,7 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
   <div class="method-card">
     <div class="method-icon">⚖️</div>
     <h4>Iterative Subsampling & CLR</h4>
-    <p>Mitigated severe cross-study sample size imbalances through 100-iteration random subsampling (yielding permutation-adjusted P-values) and Centered Log-Ratio (CLR) compositional transformations.</p>
+    <p>Mitigated severe cross-study sample size imbalances through 100-iteration random subsampling and Centered Log-Ratio (CLR) compositional transformations.</p>
   </div>
 
   <div class="method-card">
@@ -141,6 +95,52 @@ By pooling raw public sequencing accessions from the NCBI Sequence Read Archive 
 1. **Standardizing Normal Baselines**: Establishes an essential reference to discern natural demographic variation (age, sex, race) from true pathological dysbiosis in inflammatory hair and scalp disorders.
 2. **Methodological Benchmarking**: Demonstrates that sampling modality (swabs vs. hair shafts vs. biopsies) targets distinct microecological compartments, serving as a critical guideline for future clinical trial designs.
 3. **Targeted Therapeutic Implications**: Informs the development of precision microbiome therapeutics, prebiotics, and topical scalp formulations by defining the physiological distribution of core cutaneous commensals.
+
+---
+
+## 🧭 Project Workflow & Current Progress
+
+<!-- Chevron / Arrow Ribbon Progress Bar -->
+<div class="arrow-progress-container">
+  <div class="arrow-step step-done step-c1">
+    <span class="step-idx">.01</span>
+    <span class="step-name">Concept</span>
+  </div>
+  <div class="arrow-step step-done step-c2">
+    <span class="step-idx">.02</span>
+    <span class="step-name">SRA Mining</span>
+  </div>
+  <div class="arrow-step step-done step-c3">
+    <span class="step-idx">.03</span>
+    <span class="step-name">DADA2</span>
+  </div>
+  <div class="arrow-step step-done step-c4">
+    <span class="step-idx">.04</span>
+    <span class="step-name">Analysis</span>
+  </div>
+  <div class="arrow-step step-done step-c5">
+    <span class="step-idx">.05</span>
+    <span class="step-name">Manuscript</span>
+  </div>
+  <div class="arrow-step step-active step-c6">
+    <span class="step-idx">.06</span>
+    <span class="step-name">Peer Review</span>
+    <div class="pulse-ring"></div>
+  </div>
+  <div class="arrow-step step-pending step-c7">
+    <span class="step-idx">.07</span>
+    <span class="step-name">Publication</span>
+  </div>
+</div>
+
+<!-- Highlighted Active Status Card (Bottom of Content) -->
+<div class="status-highlight-card">
+  <div class="status-badge-pulse">CURRENT STAGE</div>
+  <div class="status-content-wrap">
+    <h3>Stage .06: Peer Review Underway</h3>
+    <p>The full manuscript and reproducible analytical pipeline have been finalized and submitted to a peer-reviewed academic journal for expert evaluation.</p>
+  </div>
+</div>
 
 ---
 
