@@ -960,3 +960,108 @@ button#theme-toggle,
   line-height: 1.5 !important;
   margin: 0 !important;
 }
+
+
+/* ========================================================
+   Chevron Arrow Ribbon Progress Bar & Highlight Card
+   ======================================================== */
+
+/* 1. 화살표 리본 컨테이너 */
+.arrow-progress-container {
+  display: flex !important;
+  align-items: center !important;
+  margin: 1.5rem 0 !important;
+  overflow-x: auto !important;
+  padding: 0.5rem 0 !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06)) !important;
+}
+
+/* 2. 각 화살표 조각 (Chevron Shape) */
+.arrow-step {
+  position: relative !important;
+  flex: 1 1 0 !important;
+  min-width: 95px !important;
+  height: 48px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: -10px !important; /* 화살표 겹침 효과 */
+  clip-path: polygon(0% 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 0% 100%, 15px 50%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding-left: 10px !important;
+  text-align: center !important;
+  transition: all 0.2s ease !important;
+}
+
+.arrow-step:first-child {
+  clip-path: polygon(0% 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 0% 100%) !important;
+  padding-left: 0 !important;
+}
+
+/* 각 단계별 파스텔 컬러 (첨부 이미지 색상 매핑) */
+.step-c1 { background-color: #93c5fd !important; } /* Light Blue */
+.step-c2 { background-color: #86efac !important; } /* Mint Green */
+.step-c3 { background-color: #64748b !important; } /* Slate Gray */
+.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Yellow */
+.step-c5 { background-color: #fca5a5 !important; } /* Soft Coral */
+.step-c6 { background-color: #2563eb !important; } /* Deep Royal Blue (Active) */
+.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Light Gray (Pending) */
+
+.step-idx {
+  font-size: 0.82rem !important;
+  line-height: 1 !important;
+  opacity: 0.9 !important;
+}
+
+.step-name {
+  font-size: 0.68rem !important;
+  line-height: 1.1 !important;
+  margin-top: 2px !important;
+  white-space: nowrap !important;
+}
+
+/* 3. 현재 단계(.06) 강조 효과 */
+.step-active {
+  transform: scale(1.08) !important;
+  z-index: 10 !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35) !important;
+}
+
+/* 4. 최하단 하이라이트 상태 알림 카드 */
+.status-highlight-card {
+  display: flex !important;
+  align-items: flex-start !important;
+  background: #eff6ff !important;
+  border-left: 5px solid #2563eb !important;
+  border-radius: 8px !important;
+  padding: 1.2rem 1.4rem !important;
+  margin: 1.2rem 0 2rem 0 !important;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.05) !important;
+}
+
+.status-badge-pulse {
+  background: #2563eb !important;
+  color: #ffffff !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  padding: 0.25rem 0.6rem !important;
+  border-radius: 4px !important;
+  margin-right: 1.2rem !important;
+  white-space: nowrap !important;
+}
+
+.status-content-wrap h3 {
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+  color: #1e3a8a !important;
+  margin: 0 0 0.3rem 0 !important;
+}
+
+.status-content-wrap p {
+  font-size: 0.86rem !important;
+  color: #3b82f6 !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+}
