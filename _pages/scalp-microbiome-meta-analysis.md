@@ -37,23 +37,62 @@ This study aims to:
 
 Prior scalp microbiome studies have been largely constrained by small sample sizes, heterogeneous sampling techniques, variable hypervariable regions (e.g., V1–V3 vs. V4), and disparate downstream bioinformatic pipelines. Consequently, true biological variation could not be clearly distinguished from technical artifacts.
 
-```
-                              ┌────────────────────────────────────────┐
-                              │ 17 NCBI BioProjects (6,455 Raw Runs)   │
-                              └───────────────────┬────────────────────┘
-                                                  │ Rigorous Filtering (Normal Scalp Only)
-                                                  ▼
-                              ┌────────────────────────────────────────┐
-                              │ 975 Harmonized Scalp Samples (16S rRNA)│
-                              └───────────────────┬────────────────────┘
-                                                  │
-                ┌─────────────────────────────────┼─────────────────────────────────┐
-                │                                 │                                 │
-                ▼                                 ▼                                 ▼
-      [Swabs: Surface Niche]             [Hair Shafts: Outer Niche]         [Tissue: Follicular Niche]
-```
+<!-- Modern Multi-Tiered Study Architecture Cards -->
+<div class="study-flow-container">
+  
+  <!-- Tier 1: Raw SRA Ingestion -->
+  <div class="flow-tier-box tier-ingest">
+    <div class="tier-badge">STEP 1 · DATA INGESTION & SCREENING</div>
+    <h3>17 NCBI BioProjects (6,455 Raw Sequencing Runs)</h3>
+    <p>Comprehensive retrieval of publicly deposited scalp-associated 16S rRNA datasets from the NCBI Sequence Read Archive (SRA), followed by rigorous metadata curation to eliminate diseased, treated, or non-baseline timepoints.</p>
+  </div>
 
-By pooling raw public sequencing accessions from the NCBI Sequence Read Archive (SRA) and applying a uniform bioinformatic framework, this project establishes a unified baseline essential for future clinical trials and disease-association investigations.
+  <div class="flow-connector-arrow">
+    <span class="connector-line"></span>
+    <span class="connector-text">Standardized Quality Filtering & BioProject DADA2 Harmonization</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 2: Harmonized Cohort -->
+  <div class="flow-tier-box tier-cohort">
+    <div class="tier-badge">STEP 2 · HARMONIZED REFERENCE COHORT</div>
+    <h3>975 Normal Scalp Samples Across 1,112 Unique Subjects</h3>
+    <p>Per-project error modeling, chimera elimination, and unified SILVA v138.2 taxonomic classification to establish the largest pooled normal scalp bacteriome reference to date.</p>
+  </div>
+
+  <div class="flow-connector-arrow">
+    <span class="connector-line"></span>
+    <span class="connector-text">Stratified Multi-Modal Microecological Dissection</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 3: 3 Distinct Ecological Niches (3 Columns) -->
+  <div class="niche-grid">
+    
+    <div class="niche-card niche-swab">
+      <div class="niche-icon">🧫</div>
+      <h4>Superficial Scalp Swabs</h4>
+      <span class="niche-tag">Surface Epidermal Niche</span>
+      <p>Captures stratum corneum commensals, sebum-rich surface interactions, and exposure-driven taxonomic variations.</p>
+    </div>
+
+    <div class="niche-card niche-hair">
+      <div class="niche-icon">💇</div>
+      <h4>Exposed Hair Shafts</h4>
+      <span class="niche-tag">Outer Environmental Niche</span>
+      <p>Reflects an aerobic external microenvironment with distinct transient bacterial colonization and environmental deposition.</p>
+    </div>
+
+    <div class="niche-card niche-tissue">
+      <div class="niche-icon">🔬</div>
+      <h4>Deep Scalp Biopsies</h4>
+      <span class="niche-tag">Follicular & Dermal Niche</span>
+      <p>Targets the anaerobic pilosebaceous unit, deep follicular infundibulum, and host tissue-adherent bacterial communities.</p>
+    </div>
+
+  </div>
+
+</div>
 
 ---
 
