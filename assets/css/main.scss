@@ -43,7 +43,6 @@
    1. Site Background & Layout Engine
    ======================================================== */
 
-/* Body & Main Container Background */
 body, #main {
   background-color: #f8fafc !important;
 }
@@ -207,7 +206,6 @@ button#theme-toggle,
   margin: 0 !important;
 }
 
-/* 4 Core Pillars Grid */
 .pillars-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
@@ -251,7 +249,6 @@ button#theme-toggle,
   margin: 0 !important;
 }
 
-/* PI Profile Box */
 .pi-profile-box {
   background: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
@@ -318,7 +315,6 @@ button#theme-toggle,
   line-height: 1.6 !important;
 }
 
-/* Collaboration Callout */
 .collab-action-card {
   display: flex !important;
   flex-wrap: wrap !important;
@@ -576,7 +572,7 @@ button#theme-toggle,
 
 
 /* ========================================================
-   7. Projects Hub & Detail Pages
+   7. Projects Hub & Detail Pages (Multi-Card Accents)
    ======================================================== */
 
 .project-grid {
@@ -603,10 +599,18 @@ button#theme-toggle,
   border-color: #90caf9 !important;
 }
 
-.card-microbiome { border-left: 5px solid #0d9488 !important; }
-.card-disease    { border-left: 5px solid #6366f1 !important; }
-.card-oncology   { border-left: 5px solid #e11d48 !important; }
-.card-epi        { border-left: 5px solid #2563eb !important; }
+/* Category Accent Borders */
+.card-microbiome   { border-left: 5px solid #0d9488 !important; }
+.card-disease      { border-left: 5px solid #6366f1 !important; }
+.card-nail         { border-left: 5px solid #d97706 !important; }
+.card-surgery-item { border-left: 5px solid #db2777 !important; }
+.card-policy       { border-left: 5px solid #2563eb !important; }
+.card-rosacea      { border-left: 5px solid #dc2626 !important; }
+.card-pharm        { border-left: 5px solid #16a34a !important; }
+.card-ctcl         { border-left: 5px solid #7c3aed !important; }
+.card-darkmatter   { border-left: 5px solid #0f766e !important; }
+.card-oncology     { border-left: 5px solid #e11d48 !important; }
+.card-epi          { border-left: 5px solid #2563eb !important; }
 
 .proj-card-header {
   display: flex !important;
@@ -621,10 +625,17 @@ button#theme-toggle,
   padding: 0.2rem 0.5rem !important;
   border-radius: 4px !important;
 }
-.badge-microbiome { background: #ccfbf1 !important; color: #115e59 !important; }
-.badge-disease    { background: #e0e7ff !important; color: #3730a3 !important; }
-.badge-oncology   { background: #ffe4e6 !important; color: #9f1239 !important; }
-.badge-epi        { background: #dbeafe !important; color: #1e40af !important; }
+.badge-microbiome   { background: #ccfbf1 !important; color: #115e59 !important; }
+.badge-disease      { background: #e0e7ff !important; color: #3730a3 !important; }
+.badge-nail         { background: #fef3c7 !important; color: #92400e !important; }
+.badge-surgery-item { background: #fce7f3 !important; color: #9d174d !important; }
+.badge-policy       { background: #dbeafe !important; color: #1e40af !important; }
+.badge-rosacea      { background: #fee2e2 !important; color: #991b1b !important; }
+.badge-pharm        { background: #dcfce7 !important; color: #15803d !important; }
+.badge-ctcl         { background: #ede9fe !important; color: #5b21b6 !important; }
+.badge-darkmatter   { background: #ccfbf1 !important; color: #0f766e !important; }
+.badge-oncology     { background: #ffe4e6 !important; color: #9f1239 !important; }
+.badge-epi          { background: #dbeafe !important; color: #1e40af !important; }
 
 .proj-status {
   font-size: 0.7rem !important;
@@ -677,6 +688,123 @@ button#theme-toggle,
   padding-top: 0.8rem !important;
 }
 
+/* Modern Study Flow Container & Tier Boxes */
+.study-flow-container {
+  margin: 1.8rem 0 2rem 0 !important;
+}
+
+.flow-tier-box {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  padding: 1.4rem 1.6rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+}
+
+.tier-ingest { border-top: 4px solid #64748b !important; }
+.tier-cohort { border-top: 4px solid #0d9488 !important; }
+
+.tier-badge {
+  display: inline-block !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+  padding: 0.2rem 0.6rem !important;
+  border-radius: 4px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.flow-tier-box h3 {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 0.4rem 0 !important;
+}
+
+.flow-tier-box p {
+  font-size: 0.88rem !important;
+  color: #64748b !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+.flow-connector-arrow {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0.8rem 0 !important;
+  text-align: center !important;
+}
+
+.connector-line {
+  flex-grow: 1 !important;
+  height: 1px !important;
+  background: #cbd5e1 !important;
+}
+
+.connector-text {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  color: #0d9488 !important;
+  background: #f0fdfa !important;
+  border: 1px solid #ccfbf1 !important;
+  padding: 0.25rem 0.8rem !important;
+  border-radius: 9999px !important;
+  margin: 0 0.8rem !important;
+  white-space: nowrap !important;
+}
+
+.niche-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 1.2rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.niche-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 1.2rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.niche-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08) !important;
+}
+
+.niche-icon {
+  font-size: 1.6rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.niche-card h4 {
+  font-size: 0.98rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 0.3rem 0 !important;
+}
+
+.niche-tag {
+  display: inline-block !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  padding: 0.1rem 0.45rem !important;
+  border-radius: 4px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.niche-card p {
+  font-size: 0.83rem !important;
+  color: #64748b !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
 /* Methods 4-Card Grid */
 .method-grid {
   display: grid !important;
@@ -713,24 +841,25 @@ button#theme-toggle,
 
 
 /* ========================================================
-   8. Standard 7-Stage Workflow Ribbon (Final Refined)
+   8. Standard 7-Stage Workflow Ribbon (Highlighted & Wrapped)
    ======================================================== */
 
 .arrow-progress-container {
   display: flex !important;
   align-items: center !important;
   width: 100% !important;
-  margin: 1.5rem 0 1rem 0 !important;
-  overflow: hidden !important; /* Prevents scrollbar */
-  padding: 0.3rem 0 !important;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05)) !important;
+  margin: 1.5rem 0 1.2rem 0 !important;
+  overflow: hidden !important;
+  padding: 0.4rem 0 !important;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.06)) !important;
 }
 
 .arrow-step {
   position: relative !important;
   flex: 1 1 0 !important;
-  height: 44px !important;
+  height: 52px !important;
   display: flex !important;
+  flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
   margin-right: -8px !important;
@@ -747,27 +876,38 @@ button#theme-toggle,
 }
 
 .step-name {
-  font-size: 0.67rem !important;
+  font-size: 0.65rem !important;
   font-weight: 800 !important;
   line-height: 1.15 !important;
   letter-spacing: -0.02em !important;
+  display: block !important;
 }
 
-/* 7 Stages Color Mapping */
-.step-c1 { background-color: #93c5fd !important; } /* Conceptualization (Sky Blue) */
-.step-c2 { background-color: #86efac !important; } /* IRB & Initiation (Mint) */
-.step-c3 { background-color: #64748b !important; } /* Data Acquisition (Slate) */
-.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Analysis & Viz (Yellow) */
-.step-c5 { background-color: #fca5a5 !important; } /* Manuscript Prep (Coral) */
-.step-c6 { background-color: #1d4ed8 !important; } /* Peer Review (Deep Blue - Active) */
-.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Publication (Light Gray) */
+.step-badge {
+  font-size: 0.55rem !important;
+  font-weight: 900 !important;
+  background: #ffffff !important;
+  color: #1d4ed8 !important;
+  padding: 0.08rem 0.35rem !important;
+  border-radius: 9999px !important;
+  margin-bottom: 2px !important;
+  line-height: 1 !important;
+}
+
+.step-c1 { background-color: #93c5fd !important; }
+.step-c2 { background-color: #86efac !important; }
+.step-c3 { background-color: #64748b !important; }
+.step-c4 { background-color: #fde047 !important; color: #713f12 !important; }
+.step-c5 { background-color: #fca5a5 !important; }
+.step-c6 { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important; color: #ffffff !important; }
+.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; }
 
 .step-active {
-  z-index: 5 !important;
-  transform: scaleY(1.08) !important;
+  z-index: 10 !important;
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 4px 10px rgba(37, 99, 235, 0.45)) !important;
 }
 
-/* Active Highlight Card */
 .status-highlight-card {
   display: flex !important;
   align-items: flex-start !important;
@@ -819,253 +959,6 @@ button#theme-toggle,
   border-radius: 6px !important;
   text-decoration: none !important;
 }
-/* ========================================================
-   8. Standard 7-Stage Workflow Ribbon (Refined & Highlighted)
-   ======================================================== */
 
-.arrow-progress-container {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-  margin: 1.5rem 0 1.2rem 0 !important;
-  overflow: hidden !important; /* 스크롤바 완전 제거 */
-  padding: 0.4rem 0 !important;
-  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.06)) !important;
-}
-
-.arrow-step {
-  position: relative !important;
-  flex: 1 1 0 !important;
-  height: 52px !important; /* 2줄 텍스트 수용을 위한 높이 확장 */
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-  margin-right: -8px !important;
-  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%, 10px 50%) !important;
-  color: #ffffff !important;
-  padding: 0 4px 0 10px !important;
-  text-align: center !important;
-  transition: all 0.2s ease !important;
-}
-
-.arrow-step:first-child {
-  clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 50%, calc(100% - 10px) 100%, 0% 100%) !important;
-  padding-left: 4px !important;
-}
-
-.step-name {
-  font-size: 0.65rem !important;
-  font-weight: 800 !important;
-  line-height: 1.15 !important;
-  letter-spacing: -0.02em !important;
-  display: block !important;
-}
-
-/* 현재 단계 위에 붙는 미니 CURRENT 배지 */
-.step-badge {
-  font-size: 0.55rem !important;
-  font-weight: 900 !important;
-  background: #ffffff !important;
-  color: #1d4ed8 !important;
-  padding: 0.08rem 0.35rem !important;
-  border-radius: 9999px !important;
-  margin-bottom: 2px !important;
-  line-height: 1 !important;
-}
-
-/* 7단계 색상 매핑 */
-.step-c1 { background-color: #93c5fd !important; } /* Concept */
-.step-c2 { background-color: #86efac !important; } /* IRB & Initiation */
-.step-c3 { background-color: #64748b !important; } /* Data Acquisition */
-.step-c4 { background-color: #fde047 !important; color: #713f12 !important; } /* Analysis & Viz */
-.step-c5 { background-color: #fca5a5 !important; } /* Manuscript Prep */
-.step-c6 { 
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important; 
-  color: #ffffff !important;
-} /* Peer Review (Active) */
-.step-c7 { background-color: #e2e8f0 !important; color: #94a3b8 !important; } /* Publication */
-
-/* 현재 활성화된 피어리뷰 단계 강조 효과 */
-.step-active {
-  z-index: 10 !important;
-  transform: scale(1.08) !important;
-  filter: drop-shadow(0 4px 10px rgba(37, 99, 235, 0.45)) !important;
-}
-
-/* 하단 알림 카드 */
-.status-highlight-card {
-  display: flex !important;
-  align-items: flex-start !important;
-  background: #eff6ff !important;
-  border-left: 5px solid #2563eb !important;
-  border-radius: 8px !important;
-  padding: 1.2rem 1.4rem !important;
-  margin: 1.2rem 0 2rem 0 !important;
-  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.05) !important;
-}
 .btn-back { background: #f1f5f9 !important; color: #334155 !important; }
 .btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
-
-
-/* Nail & Forefoot Epidemiology Card Accent */
-.card-nail { border-left: 5px solid #d97706 !important; }
-.badge-nail { background: #fef3c7 !important; color: #92400e !important; }
-
-/* ========================================================
-   Modern Study Architecture & Micro-Niche Flow Cards
-   ======================================================== */
-
-.study-flow-container {
-  margin: 1.8rem 0 2rem 0 !important;
-}
-
-.flow-tier-box {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 12px !important;
-  padding: 1.4rem 1.6rem !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
-}
-
-.tier-ingest { border-top: 4px solid #64748b !important; }
-.tier-cohort { border-top: 4px solid #0d9488 !important; }
-
-.tier-badge {
-  display: inline-block !important;
-  font-size: 0.72rem !important;
-  font-weight: 800 !important;
-  letter-spacing: 0.05em !important;
-  background: #f1f5f9 !important;
-  color: #475569 !important;
-  padding: 0.2rem 0.6rem !important;
-  border-radius: 4px !important;
-  margin-bottom: 0.5rem !important;
-}
-
-.flow-tier-box h3 {
-  font-size: 1.15rem !important;
-  font-weight: 800 !important;
-  color: #0f172a !important;
-  margin: 0 0 0.4rem 0 !important;
-}
-
-.flow-tier-box p {
-  font-size: 0.88rem !important;
-  color: #64748b !important;
-  line-height: 1.55 !important;
-  margin: 0 !important;
-}
-
-/* 세로 연결 화살표 커넥터 */
-.flow-connector-arrow {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  margin: 0.8rem 0 !important;
-  text-align: center !important;
-}
-
-.connector-line {
-  flex-grow: 1 !important;
-  height: 1px !important;
-  background: #cbd5e1 !important;
-}
-
-.connector-text {
-  font-size: 0.75rem !important;
-  font-weight: 700 !important;
-  color: #0d9488 !important;
-  background: #f0fdfa !important;
-  border: 1px solid #ccfbf1 !important;
-  padding: 0.25rem 0.8rem !important;
-  border-radius: 9999px !important;
-  margin: 0 0.8rem !important;
-  white-space: nowrap !important;
-}
-
-/* 3대 니치 3열 그리드 */
-.niche-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
-  gap: 1.2rem !important;
-  margin-top: 0.5rem !important;
-}
-
-.niche-card {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 10px !important;
-  padding: 1.2rem !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-}
-
-.niche-card:hover {
-  transform: translateY(-3px) !important;
-  box-shadow: 0 8px 18px rgba(13, 148, 136, 0.12) !important;
-}
-
-.niche-swab   { border-top: 4px solid #3b82f6 !important; }
-.niche-hair   { border-top: 4px solid #f59e0b !important; }
-.niche-tissue { border-top: 4px solid #10b981 !important; }
-
-.niche-icon {
-  font-size: 1.6rem !important;
-  margin-bottom: 0.4rem !important;
-}
-
-.niche-card h4 {
-  font-size: 0.98rem !important;
-  font-weight: 800 !important;
-  color: #0f172a !important;
-  margin: 0 0 0.3rem 0 !important;
-}
-
-.niche-tag {
-  display: inline-block !important;
-  font-size: 0.72rem !important;
-  font-weight: 700 !important;
-  color: #0d9488 !important;
-  background: #f0fdfa !important;
-  padding: 0.1rem 0.45rem !important;
-  border-radius: 4px !important;
-  margin-bottom: 0.5rem !important;
-}
-
-.niche-card p {
-  font-size: 0.83rem !important;
-  color: #64748b !important;
-  line-height: 1.5 !important;
-  margin: 0 !important;
-}
-
-/* 3-Disease Specific Card Borders & Badges */
-.niche-aa  { border-top: 4px solid #ef4444 !important; }
-.niche-aga { border-top: 4px solid #3b82f6 !important; }
-.niche-sd  { border-top: 4px solid #f59e0b !important; }
-
-.tag-aa-badge  { background: #fee2e2 !important; color: #991b1b !important; }
-.tag-aga-badge { background: #dbeafe !important; color: #1e40af !important; }
-.tag-sd-badge  { background: #fef3c7 !important; color: #92400e !important; }
-
-/* Biomechanics & Nail Apparatus Flow Styling */
-.niche-pronation   { border-top: 4px solid #d97706 !important; }
-.niche-pressure    { border-top: 4px solid #f59e0b !important; }
-.niche-penetration { border-top: 4px solid #b45309 !important; }
-.tag-biomech       { background: #fffbeb !important; color: #92400e !important; }
-
-/* ========================================================
-   Dermatologic Surgery & Lip Reconstruction Flow Styles
-   ======================================================== */
-
-.card-surgery-item { border-left: 5px solid #db2777 !important; }
-.badge-surgery-item { background: #fce7f3 !important; color: #9d174d !important; }
-
-/* 3 Reconstructive Modalities Flow Cards */
-.niche-foamsih { border-top: 4px solid #db2777 !important; }
-.niche-convsih { border-top: 4px solid #64748b !important; }
-.niche-flaps   { border-top: 4px solid #e11d48 !important; }
-
-.tag-surg-highlight { background: #fdf2f8 !important; color: #be185d !important; font-weight: 800 !important; }
-.tag-surg-sub       { background: #f1f5f9 !important; color: #475569 !important; }

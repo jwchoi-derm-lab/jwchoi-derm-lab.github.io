@@ -12,7 +12,7 @@ author_profile: true
   <a href="/projects/scalp-microbiome-meta-analysis/" class="proj-card card-microbiome">
     <div class="proj-card-header">
       <span class="proj-badge badge-microbiome">Normal Scalp Baseline</span>
-      <span class="proj-status status-active">Active</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
     <h3 class="proj-card-title">Integrative Pooled Analysis of the Normal Scalp Microbiome: Bacteriome Profiles and Variation Across Public 16S rRNA Datasets</h3>
   </a>
@@ -21,7 +21,7 @@ author_profile: true
   <a href="/projects/scalp-bacteriome-disorders/" class="proj-card card-disease">
     <div class="proj-card-header">
       <span class="proj-badge badge-disease">Clinical Dysbiosis</span>
-      <span class="proj-status status-active">Active</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
     <h3 class="proj-card-title">Scalp Bacteriome Profiles Across Patients with Alopecia Areata, Androgenetic Alopecia, and Seborrheic Dermatitis: Analysis of Public 16S rRNA Datasets</h3>
   </a>
@@ -30,7 +30,7 @@ author_profile: true
   <a href="/projects/hallux-valgus-onychocryptosis/" class="proj-card card-nail">
     <div class="proj-card-header">
       <span class="proj-badge badge-nail">Nail & Forefoot Epidemiology</span>
-      <span class="proj-status status-active">Active</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
     <h3 class="proj-card-title">Longitudinal Risk of Developing Onychocryptosis in Patients with Hallux Valgus: A Nationwide Cohort Study</h3>
   </a>
@@ -39,27 +39,54 @@ author_profile: true
   <a href="/projects/foam-assisted-lip-reconstruction/" class="proj-card card-surgery-item">
     <div class="proj-card-header">
       <span class="proj-badge badge-surgery-item">Dermatologic Surgery & Reconstruction</span>
-      <span class="proj-status status-active">Active</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
     <h3 class="proj-card-title">Sutured Foam-Assisted Secondary Intention Healing as a Reconstruction Method for Lower Lip Defects: A Case Series</h3>
   </a>
 
-  <!-- Project 5: Cutaneous Oncology -->
-  <a href="/projects/skin-cancer-microbiome/" class="proj-card card-oncology">
+  <!-- Project 5: Dermoscopy Reimbursement ITS (Health Policy & Cancer Epi) -->
+  <a href="/projects/dermoscopy-reimbursement-its/" class="proj-card card-policy">
     <div class="proj-card-header">
-      <span class="proj-badge badge-oncology">Cutaneous Oncology</span>
-      <span class="proj-status status-ongoing">Ongoing</span>
+      <span class="proj-badge badge-policy">Health Policy & Cancer Detection</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
-    <h3 class="proj-card-title">Microbiome Signatures and Staphylococcus Enrichment in Cutaneous Malignancies</h3>
+    <h3 class="proj-card-title">Impact of Integrating Dermoscopy into the Healthcare System on Skin Cancer Detection: An Interrupted Time Series Analysis</h3>
   </a>
 
-  <!-- Project 6: Big Data & Epidemiology -->
-  <a href="/projects/epidemiology-big-data/" class="proj-card card-epi">
+  <!-- Project 6: Seborrheic Dermatitis & Incident Rosacea (Nationwide Cohort) -->
+  <a href="/projects/seborrheic-dermatitis-rosacea/" class="proj-card card-rosacea">
     <div class="proj-card-header">
-      <span class="proj-badge badge-epi">Big Data & Epidemiology</span>
-      <span class="proj-status status-ongoing">Ongoing</span>
+      <span class="proj-badge badge-rosacea">Chronic Inflammation & Rosacea</span>
+      <span class="proj-status status-active">Peer Review</span>
     </div>
-    <h3 class="proj-card-title">Nationwide Population-Based Cohort Studies in Alopecia and Cutaneous Malignancies</h3>
+    <h3 class="proj-card-title">Epidemiology of Seborrheic Dermatitis and Risk of Incident Rosacea in Patients with Seborrheic Dermatitis: A Retrospective Cohort Study</h3>
+  </a>
+
+  <!-- Project 7: Finasteride in BPH & Depression Safety (Pharmacoepidemiology) -->
+  <a href="/projects/finasteride-bph-depression-cohort/" class="proj-card card-pharm">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-pharm">Pharmacoepidemiology & Safety</span>
+      <span class="proj-status status-active">Peer Review</span>
+    </div>
+    <h3 class="proj-card-title">No Increased Depression Risk with Add-on Finasteride: A 10-Year Nationwide Cohort Study</h3>
+  </a>
+
+  <!-- Project 8: Mycosis Fungoides Shotgun Metagenomics (Public SRA Project) -->
+  <a href="/projects/mycosis-fungoides-metagenomics/" class="proj-card card-ctcl">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-ctcl">Cutaneous Lymphoma Metagenomics</span>
+      <span class="proj-status status-ongoing">Analysis & Viz</span>
+    </div>
+    <h3 class="proj-card-title">A Comprehensive Shotgun Metagenomic Investigation of the Skin Microbiome in Mycosis Fungoides: Public SRA Meta-Analysis</h3>
+  </a>
+
+  <!-- Project 9: Skin Cancer Microbiome & Microbial Dark Matter (NRF Grant) -->
+  <a href="/projects/skin-cancer-microbiome-dark-matter/" class="proj-card card-darkmatter">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-darkmatter">Multi-Omics & Microbial Dark Matter (NRF Grant)</span>
+      <span class="proj-status status-ongoing">Data Acquisition</span>
+    </div>
+    <h3 class="proj-card-title">A Multi-Omics Investigation into the Tumorigenic Roles of the Skin Microbiome and Microbial Dark Matter in Skin Cancer</h3>
   </a>
 
 </div>
