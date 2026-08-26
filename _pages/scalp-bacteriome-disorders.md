@@ -37,22 +37,62 @@ This study aims to:
 
 While independent investigations have identified disease-associated bacterial shifts, direct comparisons across conditions have been hindered by disparate extraction protocols, differing hypervariable primer sets, and platform-specific artifacts.
 
-```
-                              ┌────────────────────────────────────────┐
-                              │ 6 NCBI BioProjects (683 Total Subjects)│
-                              └───────────────────┬────────────────────┘
-                                                  │ Swab-based Standardized Harmonization
-                                                  ▼
-             ┌────────────────────────────────────┼────────────────────────────────────┐
-             │                                    │                                    │
-             ▼                                    ▼                                    ▼
-┌──────────────────────────┐         ┌──────────────────────────┐         ┌──────────────────────────┐
-│  Alopecia Areata (AA)    │         │ Androgenetic Alopecia    │         │  Seborrheic Dermatitis   │
-│  (Patients vs. Controls) │         │ (AGA) (Cases vs. Controls│         │  (SD) (Cases vs. Controls│
-└──────────────────────────┘         └──────────────────────────┘         └──────────────────────────┘
-```
+<!-- Modern Multi-Disease Study Architecture Cards -->
+<div class="study-flow-container">
+  
+  <!-- Tier 1: Raw Multi-Disease SRA Curation -->
+  <div class="flow-tier-box tier-ingest">
+    <div class="tier-badge">STEP 1 · CROSS-DISEASE COHORT CURATION</div>
+    <h3>6 NCBI BioProjects (683 Total Subjects Harmonized)</h3>
+    <p>Systematic extraction of case-control 16S rRNA sequencing accessions for three major scalp dermatoses, filtering exclusively for swab-based sampling with comprehensive clinical metadata.</p>
+  </div>
 
-By curating 6 BioProjects with platform-matched healthy controls and applying uniform computational workflows, this project reveals how localized microenvironmental stress and host physiology shape condition-specific dysbiosis.
+  <div class="flow-connector-arrow">
+    <span class="connector-line"></span>
+    <span class="connector-text">Unified DADA2 Pipeline & Within-Project Control Matching</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 2: 3 Disease vs. Control Strata Grid (3 Columns) -->
+  <div class="niche-grid">
+    
+    <div class="niche-card niche-aa">
+      <div class="niche-icon">🔴</div>
+      <h4>Alopecia Areata (AA)</h4>
+      <span class="niche-tag tag-aa-badge">Autoimmune Hair Loss</span>
+      <p><b>40 Patients vs. 24 Matched Controls</b><br>Evaluates surface-detectable microbial markers reflecting underlying autoimmune follicular inflammation and distress.</p>
+    </div>
+
+    <div class="niche-card niche-aga">
+      <div class="niche-icon">🔵</div>
+      <h4>Androgenetic Alopecia (AGA)</h4>
+      <span class="niche-tag tag-aga-badge">Pattern Hair Loss</span>
+      <p><b>118 Patients vs. 79 Matched Controls</b><br>Investigates androgen-driven taxonomic attrition, altered sebum microenvironment, and commensal competition.</p>
+    </div>
+
+    <div class="niche-card niche-sd">
+      <div class="niche-icon">🟡</div>
+      <h4>Seborrheic Dermatitis (SD)</h4>
+      <span class="niche-tag tag-sd-badge">Inflammatory Scalp Dermatosis</span>
+      <p><b>213 Patients vs. 209 Matched Controls</b><br>Profiles opportunistic bacterial colonization in a high-sebum, elevated pH, and barrier-disrupted scalp landscape.</p>
+    </div>
+
+  </div>
+
+  <div class="flow-connector-arrow" style="margin-top: 1.2rem;">
+    <span class="connector-line"></span>
+    <span class="connector-text">Integrated Bioinformatic & Functional Metagenomic Analysis</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 3: Comparative Analysis Outcomes -->
+  <div class="flow-tier-box tier-cohort" style="border-top-color: #6366f1 !important;">
+    <div class="tier-badge" style="background: #e0e7ff !important; color: #3730a3 !important;">STEP 3 · COMPARATIVE DYSBIOSIS FRAMEWORK</div>
+    <h3>Comparative Taxonomic Shifts vs. Metabolic Pathway Plasticity</h3>
+    <p>Dissecting genus-level taxonomic divergences (CLR-transformed *Cutibacterium* and *Staphylococcus* dynamics) alongside PICRUSt2 predicted functional metabolic stability across healthy and disease states.</p>
+  </div>
+
+</div>
 
 ---
 
