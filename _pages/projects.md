@@ -35,5 +35,31 @@ author_profile: true
     <h3 class="proj-card-title">Longitudinal Risk of Developing Onychocryptosis in Patients with Hallux Valgus: A Nationwide Cohort Study</h3>
   </a>
 
+  <!-- Project 4: Foam-Assisted Lip Reconstruction (Dermatologic Surgery) -->
+  <a href="/projects/foam-assisted-lip-reconstruction/" class="proj-card card-surgery-item">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-surgery-item">Dermatologic Surgery & Reconstruction</span>
+      <span class="proj-status status-active">Active</span>
+    </div>
+    <h3 class="proj-card-title">Sutured Foam-Assisted Secondary Intention Healing as a Reconstruction Method for Lower Lip Defects: A Case Series</h3>
+  </a>
+
+  <!-- Project 5: Cutaneous Oncology -->
+  <a href="/projects/skin-cancer-microbiome/" class="proj-card card-oncology">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-oncology">Cutaneous Oncology</span>
+      <span class="proj-status status-ongoing">Ongoing</span>
+    </div>
+    <h3 class="proj-card-title">Microbiome Signatures and Staphylococcus Enrichment in Cutaneous Malignancies</h3>
+  </a>
+
+  <!-- Project 6: Big Data & Epidemiology -->
+  <a href="/projects/epidemiology-big-data/" class="proj-card card-epi">
+    <div class="proj-card-header">
+      <span class="proj-badge badge-epi">Big Data & Epidemiology</span>
+      <span class="proj-status status-ongoing">Ongoing</span>
+    </div>
+    <h3 class="proj-card-title">Nationwide Population-Based Cohort Studies in Alopecia and Cutaneous Malignancies</h3>
+  </a>
 
 </div>
