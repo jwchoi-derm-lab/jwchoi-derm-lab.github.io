@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <p class="page__lead">
-  Peer-reviewed academic publications led by <b>Dr. Jeewoong Choi</b> as first or corresponding author. Citations follow standardized <b>NLM / PubMed format</b> with verified direct links to PubMed records.
+  Recent Publications
 </p>
 
 ---
