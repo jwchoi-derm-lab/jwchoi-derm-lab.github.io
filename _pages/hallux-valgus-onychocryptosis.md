@@ -37,23 +37,62 @@ This study aims to:
 
 Progressive lateral rotation and pronation of the hallux systematically alter the spatial relationship between the rigid nail plate and adjacent periungual soft tissue, predisposing to mechanical curling and lateral soft tissue penetration.
 
-```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │    Hallux Valgus Forefoot Deformity (First-Ray Alteration)│
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │ Biomechanical Shifts (Lateral Rotation & Pronation)
-                                                  ▼
-                     ┌─────────────────────────────────────────────────────────┐
-                     │ Increased Lateral Nail Fold Pressure & Curvature Strain │
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │ Long-Term Cumulative Penetration Risk
-                                                  ▼
-                     ┌─────────────────────────────────────────────────────────┐
-                     │           Incident Onychocryptosis (Ingrown Toenail)    │
-                     └─────────────────────────────────────────────────────────┘
-```
+<!-- Modern Biomechanical Pathophysiology & Longitudinal Cohort Flow -->
+<div class="study-flow-container">
+  
+  <!-- Tier 1: Biomechanical Trigger -->
+  <div class="flow-tier-box tier-ingest" style="border-top-color: #d97706 !important;">
+    <div class="tier-badge" style="background: #fef3c7 !important; color: #92400e !important;">PRIMARY SKELETAL DEFORMITY</div>
+    <h3>Hallux Valgus Forefoot Deformity (First-Ray Alteration)</h3>
+    <p>Progressive lateral deviation and abnormal interphalangeal angulation disrupt normal forefoot weight-bearing distribution and alter mechanical loading forces on the great toe.</p>
+  </div>
 
-Utilizing a nationally representative administrative claims database with a strict 6-year washout period, this investigation quantifies the long-term risk trajectory and eliminates preexisting skeletal confounding.
+  <div class="flow-connector-arrow">
+    <span class="connector-line"></span>
+    <span class="connector-text" style="color: #d97706 !important; background: #fffbeb !important; border-color: #fde68a !important;">Rotational & Pronation Stress Mechanism</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 2: 3 Pathophysiological Vectors (3 Columns) -->
+  <div class="niche-grid">
+    
+    <div class="niche-card niche-pronation">
+      <div class="niche-icon">📐</div>
+      <h4>Hallux Pronation</h4>
+      <span class="niche-tag tag-biomech">Axial Rotation</span>
+      <p>Axial rotation of the hallux narrows the anatomical space between the rigid nail plate and the lateral periungual fold.</p>
+    </div>
+
+    <div class="niche-card niche-pressure">
+      <div class="niche-icon">⚡</div>
+      <h4>Focal Pressure Strain</h4>
+      <span class="niche-tag tag-biomech">Mechanical Impingement</span>
+      <p>Increased compressive contact force alters nail plate curvature, promoting mechanical transverse curling over time.</p>
+    </div>
+
+    <div class="niche-card niche-penetration">
+      <div class="niche-icon">🩸</div>
+      <h4>Soft Tissue Penetration</h4>
+      <span class="niche-tag tag-biomech">Secondary Cascade</span>
+      <p>Continuous friction and penetration into adjacent soft tissues lead to chronic periungual inflammation and granulation.</p>
+    </div>
+
+  </div>
+
+  <div class="flow-connector-arrow" style="margin-top: 1.2rem;">
+    <span class="connector-line"></span>
+    <span class="connector-text" style="color: #d97706 !important; background: #fffbeb !important; border-color: #fde68a !important;">Long-Term Longitudinal Nationwide Cohort Tracking (1:3 Matched)</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <!-- Tier 3: Endpoint -->
+  <div class="flow-tier-box tier-cohort" style="border-top-color: #b45309 !important;">
+    <div class="tier-badge" style="background: #fef3c7 !important; color: #92400e !important;">EPIDEMIOLOGICAL CLINICAL ENDPOINT</div>
+    <h3>Incident Onychocryptosis (Ingrown Toenail) Risk Trajectory</h3>
+    <p>Long-term survival modeling (Kaplan–Meier & Cox Proportional Hazards) across 660 patients with HV vs. 1,983 matched controls to define the independent risk trajectory and demographic susceptibility.</p>
+  </div>
+
+</div>
 
 ---
 
