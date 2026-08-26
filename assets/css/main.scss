@@ -911,3 +911,131 @@ button#theme-toggle,
 /* Nail & Forefoot Epidemiology Card Accent */
 .card-nail { border-left: 5px solid #d97706 !important; }
 .badge-nail { background: #fef3c7 !important; color: #92400e !important; }
+
+/* ========================================================
+   Modern Study Architecture & Micro-Niche Flow Cards
+   ======================================================== */
+
+.study-flow-container {
+  margin: 1.8rem 0 2rem 0 !important;
+}
+
+.flow-tier-box {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  padding: 1.4rem 1.6rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+}
+
+.tier-ingest { border-top: 4px solid #64748b !important; }
+.tier-cohort { border-top: 4px solid #0d9488 !important; }
+
+.tier-badge {
+  display: inline-block !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+  padding: 0.2rem 0.6rem !important;
+  border-radius: 4px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.flow-tier-box h3 {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 0.4rem 0 !important;
+}
+
+.flow-tier-box p {
+  font-size: 0.88rem !important;
+  color: #64748b !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+/* 세로 연결 화살표 커넥터 */
+.flow-connector-arrow {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0.8rem 0 !important;
+  text-align: center !important;
+}
+
+.connector-line {
+  flex-grow: 1 !important;
+  height: 1px !important;
+  background: #cbd5e1 !important;
+}
+
+.connector-text {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  color: #0d9488 !important;
+  background: #f0fdfa !important;
+  border: 1px solid #ccfbf1 !important;
+  padding: 0.25rem 0.8rem !important;
+  border-radius: 9999px !important;
+  margin: 0 0.8rem !important;
+  white-space: nowrap !important;
+}
+
+/* 3대 니치 3열 그리드 */
+.niche-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 1.2rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.niche-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 1.2rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.niche-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 18px rgba(13, 148, 136, 0.12) !important;
+}
+
+.niche-swab   { border-top: 4px solid #3b82f6 !important; }
+.niche-hair   { border-top: 4px solid #f59e0b !important; }
+.niche-tissue { border-top: 4px solid #10b981 !important; }
+
+.niche-icon {
+  font-size: 1.6rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.niche-card h4 {
+  font-size: 0.98rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 0.3rem 0 !important;
+}
+
+.niche-tag {
+  display: inline-block !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  color: #0d9488 !important;
+  background: #f0fdfa !important;
+  padding: 0.1rem 0.45rem !important;
+  border-radius: 4px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.niche-card p {
+  font-size: 0.83rem !important;
+  color: #64748b !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
