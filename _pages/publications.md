@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
----
-
 ## 2026
 
 <div class="pub-card">
@@ -74,7 +72,7 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38964267/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38934144/" target="_blank" class="pub-link">
       High Risk of Non-Melanoma Skin Cancer in Actinic Keratosis Patients with Skin of Color: A Nationwide Register-Based Cohort Study
     </a>
   </div>
@@ -83,22 +81,22 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Actinic Keratosis</span>
     <span class="pub-tag tag-epi">Nationwide Cohort</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38964267/" target="_blank" class="btn-pubmed">PMID: 38964267 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38934144/" target="_blank" class="btn-pubmed">PMID: 38934144 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37965909/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37987239/" target="_blank" class="pub-link">
       A Simple and Effective Technique for Nail Unit Anesthesia in Pediatric Patients: Harnessing the Advantages of Distal and Proximal Digital Anesthesia
     </a>
   </div>
   <div class="pub-authors">Park HS, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Pediatr Dermatol</i>. 2024 Jan-Feb;41(1):177-179. doi: 10.1111/pde.15481.</div>
+  <div class="pub-journal"><i>Pediatr Dermatol</i>. 2024 Jan-Feb;41(1):177-179. doi: 10.1111/pde.15483.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Dermatologic Surgery</span>
     <span class="pub-tag tag-nail">Nail Unit</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37965909/" target="_blank" class="btn-pubmed">PMID: 37965909 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37987239/" target="_blank" class="btn-pubmed">PMID: 37987239 ↗</a>
   </div>
 </div>
 
@@ -123,66 +121,66 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36794628/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36651100/" target="_blank" class="pub-link">
       Association Between the First Exposure to General Anesthesia and Alopecia Areata
     </a>
   </div>
   <div class="pub-authors">Lee H, Choi YW, Kim YC, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>J Dermatol</i>. 2023 May;50(5):672-678. doi: 10.1111/1346-8138.16738.</div>
+  <div class="pub-journal"><i>J Dermatol</i>. 2023 May;50(5):672-678. doi: 10.1111/1346-8138.16712.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Alopecia Areata</span>
     <span class="pub-tag tag-epi">Pharmacoepidemiology</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36794628/" target="_blank" class="btn-pubmed">PMID: 36794628 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36651100/" target="_blank" class="btn-pubmed">PMID: 36651100 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37194686/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37212335/" target="_blank" class="pub-link">
       Epidemiology and survival analysis of Merkel cell carcinoma in South Korea: A nationwide multicentre retrospective study
     </a>
   </div>
   <div class="pub-authors"><b>Choi JW</b>, et al.</div>
-  <div class="pub-journal"><i>Int J Dermatol</i>. 2023 Jul;62(7):895-899. doi: 10.1111/ijd.16709.</div>
+  <div class="pub-journal"><i>Int J Dermatol</i>. 2023 Jul;62(7):895-899. doi: 10.1111/ijd.16716.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Merkel Cell Carcinoma</span>
     <span class="pub-tag tag-epi">Survival Analysis</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37194686/" target="_blank" class="btn-pubmed">PMID: 37194686 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37212335/" target="_blank" class="btn-pubmed">PMID: 37212335 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37786214/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37534619/" target="_blank" class="pub-link">
       Association between xanthelasma palpebrarum and the risk of ischemic heart diseases: A nationwide register-based cohort study
     </a>
   </div>
   <div class="pub-authors">Park HS, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>J Dermatol</i>. 2023 Dec;50(12):e406-e408. doi: 10.1111/1346-8138.16952.</div>
+  <div class="pub-journal"><i>J Dermatol</i>. 2023 Dec;50(12):e406-e408. doi: 10.1111/1346-8138.16913.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-epi">Cohort Study</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37786214/" target="_blank" class="btn-pubmed">PMID: 37786214 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37534619/" target="_blank" class="btn-pubmed">PMID: 37534619 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37850551/" target="_blank" class="pub-link">
+    <a href="https://ijdvl.com/a-simple-technique-in-en-bloc-nail-excision-with-phalangeal-bone-detachment/" target="_blank" class="pub-link">
       A simple technique in en bloc nail excision with phalangeal bone detachment
     </a>
   </div>
   <div class="pub-authors">Park HS, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Indian J Dermatol Venereol Leprol</i>. 2023;90(1):133-134. doi: 10.25259/IJDVL_334_2023.</div>
+  <div class="pub-journal"><i>Indian J Dermatol Venereol Leprol</i>. 2024 Jan-Feb;90(1):133-134. doi: 10.25259/IJDVL_254_2023.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Dermatologic Surgery</span>
     <span class="pub-tag tag-nail">Nail Surgery</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37850551/" target="_blank" class="btn-pubmed">PMID: 37850551 ↗</a>
+    <a href="https://ijdvl.com/a-simple-technique-in-en-bloc-nail-excision-with-phalangeal-bone-detachment/" target="_blank" class="btn-pubmed">View Article ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37254556/" target="_blank" class="pub-link">
+    <a href="https://www.jle.com/en/revues/ejd/sommaire.phtml" target="_blank" class="pub-link">
       The triple rotation flap of the scalp
     </a>
   </div>
@@ -190,21 +188,21 @@ author_profile: true
   <div class="pub-journal"><i>Eur J Dermatol</i>. 2023 May-Jun;33(3):322-323. doi: 10.1684/ejd.2023.4444.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Reconstructive Surgery</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37254556/" target="_blank" class="btn-pubmed">PMID: 37254556 ↗</a>
+    <a href="https://www.jle.com/en/revues/ejd/sommaire.phtml" target="_blank" class="btn-pubmed">View Article ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37920150/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37853893/" target="_blank" class="pub-link">
       Needle penetrated in the back skin presenting as a conical papule
     </a>
   </div>
   <div class="pub-authors">Kim DC, Han HJ, Kwon SH, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Ann Dermatol</i>. 2023 Nov;35(Suppl 1):S148-S149. doi: 10.5021/ad.21.037.</div>
+  <div class="pub-journal"><i>Ann Dermatol</i>. 2023 May;35(Suppl 1):S148-S149. doi: 10.5021/ad.21.053.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Clinical Report</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37920150/" target="_blank" class="btn-pubmed">PMID: 37920150 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37853893/" target="_blank" class="btn-pubmed">PMID: 37853893 ↗</a>
   </div>
 </div>
 
@@ -257,15 +255,15 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36349544/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36468743/" target="_blank" class="pub-link">
       Double transposition flaps for the reconstruction of a large forehead defect involving the lateral eyebrow
     </a>
   </div>
   <div class="pub-authors">Kim TH, Kim YH, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Eur J Dermatol</i>. 2022 Oct 1;32(5):658-659. doi: 10.1684/ejd.2022.4357.</div>
+  <div class="pub-journal"><i>Eur J Dermatol</i>. 2022 Sep 1;32(5):658-659. doi: 10.1684/ejd.2022.4345.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Flap Reconstruction</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36349544/" target="_blank" class="btn-pubmed">PMID: 36349544 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36468743/" target="_blank" class="btn-pubmed">PMID: 36468743 ↗</a>
   </div>
 </div>
 
@@ -349,7 +347,7 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34190714/" target="_blank" class="pub-link">
+    <a href="https://ijdvl.com/cutaneous-seeding-of-melanoma-by-complete-lymph-node-dissection/" target="_blank" class="pub-link">
       Cutaneous Seeding of Melanoma Following Complete Lymph Node Dissection
     </a>
   </div>
@@ -358,7 +356,7 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Melanoma</span>
     <span class="pub-tag tag-surgery">Surgical Oncology</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34190714/" target="_blank" class="btn-pubmed">PMID: 34190714 ↗</a>
+    <a href="https://ijdvl.com/cutaneous-seeding-of-melanoma-by-complete-lymph-node-dissection/" target="_blank" class="btn-pubmed">View Article ↗</a>
   </div>
 </div>
 
@@ -397,30 +395,30 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32338753/" target="_blank" class="pub-link">
-      The incidence and survival of melanoma and nonmelanoma skin cancer in patients with vitiligo: a nationwide population-based matched cohort study in Korea
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32762038/" target="_blank" class="pub-link">
+      Response to: The incidence and survival of melanoma and nonmelanoma skin cancer in patients with vitiligo: a nationwide population-based matched cohort study in Korea
     </a>
   </div>
   <div class="pub-authors"><b>Choi JW</b>, Lee E.</div>
-  <div class="pub-journal"><i>Br J Dermatol</i>. 2020 Dec;183(6):1149-1150. doi: 10.1111/bjd.19207.</div>
+  <div class="pub-journal"><i>Br J Dermatol</i>. 2020 Dec;183(6):1149-1150. doi: 10.1111/bjd.19464.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Skin Cancer</span>
     <span class="pub-tag tag-featured">BJD</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32338753/" target="_blank" class="btn-pubmed">PMID: 32338753 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32762038/" target="_blank" class="btn-pubmed">PMID: 32762038 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32205562/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32356958/" target="_blank" class="pub-link">
       Epidemiology of Cutaneous Melanoma and Melanoma in situ: A 10-year Nationwide Retrospective Cohort Study in South Korea
     </a>
   </div>
   <div class="pub-authors">Soh BW, Kim YC, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Melanoma Res</i>. 2020 Jun;30(3):297-302. doi: 10.1097/CMR.0000000000000662.</div>
+  <div class="pub-journal"><i>Melanoma Res</i>. 2020 Jun;30(3):297-302. doi: 10.1097/CMR.0000000000000547.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Melanoma Epidemiology</span>
     <span class="pub-tag tag-epi">Nationwide Cohort</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32205562/" target="_blank" class="btn-pubmed">PMID: 32205562 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32356958/" target="_blank" class="btn-pubmed">PMID: 32356958 ↗</a>
   </div>
 </div>
