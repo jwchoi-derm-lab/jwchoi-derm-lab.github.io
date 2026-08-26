@@ -58,14 +58,12 @@ body, #main {
    2. Header & Top Navigation Bar (Masthead)
    ======================================================== */
 
-/* Masthead background (Pastel Green) */
 .masthead,
 .masthead__inner-wrap {
   background-color: #E8F5E9 !important;
   border-bottom: 2px solid #C8E6C9 !important;
 }
 
-/* Site Title: Deep Blue color, bold, remove underlines */
 .masthead__menu-item--lg {
   padding-left: 0.5rem !important;
   padding-right: 1.5rem !important;
@@ -87,7 +85,6 @@ body, #main {
   border-bottom: none !important;
 }
 
-/* Hide Theme / Dark Mode toggle button & cog icons */
 #theme-toggle,
 .theme-toggle,
 button#theme-toggle,
@@ -123,7 +120,6 @@ button#theme-toggle,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
 
-/* Perfect Circular Profile Avatar */
 .author__avatar {
   display: block !important;
   width: 150px !important;
@@ -149,7 +145,6 @@ button#theme-toggle,
   border: none !important;
 }
 
-/* Word-wrapping for affiliations and URLs */
 .sidebar,
 .author__urls-wrapper,
 .author__urls {
@@ -171,7 +166,106 @@ button#theme-toggle,
 
 
 /* ========================================================
-   4. Our Lab (Home) Page: Hero, Pillars Grid & PI Box
+   4. Publications Page: PubMed Links & Action Buttons
+   ======================================================== */
+
+.pub-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-left: 4px solid #1976d2 !important;
+  border-radius: 10px !important;
+  padding: 1.2rem 1.4rem !important;
+  margin-bottom: 1.3rem !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(25, 118, 210, 0.1) !important;
+}
+
+.pub-title {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin-bottom: 0.35rem !important;
+  line-height: 1.4 !important;
+}
+
+.pub-link {
+  color: #0f172a !important;
+  text-decoration: none !important;
+}
+
+.pub-link:hover {
+  color: #1976d2 !important;
+  text-decoration: underline !important;
+}
+
+.pub-authors {
+  font-size: 0.88rem !important;
+  color: #475569 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pub-journal {
+  font-size: 0.84rem !important;
+  color: #2b6cb0 !important;
+  margin-bottom: 0.65rem !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+.pub-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.btn-pubmed {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  padding: 0.25rem 0.65rem !important;
+  background: #eff6ff !important;
+  color: #1d4ed8 !important;
+  border: 1px solid #bfdbfe !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  transition: all 0.15s ease !important;
+}
+
+.btn-pubmed:hover {
+  background: #1d4ed8 !important;
+  color: #ffffff !important;
+  border-color: #1d4ed8 !important;
+  text-decoration: none !important;
+}
+
+/* Category & Journal Badges */
+.pub-tag {
+  display: inline-block !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  padding: 0.15rem 0.5rem !important;
+  border-radius: 9999px !important;
+}
+
+.tag-microbiome { background-color: #e6fffa !important; color: #234e52 !important; border: 1px solid #b2f5ea !important; }
+.tag-oncology   { background-color: #fff5f5 !important; color: #742a2a !important; border: 1px solid #fed7d7 !important; }
+.tag-hair       { background-color: #f7fafc !important; color: #2d3748 !important; border: 1px solid #e2e8f0 !important; }
+.tag-epi        { background-color: #ebf8ff !important; color: #2a4365 !important; border: 1px solid #bee3f8 !important; }
+.tag-surgery    { background-color: #faf5ff !important; color: #44337a !important; border: 1px solid #e9d8fd !important; }
+.tag-nail       { background-color: #fffaf0 !important; color: #7b341e !important; border: 1px solid #feebc8 !important; }
+.tag-featured   { background-color: #feebc8 !important; color: #744210 !important; border: 1px solid #fbd38d !important; font-weight: 700 !important; }
+
+
+/* ========================================================
+   5. Our Lab (Home) Page Styles
    ======================================================== */
 
 .lab-hero-banner {
@@ -354,65 +448,6 @@ button#theme-toggle,
 
 .btn-contact { background: #1976d2 !important; color: #ffffff !important; }
 .btn-github  { background: #334155 !important; color: #ffffff !important; }
-
-
-/* ========================================================
-   5. Publications Page: Cards & Category Badges
-   ======================================================== */
-
-.pub-card {
-  background: #ffffff !important;
-  border: 1px solid #e2e8f0 !important;
-  border-left: 4px solid #1976d2 !important;
-  border-radius: 8px !important;
-  padding: 1rem 1.25rem !important;
-  margin-bottom: 1.25rem !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-}
-
-.pub-card:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.12) !important;
-}
-
-.pub-title {
-  font-size: 1.05rem !important;
-  font-weight: 700 !important;
-  color: #1a202c !important;
-  margin-bottom: 0.35rem !important;
-  line-height: 1.4 !important;
-}
-
-.pub-authors {
-  font-size: 0.9rem !important;
-  color: #4a5568 !important;
-  margin-bottom: 0.25rem !important;
-}
-
-.pub-journal {
-  font-size: 0.88rem !important;
-  color: #2b6cb0 !important;
-  margin-bottom: 0.6rem !important;
-}
-
-.pub-tag {
-  display: inline-block !important;
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
-  padding: 0.2rem 0.6rem !important;
-  border-radius: 9999px !important;
-  margin-right: 0.4rem !important;
-  margin-top: 0.2rem !important;
-}
-
-.tag-microbiome { background-color: #e6fffa !important; color: #234e52 !important; border: 1px solid #b2f5ea !important; }
-.tag-oncology   { background-color: #fff5f5 !important; color: #742a2a !important; border: 1px solid #fed7d7 !important; }
-.tag-hair       { background-color: #f7fafc !important; color: #2d3748 !important; border: 1px solid #e2e8f0 !important; }
-.tag-epi        { background-color: #ebf8ff !important; color: #2a4365 !important; border: 1px solid #bee3f8 !important; }
-.tag-surgery    { background-color: #faf5ff !important; color: #44337a !important; border: 1px solid #e9d8fd !important; }
-.tag-nail       { background-color: #fffaf0 !important; color: #7b341e !important; border: 1px solid #feebc8 !important; }
-.tag-featured   { background-color: #feebc8 !important; color: #744210 !important; border: 1px solid #fbd38d !important; font-weight: 700 !important; }
 
 
 /* ========================================================
@@ -599,7 +634,6 @@ button#theme-toggle,
   border-color: #90caf9 !important;
 }
 
-/* Category Accent Borders */
 .card-microbiome   { border-left: 5px solid #0d9488 !important; }
 .card-disease      { border-left: 5px solid #6366f1 !important; }
 .card-nail         { border-left: 5px solid #d97706 !important; }
@@ -654,7 +688,6 @@ button#theme-toggle,
   margin: 0.4rem 0 !important;
 }
 
-/* Detail Page Header Box */
 .project-header-box {
   background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%) !important;
   border-left: 5px solid #0d9488 !important;
@@ -688,7 +721,6 @@ button#theme-toggle,
   padding-top: 0.8rem !important;
 }
 
-/* Modern Study Flow Container & Tier Boxes */
 .study-flow-container {
   margin: 1.8rem 0 2rem 0 !important;
 }
@@ -805,7 +837,6 @@ button#theme-toggle,
   margin: 0 !important;
 }
 
-/* Methods 4-Card Grid */
 .method-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
