@@ -89,7 +89,7 @@ redirect_from:
       <ul>
         <li><b>Special Volunteer</b>, Cutaneous Microbiome Section, NIAMS, NIH (2024–2025)</li>
         <li><b>Resident & Clinical Fellow</b>, Dermatology, Seoul National University Hospital / Bundang Hospital (2008–2017)</li>
-        <li><b>Subspecialties</b>: Dermatologic surgery, Mohs surgery, skin cancer, hair & nail disorders</li>
+        <li><b>Subspecialties</b>: Dermatologic surgery, skin cancer, hair & nail disorders, skin microbiome</li>
       </ul>
     </div>
   </div>
