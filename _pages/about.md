@@ -87,7 +87,7 @@ redirect_from:
     <div class="pi-sub-col">
       <h4>💼 Clinical & Academic Appointments</h4>
       <ul>
-        <li><b>Special Volunteer</b>, Cutaneous Microbiome Section, NIAMS, NIH (2024–2025)</li>
+        <li><a href="https://www.niams.nih.gov/labs/kong-lab#tab-staff" target="_blank" rel="noopener noreferrer"><b>Special Volunteer</b>, Cutaneous Microbiome Section, NIAMS, NIH (2024–2025)</a></li>
         <li><b>Resident & Clinical Fellow</b>, Dermatology, Seoul National University Hospital / Bundang Hospital (2008–2017)</li>
         <li><b>Subspecialties</b>: Dermatologic surgery, skin cancer, hair & nail disorders, skin microbiome</li>
       </ul>
