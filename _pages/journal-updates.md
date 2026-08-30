@@ -146,7 +146,7 @@ author_profile: true
           <a href="https://pubmed.ncbi.nlm.nih.gov/39993574/" target="_blank">Minimally invasive modalities for keratinocyte carcinomas: Diagnostics, imaging, and margin control</a>
         </div>
         <div class="art-meta"><b>Authors:</b> McMullan P, et al. | <b>Citation:</b> <i>J Am Acad Dermatol.</i> 2026 Jul;95(1):CME Review | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/39993574/" target="_blank">39993574</a></div>
-        <div class="no-abstract-note">📌 이 항목은 CME 리뷰 형식으로 PubMed에 구조화된 초록이 등록되어 있지 않습니다. <b>자세한 내용은 원문(PMID 링크)을 참고해 주세요.</b></div>
+        <div class="no-abstract-note">📌 This entry is a CME Review and does not have a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
     </div>
@@ -221,7 +221,7 @@ author_profile: true
           <a href="https://pubmed.ncbi.nlm.nih.gov/40498493/" target="_blank">Prognostication System for Squamous Cell Carcinoma Using Retrieval Augmented Generation-Enabled Large Language Model</a>
         </div>
         <div class="art-meta"><b>Citation:</b> <i>JAMA Dermatol.</i> 2025 Jun 11. doi: 10.1001/jamadermatol.2025.1601 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/40498493/" target="_blank">40498493</a></div>
-        <div class="no-abstract-note">📌 이 항목은 Editorial(사설) 형식으로 구조화된 초록이 제공되지 않습니다. <b>자세한 내용은 원문(PMID 링크)을 참고해 주세요.</b></div>
+        <div class="no-abstract-note">📌 This entry is an Editorial and does not include a structured abstract. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
     </div>
@@ -299,7 +299,7 @@ author_profile: true
           <a href="https://doi.org/10.1093/bjd/ljag151.007" target="_blank">O7. Skin microbiota promotes keratinocyte apoptosis and suppresses proliferation following ultraviolet radiation exposure in human skin in vivo</a>
         </div>
         <div class="art-meta"><b>Authors:</b> Duan W, et al. | <b>Citation:</b> <i>Br J Dermatol.</i> 2026 Jul;195(1):Suppl. Abstracts. doi: 10.1093/bjd/ljag151.007</div>
-        <div class="no-abstract-note">📌 이 항목은 학회 초록(Meeting Abstract)으로, 전체 논문 수준의 구조화된 초록이 없습니다. <b>자세한 내용은 원문 링크를 참고해 주세요.</b></div>
+        <div class="no-abstract-note">📌 This entry is a Meeting Abstract and does not have a full manuscript-level structured abstract. <b>Please refer to the original source link for full details.</b></div>
       </div>
 
       <!-- Article 4: Non-Original -->
@@ -309,7 +309,7 @@ author_profile: true
           <a href="https://doi.org/10.1093/bjd/ljag119" target="_blank">Monoclonal gammopathy of undetermined significance is not associated with increased risk of skin cancer</a>
         </div>
         <div class="art-meta"><b>Authors:</b> Aðalsteinsson JA, et al. | <b>Citation:</b> <i>Br J Dermatol.</i> 2026 Jul;195(1):170-172. doi: 10.1093/bjd/ljag119</div>
-        <div class="no-abstract-note">📌 이 항목은 Research Letter 형식으로 PubMed 표준 초록이 등록되어 있지 않습니다. <b>자세한 내용은 원문 링크를 참고해 주세요.</b></div>
+        <div class="no-abstract-note">📌 This entry is a Research Letter and does not have a standard PubMed abstract on record. <b>Please refer to the original source link for full details.</b></div>
       </div>
 
     </div>
@@ -378,7 +378,7 @@ author_profile: true
           <a href="https://doi.org/10.1016/j.jid.2026.01.005" target="_blank">On the role of cholesterol, vitamin D, lumisterol, and tachysterol in skin biology</a>
         </div>
         <div class="art-meta"><b>Citation:</b> <i>J Invest Dermatol.</i> 2026 Apr;146(4):887-889. doi: 10.1016/j.jid.2026.01.005</div>
-        <div class="no-abstract-note">📌 이 항목은 짧은 논평(Short Communication) 형식으로 구조화된 초록이 제공되지 않습니다. <b>자세한 내용은 원문 링크를 참고해 주세요.</b></div>
+        <div class="no-abstract-note">📌 This entry is a Short Communication and does not include a structured abstract. <b>Please refer to the original source link for full details.</b></div>
       </div>
 
     </div>
