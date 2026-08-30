@@ -6,10 +6,10 @@ author_profile: true
 ---
 
 <p class="page__lead">
-  A curated monthly digest of dermatology and skin-science coverage from <b>EurekAlert!</b>, <b>News-Medical</b>, and <b>Medical News Today</b> — filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>. This page auto-refreshes on the 20th of every month to reflect the prior month's coverage.
+  A curated monthly digest of dermatology and skin-science coverage — filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>. 
 </p>
 
-<div class="news-update-tag">🔄 Last auto-update covers: <b>August 2026</b> · Auto-refreshes on the 20th of each month</div>
+<div class="news-update-tag">🔄 Last update covers: <b>August 2026</b> · </div>
 
 <div class="news-grid">
 <!-- NEWS_START -->
