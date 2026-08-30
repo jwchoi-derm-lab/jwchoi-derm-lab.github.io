@@ -57,7 +57,7 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39294248/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39302756/" target="_blank" class="pub-link">
       Impact of the COVID-19 pandemic on telogen effluvium: a nationwide multicentre interrupted time series study
     </a>
   </div>
@@ -66,7 +66,7 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Telogen Effluvium</span>
     <span class="pub-tag tag-epi">Interrupted Time Series</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39294248/" target="_blank" class="btn-pubmed">PMID: 39294248 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39302756/" target="_blank" class="btn-pubmed">PMID: 39302756 ↗</a>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ author_profile: true
 <div class="pub-card">
   <div class="pub-title">
     <a href="https://pubmed.ncbi.nlm.nih.gov/37987239/" target="_blank" class="pub-link">
-      A Simple and Effective Technique for Nail Unit Anesthesia in Pediatric Patients: Harnessing the Advantages of Distal and Proximal Digital Anesthesia
+      A novel nerve block technique for nail surgery
     </a>
   </div>
   <div class="pub-authors">Park HS, <b>Choi JW</b>.</div>
@@ -212,7 +212,7 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/35922986/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/35948325/" target="_blank" class="pub-link">
       Impact of Pediatric Alopecia Areata on Quality of Life of Patients and Their Family Members
     </a>
   </div>
@@ -221,13 +221,13 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Alopecia Areata</span>
     <span class="pub-tag tag-epi">QoL Study</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/35922986/" target="_blank" class="btn-pubmed">PMID: 35922986 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/35948325/" target="_blank" class="btn-pubmed">PMID: 35948325 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/35653138/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/35587896/" target="_blank" class="pub-link">
       Association Between the First Exposure to General Anaesthesia and Chronic Urticaria
     </a>
   </div>
@@ -235,7 +235,7 @@ author_profile: true
   <div class="pub-journal"><i>Clin Exp Allergy</i>. 2022 Aug;52(8):990-993. doi: 10.1111/cea.14177.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-epi">Allergy & Immunology</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/35653138/" target="_blank" class="btn-pubmed">PMID: 35653138 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/35587896/" target="_blank" class="btn-pubmed">PMID: 35587896 ↗</a>
   </div>
 </div>
 
@@ -288,7 +288,7 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34621008/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/34615974/" target="_blank" class="pub-link">
       Effect of changes in Breslow thickness between initial punch biopsy results and final pathology reports in acral lentiginous melanoma patients
     </a>
   </div>
@@ -297,13 +297,13 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">Acral Melanoma</span>
     <span class="pub-tag tag-surgery">Dermatopathology</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34621008/" target="_blank" class="btn-pubmed">PMID: 34621008 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/34615974/" target="_blank" class="btn-pubmed">PMID: 34615974 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33316104/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33215728/" target="_blank" class="pub-link">
       Use of Hydrochlorothiazide and Risk of Non-melanoma Skin Cancer in Koreans: A Retrospective Cohort Study Using Administrative Healthcare Data
     </a>
   </div>
@@ -312,13 +312,13 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-oncology">NMSC</span>
     <span class="pub-tag tag-epi">Pharmacoepidemiology</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33316104/" target="_blank" class="btn-pubmed">PMID: 33316104 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33215728/" target="_blank" class="btn-pubmed">PMID: 33215728 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32954546/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32790070/" target="_blank" class="pub-link">
       Impacts of Alopecia Areata on Subsequent Pregnancy
     </a>
   </div>
@@ -326,13 +326,13 @@ author_profile: true
   <div class="pub-journal"><i>Australas J Dermatol</i>. 2021 Feb;62(1):e121-e123. doi: 10.1111/ajd.13459.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Alopecia Areata</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/32954546/" target="_blank" class="btn-pubmed">PMID: 32954546 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/32790070/" target="_blank" class="btn-pubmed">PMID: 32790070 ↗</a>
   </div>
 </div>
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33945536/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33961663/" target="_blank" class="pub-link">
       Alopecia areata is not a risk factor for heart diseases
     </a>
   </div>
@@ -341,7 +341,7 @@ author_profile: true
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Alopecia Areata</span>
     <span class="pub-tag tag-epi">Cohort Study</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33945536/" target="_blank" class="btn-pubmed">PMID: 33945536 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33961663/" target="_blank" class="btn-pubmed">PMID: 33961663 ↗</a>
   </div>
 </div>
 
@@ -363,7 +363,7 @@ author_profile: true
 <div class="pub-card">
   <div class="pub-title">
     <a href="https://pubmed.ncbi.nlm.nih.gov/33914980/" target="_blank" class="pub-link">
-      A Survey of Non-dermatologic Facility Uses in Hair Loss Patients: A Nationwide Multi-Center Questionnaire Study
+      A nationwide multicentre cross-sectional questionnaire study on the use of non-dermatologic facilities among patients with hair loss
     </a>
   </div>
   <div class="pub-authors"><b>Choi JW</b>, Kim DC, et al.</div>
