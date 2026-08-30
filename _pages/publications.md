@@ -8,16 +8,16 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Park+HS+Choi+JW+Staphylococcus+enrichment+in+cutaneous+melanoma" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/41376238/" target="_blank" class="pub-link">
       Staphylococcus enrichment in cutaneous melanoma
     </a>
   </div>
   <div class="pub-authors">Park HS, Kim YH, Kim JY, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>J Dermatol</i>. 2026 Feb;53(2):362-364. doi: 10.1111/1346-8138.18120.</div>
+  <div class="pub-journal"><i>J Dermatol</i>. 2026 Feb;53(2):362-364. doi: 10.1111/1346-8138.70110.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-microbiome">Microbiome</span>
     <span class="pub-tag tag-oncology">Melanoma</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Park+HS+Choi+JW+Staphylococcus+enrichment+in+cutaneous+melanoma" target="_blank" class="btn-pubmed">View on PubMed ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/41376238/" target="_blank" class="btn-pubmed">PMID: 41376238 ↗</a>
   </div>
 </div>
 
@@ -42,16 +42,16 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38833446/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38499863/" target="_blank" class="pub-link">
       The impact of appendectomy on the occurrence of alopecia areata: a retrospective cohort study
     </a>
   </div>
   <div class="pub-authors">Kim JC, Maeng J, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Clin Exp Dermatol</i>. 2024 Sep;49(9):1062-1064. doi: 10.1093/ced/llae129.</div>
+  <div class="pub-journal"><i>Clin Exp Dermatol</i>. 2024 Aug 22;49(9):1062-1064. doi: 10.1093/ced/llae097.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Alopecia Areata</span>
     <span class="pub-tag tag-epi">Cohort Study</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38833446/" target="_blank" class="btn-pubmed">PMID: 38833446 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38499863/" target="_blank" class="btn-pubmed">PMID: 38499863 ↗</a>
   </div>
 </div>
 
@@ -180,15 +180,15 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://www.jle.com/en/revues/ejd/sommaire.phtml" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37594354/" target="_blank" class="pub-link">
       The triple rotation flap of the scalp
     </a>
   </div>
   <div class="pub-authors">Kim HS, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Eur J Dermatol</i>. 2023 May-Jun;33(3):322-323. doi: 10.1684/ejd.2023.4444.</div>
+  <div class="pub-journal"><i>Eur J Dermatol</i>. 2023 May-Jun;33(3):322-323. doi: 10.1684/ejd.2023.4504.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-surgery">Reconstructive Surgery</span>
-    <a href="https://www.jle.com/en/revues/ejd/sommaire.phtml" target="_blank" class="btn-pubmed">View Article ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37594354/" target="_blank" class="btn-pubmed">PMID: 37594354 ↗</a>
   </div>
 </div>
 
@@ -246,7 +246,7 @@ author_profile: true
     </a>
   </div>
   <div class="pub-authors">Kim DC, Kim JC, Choi YW, Lee ES, <b>Choi JW</b>.</div>
-  <div class="pub-journal"><i>Acta Derm Venereol</i>. 2022 Nov 1;102:adv00738. doi: 10.2340/actadv.v102.2474.</div>
+  <div class="pub-journal"><i>Acta Derm Venereol</i>. 2022 Nov 1;102:adv00738. doi: 10.2340/actadv.v102.2738.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-epi">Pediatric Dermatology</span>
     <a href="https://pubmed.ncbi.nlm.nih.gov/36317588/" target="_blank" class="btn-pubmed">PMID: 36317588 ↗</a>
@@ -362,15 +362,15 @@ author_profile: true
 
 <div class="pub-card">
   <div class="pub-title">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33956381/" target="_blank" class="pub-link">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33914980/" target="_blank" class="pub-link">
       A Survey of Non-dermatologic Facility Uses in Hair Loss Patients: A Nationwide Multi-Center Questionnaire Study
     </a>
   </div>
   <div class="pub-authors"><b>Choi JW</b>, Kim DC, et al.</div>
-  <div class="pub-journal"><i>J Eur Acad Dermatol Venereol</i>. 2021 Sep;35(9):e594-e597. doi: 10.1111/jdv.17362.</div>
+  <div class="pub-journal"><i>J Eur Acad Dermatol Venereol</i>. 2021 Sep;35(9):e594-e597. doi: 10.1111/jdv.17326.</div>
   <div class="pub-actions">
     <span class="pub-tag tag-hair">Hair Loss Survey</span>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33956381/" target="_blank" class="btn-pubmed">PMID: 33956381 ↗</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33914980/" target="_blank" class="btn-pubmed">PMID: 33914980 ↗</a>
   </div>
 </div>
 
