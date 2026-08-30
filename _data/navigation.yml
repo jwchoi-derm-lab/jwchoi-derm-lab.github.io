@@ -10,3 +10,5 @@ main:
     url: /journal-updates/
   - title: "News"
     url: /news/
+  - title: "Guestbook"
+    url: /guestbook/
