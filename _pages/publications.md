@@ -1,5 +1,6 @@
 ---
 layout: archive
+title: "Publications as First & Corresponding Author"
 permalink: /publications/
 author_profile: true
 ---
