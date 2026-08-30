@@ -1,0 +1,57 @@
+# .github/workflows/monthly-journal-update.yml
+#
+# Regenerates _pages/journal-updates.md on the 20th of every month using
+# the PubMed E-utilities public API (NCBI) to pull JAAD / JAMA Dermatology /
+# BJD / JID articles from the prior calendar month, classify Original vs
+# Non-Original via PubMed's own PublicationType field, and rewrite Original
+# Article abstracts into a 3-part summary using the Gemini API.
+#
+# Setup:
+#   1. Save this file at .github/workflows/monthly-journal-update.yml
+#   2. Save the script at scripts/generate_journal_updates.py
+#   3. Add a repo secret named GEMINI_API_KEY (same one used for the News
+#      workflow) -- Settings > Secrets and variables > Actions
+#
+# GitHub Actions cron runs in UTC. "10 0 20 * *" fires at 00:10 UTC
+# (09:10 KST) on the 20th of every month (offset slightly from the news
+# workflow to avoid both jobs hitting external hosts at the exact same time).
+
+name: Monthly Journal Update
+
+on:
+  schedule:
+    - cron: "10 0 20 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-journal-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests google-generativeai
+
+      - name: Run journal-updates generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/generate_journal_updates.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: monthly journal briefs (JAAD/JAMA Derm/BJD/JID, Gemini-summarized)"
+          file_pattern: "_pages/journal-updates.md"
+          commit_user_name: "jeewoong-derm-lab-bot"
+          commit_user_email: "actions@github.com"

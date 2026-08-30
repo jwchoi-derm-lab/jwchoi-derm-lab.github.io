@@ -1,25 +1,21 @@
 #!/usr/bin/env python3
 """
 generate_news.py
-Scrapes EurekAlert!, News-Medical, and Medical News Today for dermatology news
-relevant to Jeewoong Derm Lab's research focus (Skin Cancer & Surgery, Microbiome,
-Hair & Nail Disorders), keeps only articles published in the PREVIOUS calendar
-month relative to run date, caps the result at 15 items, and regenerates the
-NEWS_START...NEWS_END block inside _pages/news.md.
+Scrapes EurekAlert!, News-Medical, and Medical News Today, filters for
+relevance to Jeewoong Derm Lab's research focus, and uses the Gemini API
+(Google AI Studio key, called directly via REST -- no CLI tool) to polish
+each scraped snippet into a clean 2-3 sentence summary. Falls back to the
+raw scraped snippet if GEMINI_API_KEY is not set or a call fails, so the
+page always builds successfully either way.
 
-Run manually:   python scripts/generate_news.py
-Run in CI:      triggered by .github/workflows/monthly-news-update.yml on the 20th
-                of every month (covers the prior full calendar month).
+Run manually:  python scripts/generate_news.py
+Run in CI:     .github/workflows/monthly-news-update.yml (20th of every month)
 
-Optional: set GEMINI_API_KEY as an environment variable / repo secret to have
-Gemini rewrite scraped snippets into polished 2-3 sentence summaries, matching
-the same approach already used for journal-updates.md (see GEMINI.md). If the
-key is not set, the script falls back to using the raw scraped snippet.
+Requires GEMINI_API_KEY as an environment variable / GitHub Actions secret
+for AI-polished summaries. Get a key from https://aistudio.google.com/
 """
 
 import os
-import re
-import time
 import calendar
 from datetime import datetime, timedelta
 
@@ -27,12 +23,12 @@ import requests
 from bs4 import BeautifulSoup
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NEWS_MD_PATH = os.path.join(REPO_ROOT, "_pages", "news.md")
+OUTPUT_PATH = os.path.join(REPO_ROOT, "_pages", "news.md")
 
 MAX_ITEMS = 15
+GEMINI_MODEL = "gemini-1.5-flash"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; JeewoongDermLabNewsBot/1.0; +https://jwchoi-derm-lab.github.io/)"}
 
-# Keywords aligned with Jeewoong Derm Lab's research focus areas.
 KEYWORDS = [
     "skin cancer", "melanoma", "basal cell", "squamous cell", "mohs",
     "dermatologic surgery", "cutaneous surgery", "nonmelanoma",
@@ -53,17 +49,53 @@ CATEGORY_RULES = [
     (["alopecia", "hair follicle", "hair loss", "hair regrowth",
       "nail psoriasis", "nail disorder", "onycho"], "cat-hairnail", "Hair & Nail Disorders"),
 ]
-
 DEFAULT_CATEGORY = ("cat-epi", "Dermatology & Skin Health")
+
+_GEMINI_MODEL_OBJ = None
+
+
+def get_gemini_model():
+    global _GEMINI_MODEL_OBJ
+    if _GEMINI_MODEL_OBJ is not None:
+        return _GEMINI_MODEL_OBJ
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return None
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=api_key)
+        _GEMINI_MODEL_OBJ = genai.GenerativeModel(GEMINI_MODEL)
+        return _GEMINI_MODEL_OBJ
+    except Exception as e:
+        print(f"[WARN] Gemini init failed, falling back to raw snippets: {e}")
+        return None
+
+
+def gemini_polish(title, snippet):
+    model = get_gemini_model()
+    if not model or not snippet:
+        return None
+    prompt = (
+        "Rewrite the following dermatology news snippet into a clear, polished "
+        "2-3 sentence summary suitable for a research lab website. Keep it "
+        "factual and do not invent numbers or facts not present in the snippet.\n\n"
+        f"Title: {title}\nSnippet: {snippet}"
+    )
+    try:
+        resp = model.generate_content(prompt)
+        text = (resp.text or "").strip()
+        return text or None
+    except Exception as e:
+        print(f"[WARN] Gemini polish failed for '{title[:60]}...': {e}")
+        return None
 
 
 def previous_month_range(ref_date=None):
-    """Return (start_date, end_date) for the calendar month before ref_date's month."""
     ref_date = ref_date or datetime.utcnow()
     first_of_this_month = ref_date.replace(day=1)
-    last_day_prev_month = first_of_this_month - timedelta(days=1)
-    first_day_prev_month = last_day_prev_month.replace(day=1)
-    return first_day_prev_month.date(), last_day_prev_month.date()
+    last_day_prev = first_of_this_month - timedelta(days=1)
+    first_day_prev = last_day_prev.replace(day=1)
+    return first_day_prev.date(), last_day_prev.date()
 
 
 def keyword_match(text):
@@ -79,9 +111,9 @@ def classify_category(text):
     return DEFAULT_CATEGORY
 
 
-def safe_get(url, **kwargs):
+def safe_get(url):
     try:
-        r = requests.get(url, headers=HEADERS, timeout=20, **kwargs)
+        r = requests.get(url, headers=HEADERS, timeout=20)
         r.raise_for_status()
         return r
     except Exception as e:
@@ -90,15 +122,12 @@ def safe_get(url, **kwargs):
 
 
 def scrape_eurekalert():
-    """Scrape EurekAlert! dermatology search results."""
     items = []
-    url = "https://www.eurekalert.org/news-releases/search/dermatology"
-    r = safe_get(url)
+    r = safe_get("https://www.eurekalert.org/news-releases/search/dermatology")
     if not r:
         return items
     soup = BeautifulSoup(r.text, "html.parser")
-    cards = soup.select("article, div.search-result, div.result-item")
-    for card in cards:
+    for card in soup.select("article, div.search-result, div.result-item"):
         a = card.find("a", href=True)
         title_tag = card.find(["h2", "h3"])
         if not a or not title_tag:
@@ -109,25 +138,18 @@ def scrape_eurekalert():
             link = "https://www.eurekalert.org" + link
         p_tag = card.find("p")
         summary = p_tag.get_text(strip=True) if p_tag else ""
-        date_tag = card.find(class_=re.compile("date", re.I))
-        pub_date = date_tag.get_text(strip=True) if date_tag else ""
-        items.append({
-            "title": title, "link": link, "summary": summary,
-            "pub_date_raw": pub_date, "source": "EurekAlert!", "source_class": "src-eurekalert",
-        })
+        items.append({"title": title, "link": link, "summary": summary,
+                      "source": "EurekAlert!", "source_class": "src-eurekalert"})
     return items
 
 
 def scrape_news_medical():
-    """Scrape News-Medical dermatology condition page."""
     items = []
-    url = "https://www.news-medical.net/condition/Dermatology"
-    r = safe_get(url)
+    r = safe_get("https://www.news-medical.net/condition/Dermatology")
     if not r:
         return items
     soup = BeautifulSoup(r.text, "html.parser")
-    cards = soup.select("article, div.article-item, div.newsItem")
-    for card in cards:
+    for card in soup.select("article, div.article-item, div.newsItem"):
         a = card.find("a", href=True)
         title_tag = card.find(["h2", "h3"])
         if not a or not title_tag:
@@ -138,25 +160,18 @@ def scrape_news_medical():
             link = "https://www.news-medical.net" + link
         p_tag = card.find("p")
         summary = p_tag.get_text(strip=True) if p_tag else ""
-        date_tag = card.find(class_=re.compile("date", re.I))
-        pub_date = date_tag.get_text(strip=True) if date_tag else ""
-        items.append({
-            "title": title, "link": link, "summary": summary,
-            "pub_date_raw": pub_date, "source": "News-Medical", "source_class": "src-newsmedical",
-        })
+        items.append({"title": title, "link": link, "summary": summary,
+                      "source": "News-Medical", "source_class": "src-newsmedical"})
     return items
 
 
 def scrape_mnt():
-    """Scrape Medical News Today dermatology category page."""
     items = []
-    url = "https://www.medicalnewstoday.com/categories/dermatology"
-    r = safe_get(url)
+    r = safe_get("https://www.medicalnewstoday.com/categories/dermatology")
     if not r:
         return items
     soup = BeautifulSoup(r.text, "html.parser")
-    cards = soup.select("article, li, div.css-card")
-    for card in cards:
+    for card in soup.select("article, li, div.css-card"):
         a = card.find("a", href=True)
         title_tag = card.find(["h2", "h3"])
         if not a or not title_tag:
@@ -167,39 +182,13 @@ def scrape_mnt():
             link = "https://www.medicalnewstoday.com" + link
         p_tag = card.find("p")
         summary = p_tag.get_text(strip=True) if p_tag else ""
-        items.append({
-            "title": title, "link": link, "summary": summary,
-            "pub_date_raw": "", "source": "Medical News Today", "source_class": "src-mnt",
-        })
+        items.append({"title": title, "link": link, "summary": summary,
+                      "source": "Medical News Today", "source_class": "src-mnt"})
     return items
 
 
-def gemini_polish(title, summary):
-    """Optionally use Gemini API to turn a raw scraped snippet into a polished
-    2-3 sentence summary. Falls back silently if no API key is configured."""
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key or not summary:
-        return summary
-    try:
-        import google.generativeai as genai
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        prompt = (
-            "Rewrite the following dermatology news snippet into a clear, "
-            "polished 2-3 sentence summary suitable for a research lab website. "
-            "Keep it factual, do not invent numbers.\n\n"
-            f"Title: {title}\nSnippet: {summary}"
-        )
-        resp = model.generate_content(prompt)
-        return resp.text.strip() if resp and resp.text else summary
-    except Exception as e:
-        print(f"[WARN] Gemini polish skipped: {e}")
-        return summary
-
-
 def dedupe(items):
-    seen = set()
-    out = []
+    seen, out = set(), []
     for it in items:
         key = it["title"].strip().lower()
         if key in seen:
@@ -211,75 +200,70 @@ def dedupe(items):
 
 def render_card(item):
     css_class, label = classify_category(item["title"] + " " + item["summary"])
-    date_html = f'<span class="news-date-tag">{item.get("pub_date_display","")}</span><br>' if item.get("pub_date_display") else ""
-    return f"""
-<details class="news-card">
+    polished = gemini_polish(item["title"], item["summary"])
+    summary = polished or item["summary"] or "No summary snippet was available from the source page. Please refer to the original article."
+    return f'''<details class="news-card">
   <summary>
     <span class="news-source-tag {item['source_class']}">{item['source']}</span>
-    <span class="news-cat-badge {css_class}">{label}</span>
-    {date_html}{item['title']}
+    <span class="news-cat-badge {css_class}">{label}</span><br>
+    {item['title']}
   </summary>
   <div class="news-summary-body">
-    {item['summary']}
+    {summary}
     <br><br>
-    <a class="news-read-btn" href="{item['link']}" target="_blank">Read Full Article ↗</a>
+    <a class="news-read-btn" href="{item['link']}" target="_blank">Read Full Article \u2197</a>
   </div>
-</details>
-"""
+</details>'''
 
 
-def update_news_md(cards_html, month_label):
-    with open(NEWS_MD_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
+PAGE_HEADER = '''---
+layout: archive
+title: "News: Skin Science in the Media"
+permalink: /news/
+author_profile: true
+---
 
-    content = re.sub(
-        r'Last auto-update covers: <b>.*?</b>',
-        f'Last auto-update covers: <b>{month_label}</b>',
-        content,
-    )
+<p class="page__lead">
+  A curated monthly digest of dermatology and skin-science coverage from <b>EurekAlert!</b>, <b>News-Medical</b>, and <b>Medical News Today</b> -- filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>, and summarized with the Gemini API. This page auto-refreshes on the 20th of every month to reflect the prior month's coverage.
+</p>
 
-    new_block = "<!-- NEWS_START -->\n" + cards_html + "\n<!-- NEWS_END -->"
-    content = re.sub(
-        r"<!-- NEWS_START -->.*?<!-- NEWS_END -->",
-        new_block,
-        content,
-        flags=re.DOTALL,
-    )
+<div class="news-update-tag">\U0001F504 Last auto-update covers: <b>{month_label}</b> \u00b7 Auto-refreshes on the 20th of each month</div>
 
-    with open(NEWS_MD_PATH, "w", encoding="utf-8") as f:
-        f.write(content)
+<div class="news-grid">
+'''
+
+PAGE_FOOTER = '''
+</div>
+'''
 
 
 def main():
     start_date, end_date = previous_month_range()
     month_label = f"{calendar.month_name[start_date.month]} {start_date.year}"
     print(f"Target coverage window: {start_date} to {end_date} ({month_label})")
+    print(f"Gemini polishing: {'ENABLED' if os.environ.get('GEMINI_API_KEY') else 'disabled (no GEMINI_API_KEY, using raw snippets)'}")
 
     all_items = []
     all_items += scrape_eurekalert()
     all_items += scrape_news_medical()
     all_items += scrape_mnt()
-
     print(f"Scraped {len(all_items)} raw items across 3 sources.")
 
-    relevant = [it for it in all_items if keyword_match(it["title"] + " " + it["summary"])]
-    relevant = dedupe(relevant)
+    relevant = dedupe([it for it in all_items if keyword_match(it["title"] + " " + it["summary"])])
+    relevant = relevant[:MAX_ITEMS]
     print(f"{len(relevant)} items matched lab keyword filters.")
 
-    relevant = relevant[:MAX_ITEMS]
-
-    for it in relevant:
-        it["summary"] = gemini_polish(it["title"], it["summary"]) or "No summary available. Please refer to the original article."
-        it["pub_date_display"] = it.get("pub_date_raw", "")
-        time.sleep(0.5)
-
     if not relevant:
-        print("[WARN] No relevant items found this run — leaving existing news.md untouched.")
+        print("[WARN] No relevant items found this run -- leaving existing news.md untouched.")
         return
 
-    cards_html = "\n".join(render_card(it) for it in relevant)
-    update_news_md(cards_html, month_label)
-    print(f"news.md updated with {len(relevant)} items for {month_label}.")
+    cards_html = "\n\n".join(render_card(it) for it in relevant)
+    content = PAGE_HEADER.format(month_label=month_label) + cards_html + PAGE_FOOTER
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"news.md regenerated with {len(relevant)} items for {month_label}.")
 
 
 if __name__ == "__main__":
