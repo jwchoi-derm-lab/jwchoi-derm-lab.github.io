@@ -72,6 +72,7 @@ redirect_from:
     <span class="badge-role">Visiting Fellow, NIH / NIAMS (2024–2025)</span>
     <span class="badge-role">Board Member, Korean Society for Skin Cancer (KSSC)</span>
     <span class="badge-role">Board Member, Korean Society for Dermatologic Surgery (KSDS)</span>
+    <span class="badge-role">Board Member, Korean Hair Research Society (KHRS)</span>
     <span class="badge-role">Member, American Society for Dermatologic Surgery (ASDS)</span>
   </div>
 
