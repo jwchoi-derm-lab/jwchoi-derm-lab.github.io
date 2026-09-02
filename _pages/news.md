@@ -9,7 +9,7 @@ author_profile: true
   A curated monthly digest of dermatology and skin-science coverage — filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>. 
 </p>
 
-<div class="news-update-tag">🔄 Last update covers: <b>August 2026</b> · </div>
+<div class="news-update-tag">🔄 Last update covers: <b>August 2026</b> </div>
 
 <div class="news-grid">
 <!-- NEWS_START -->
