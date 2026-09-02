@@ -100,6 +100,8 @@ redirect_from:
 
 ## 🤝 Academic Collaboration & Opportunities
 
+👬 Microbiome Analysis Collaboration with Macrogen
+
 We actively collaborate with international clinical researchers, computational biologists, and data scientists.
 
 <div class="collab-action-card">
