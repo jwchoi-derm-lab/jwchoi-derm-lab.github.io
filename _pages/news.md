@@ -1,223 +1,172 @@
 ---
-layout: default
+layout: archive
+title: "News: Skin Science in the Media"
 permalink: /news/
-title: "News & Updates"
 author_profile: true
 ---
 
-<div class="news-container">
-  <div class="news-header-card">
-    <div class="news-header-badge">LAB ANNOUNCEMENTS</div>
-    <h1 class="news-main-title">News & Research Updates</h1>
-    <p class="news-header-desc">
-      Latest research milestones, publication digests, grant awards, and lab activities from <strong>Jeewoong Derm Lab</strong>.
-    </p>
+<p class="page__lead">
+  A curated monthly digest of dermatology and skin-science coverage from <b>EurekAlert!</b>, <b>News-Medical</b>, and <b>Medical News Today</b> — filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>. This page auto-refreshes on the 20th of every month to reflect the prior month's coverage.
+</p>
+
+<div class="news-update-tag">🔄 Last auto-update covers: <b>August 2026</b> · Auto-refreshes on the 20th of each month</div>
+
+<div class="news-grid">
+<!-- NEWS_START -->
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-eurekalert">EurekAlert!</span>
+    <span class="news-cat-badge cat-cancer">Skin Cancer & Surgery</span>
+    <span class="news-date-tag">Aug 5, 2026</span><br>
+    Immune Cell Dysfunction — Not Absence — Drives Skin Cancer in Immunosuppressed Patients
+  </summary>
+  <div class="news-summary-body">
+    Researchers at MD Anderson Cancer Center found that immunosuppressed patients with non-melanoma skin cancer still have macrophages present in their tumors, but these cells lose the ability to communicate effectively with the rest of the immune system. This reframes the therapeutic target from "restoring missing immune cells" to "repairing dysfunctional signaling," opening new avenues for treating aggressive keratinocyte carcinomas in transplant and immunosuppressed populations.
+    <br><br>
+    <a class="news-read-btn" href="https://www.eurekalert.org/news-releases/1138837" target="_blank">Read Full Article ↗</a>
   </div>
+</details>
 
-  <div class="news-timeline">
-    <!-- 2026.08 -->
-    <div class="news-item-card card-highlight">
-      <div class="news-date-badge">2026.08</div>
-      <div class="news-content">
-        <span class="news-tag tag-system">Platform Launch</span>
-        <h3 class="news-title">Automated Dermatology Journal Digest System Launched</h3>
-        <p class="news-text">
-          Launched an automated weekly and monthly digest tracking top dermatology and biomedical literature across JAAD, JAMA Dermatology, BJD, and JID.
-        </p>
-        <div class="news-links">
-          <a href="/journal-updates/" class="news-link-btn">View Journal Updates →</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 2026.02 -->
-    <div class="news-item-card">
-      <div class="news-date-badge">2026.02</div>
-      <div class="news-content">
-        <span class="news-tag tag-pub">Publication</span>
-        <h3 class="news-title">Scalp Bacteriome & Dysbiosis Study Published</h3>
-        <p class="news-text">
-          Our large-scale pooled analysis on scalp microbial signatures in alopecia and inflammatory dermatitis has been accepted for publication in the <em>Journal of Dermatology</em>.
-        </p>
-        <div class="news-links">
-          <a href="/publications/" class="news-link-btn">View Publications →</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 2024–2025 -->
-    <div class="news-item-card">
-      <div class="news-date-badge">2024 – 2025</div>
-      <div class="news-content">
-        <span class="news-tag tag-career">Visiting Research</span>
-        <h3 class="news-title">Completed Visiting Fellowship at NIAMS, NIH</h3>
-        <p class="news-text">
-          Completed advanced translational research on cutaneous microbiome and genomics at the National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), National Institutes of Health (NIH, Bethesda, MD).
-        </p>
-      </div>
-    </div>
-
-    <!-- 2023 -->
-    <div class="news-item-card">
-      <div class="news-date-badge">2023.09</div>
-      <div class="news-content">
-        <span class="news-tag tag-lab">Lab Launch</span>
-        <h3 class="news-title">Jeewoong Derm Lab Website & Open Science Repositories Established</h3>
-        <p class="news-text">
-          Established open-access research repositories bridging clinical dermatologic surgery and computational genomics at Ajou University School of Medicine.
-        </p>
-        <div class="news-links">
-          <a href="/projects/" class="news-link-btn">Explore Projects →</a>
-        </div>
-      </div>
-    </div>
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-eurekalert">EurekAlert!</span>
+    <span class="news-cat-badge cat-microbiome">Microbiome</span>
+    <span class="news-date-tag">Aug 6, 2026</span><br>
+    Catch Me If You Can: Deadly Superbug Candida auris Hides in Hair Follicles
+  </summary>
+  <div class="news-summary-body">
+    UCSF researchers show that unlike ordinary Candida albicans, the drug-resistant fungus Candida auris survives on skin by taking refuge inside hair follicles. It remodels its cell wall to expose chitin, triggering an interferon-gamma response that paradoxically blocks the skin's antifungal defenses (including IL-17) and slows follicle cell turnover — creating a persistent niche that helps explain why this pathogen is so hard to eradicate from vulnerable patients.
+    <br><br>
+    <a class="news-read-btn" href="https://www.eurekalert.org/news-releases/1138452" target="_blank">Read Full Article ↗</a>
   </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-eurekalert">EurekAlert!</span>
+    <span class="news-cat-badge cat-microbiome">Microbiome</span>
+    <span class="news-date-tag">Aug 7, 2026</span><br>
+    Every Mosquito Has a Type — and Your Skin Microbiome May Be It
+  </summary>
+  <div class="news-summary-body">
+    A new study debunks the "mosquito magnet" myth, showing that different mosquito species key in on specific bacterial signatures within a person's skin microbiome rather than blood type or general scent. Some resident skin bacteria attracted mosquitoes, while others actively repelled them — pointing toward next-generation, microbiome-informed insect repellents for diseases like dengue and Zika.
+    <br><br>
+    <a class="news-read-btn" href="https://www.eurekalert.org/news-releases/1139379" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-eurekalert">EurekAlert!</span>
+    <span class="news-cat-badge cat-hairnail">Hair & Nail Disorders</span>
+    <span class="news-date-tag">Aug 13, 2026</span><br>
+    Game-Changing AI Achieves 98% Accuracy Diagnosing Skin and Nail Disease
+  </summary>
+  <div class="news-summary-body">
+    A newly developed deep learning model outperformed eight baseline AI systems, achieving 98% diagnostic accuracy across five conditions — vitiligo, acne, nail psoriasis, hyperpigmentation, and the rare but life-threatening Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis. The tool is positioned as a triage aid for both common and high-acuity dermatologic presentations, including nail unit disease.
+    <br><br>
+    <a class="news-read-btn" href="https://www.eurekalert.org/news-releases/1139956" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-eurekalert">EurekAlert!</span>
+    <span class="news-cat-badge cat-hairnail">Hair & Nail Disorders</span>
+    <span class="news-date-tag">Aug 21, 2026</span><br>
+    Scientists Map Hair Follicle Formation in 3D — and in Time
+  </summary>
+  <div class="news-summary-body">
+    Johns Hopkins Medicine researchers developed a technology to capture 3D molecular "snapshots" of hundreds of developing hair follicles and reconstruct their formation over time — effectively a stop-motion animation of organogenesis. The approach could improve understanding of congenital hair and skin appendage disorders and inform future regenerative therapies.
+    <br><br>
+    <a class="news-read-btn" href="https://www.eurekalert.org/news-releases/1141052" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-newsmedical">News-Medical</span>
+    <span class="news-cat-badge cat-cancer">Skin Cancer & Surgery</span>
+    <span class="news-date-tag">Aug 6, 2026</span><br>
+    Scalable Education Program Cuts Skin Cancer Risk in Transplant Survivors
+  </summary>
+  <div class="news-summary-body">
+    Hematopoietic cell transplant (HCT) survivors face markedly elevated skin cancer risk yet have low screening uptake once they leave specialty care. A randomized controlled trial testing a technology-enabled patient and physician activation program showed improved skin cancer screening behavior in this high-risk population, published in the <i>Journal of the National Comprehensive Cancer Network</i>.
+    <br><br>
+    <a class="news-read-btn" href="https://www.news-medical.net/news/20260806/Scalable-education-program-protects-transplant-survivors-from-elevated-skin-cancer-risk.aspx" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-newsmedical">News-Medical</span>
+    <span class="news-cat-badge cat-hairnail">Hair & Nail Disorders</span>
+    <span class="news-date-tag">Aug 5, 2026</span><br>
+    Versatile Lgr6 Receptor Found to Drive Hair Follicle Regeneration
+  </summary>
+  <div class="news-summary-body">
+    A review highlights Lgr6-positive stem cells as key regulators of tissue repair across organs — in skin specifically, these cells contribute directly to wound healing and hair follicle regeneration, while playing analogous structural-repair roles in kidney and lung. The findings position Lgr6 signaling as a potential shared target for regenerative dermatology.
+    <br><br>
+    <a class="news-read-btn" href="https://www.news-medical.net/news/20260805/Versatile-receptor-protein-plays-critical-role-in-regulating-tissue-repair.aspx" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-newsmedical">News-Medical</span>
+    <span class="news-cat-badge cat-epi">Skin Biology & Aging</span>
+    <span class="news-date-tag">Aug 19, 2026</span><br>
+    Molecular Switch Behind Age-Associated Skin Inflammation Identified
+  </summary>
+  <div class="news-summary-body">
+    Published in <i>Nature Aging</i>, this study found that two proteins, BMAL1 and YAP, change how they interact as skin ages, becoming "noncircadian" activators of inflammatory genes in the epidermis. The discovery clarifies a molecular mechanism linking chronological aging to persistent low-grade cutaneous inflammation, with future work exploring whether this pathway can be safely modulated.
+    <br><br>
+    <a class="news-read-btn" href="https://www.news-medical.net/news/20260819/Study-uncovers-molecular-mechanism-behind-age-associated-skin-inflammation.aspx" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-newsmedical">News-Medical</span>
+    <span class="news-cat-badge cat-epi">Public Health & Safety</span>
+    <span class="news-date-tag">Aug 18, 2026</span><br>
+    NYC Survey Finds Mercury in Nearly a Third of Skin-Lightening Products
+  </summary>
+  <div class="news-summary-body">
+    A targeted New York City surveillance study tested 197 skincare and skin-lightening products and detected mercury in 29% (56 products), with 18% (33 products) exceeding the FDA-permissible limit of 1 ppm — including several foreign-manufactured creams sold outside typical retail channels. The findings underscore ongoing consumer-safety gaps in unregulated cosmetic markets.
+    <br><br>
+    <a class="news-read-btn" href="https://www.news-medical.net/news/20260818/A-New-York-skincare-survey-found-mercury-where-consumers-might-not-expect-it.aspx" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-mnt">Medical News Today</span>
+    <span class="news-cat-badge cat-hairnail">Hair & Nail Disorders</span>
+    <span class="news-date-tag">Aug 24, 2026</span><br>
+    Rheumatoid Arthritis Drug Upadacitinib Regrows Hair in Severe Alopecia Areata
+  </summary>
+  <div class="news-summary-body">
+    Reporting on two phase 3 UP-AA trials published in <i>JAMA Dermatology</i>, this piece explains how the JAK inhibitor upadacitinib — already used for rheumatoid arthritis — helped roughly half of severe alopecia areata patients on the 15 mg dose, and 54% on the 30 mg dose, regrow enough hair to cover at least 80% of the scalp within 24 weeks, by blunting the abnormal immune attack on hair follicles.
+    <br><br>
+    <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/common-arthritis-pill-repurposed-to-boost-hair-regrowth-in-alopecia-patients" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<details class="news-card">
+  <summary>
+    <span class="news-source-tag src-mnt">Medical News Today</span>
+    <span class="news-cat-badge cat-cancer">Skin Cancer & Surgery</span>
+    <span class="news-date-tag">Aug 21, 2026</span><br>
+    Personalized mRNA Melanoma Vaccine Cuts Recurrence Risk by Nearly Half
+  </summary>
+  <div class="news-summary-body">
+    Moderna and Merck announced phase 3 results for intismeran autogene, a personalized neoantigen mRNA vaccine combined with pembrolizumab, in patients with completely resected stage IIB–IV melanoma. After 5-year follow-up, the combination reduced the risk of recurrence or death by 49% and distant metastasis or death by 59% compared with pembrolizumab alone — a major step for adjuvant melanoma care after surgical resection.
+    <br><br>
+    <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/novel-mrna-cancer-vaccine-plus-immunotherapy-reduces-melanoma-relapse-phase-3-trial" target="_blank">Read Full Article ↗</a>
+  </div>
+</details>
+
+<!-- NEWS_END -->
 </div>
-
-<style>
-.news-container {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.news-header-card {
-  background: linear-gradient(135deg, #f0f7ff 0%, #e8f5e9 100%);
-  border-left: 5px solid #1976d2;
-  border-radius: 12px;
-  padding: 1.6rem 1.4rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-}
-
-.news-header-badge {
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: #1976d2;
-  margin-bottom: 0.35rem;
-}
-
-.news-main-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: #0f172a;
-  margin: 0 0 0.6rem 0;
-  line-height: 1.3;
-}
-
-.news-header-desc {
-  font-size: 0.94rem;
-  color: #334155;
-  line-height: 1.6;
-  margin: 0;
-}
-
-.news-timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 1.3rem;
-}
-
-.news-item-card {
-  display: flex;
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid #cbd5e1;
-  border-radius: 10px;
-  padding: 1.3rem 1.4rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  gap: 1.2rem;
-}
-
-.news-item-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(25, 118, 210, 0.08);
-}
-
-.card-highlight {
-  border-left: 4px solid #1976d2;
-  background: #fbfdff;
-}
-
-.news-date-badge {
-  font-size: 0.84rem;
-  font-weight: 800;
-  color: #1e3a8a;
-  background: #eff6ff;
-  border: 1px solid #dbeafe;
-  padding: 0.35rem 0.7rem;
-  border-radius: 6px;
-  height: fit-content;
-  white-space: nowrap;
-}
-
-.news-content {
-  flex: 1;
-}
-
-.news-tag {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  margin-bottom: 0.4rem;
-}
-
-.tag-system { background: #ccfbf1; color: #115e59; }
-.tag-pub    { background: #e0e7ff; color: #3730a3; }
-.tag-career { background: #fef3c7; color: #92400e; }
-.tag-lab    { background: #f1f5f9; color: #334155; }
-
-.news-title {
-  font-size: 1.08rem;
-  font-weight: 800;
-  color: #0f172a;
-  margin: 0 0 0.4rem 0;
-  line-height: 1.4;
-}
-
-.news-text {
-  font-size: 0.88rem;
-  color: #475569;
-  line-height: 1.55;
-  margin: 0 0 0.8rem 0;
-}
-
-.news-links {
-  display: flex;
-  gap: 0.6rem;
-}
-
-.news-link-btn {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #1d4ed8;
-  text-decoration: none;
-  background: #f0f7ff;
-  padding: 0.25rem 0.65rem;
-  border-radius: 4px;
-  border: 1px solid #dbeafe;
-  transition: all 0.15s ease;
-}
-
-.news-link-btn:hover {
-  background: #1d4ed8;
-  color: #ffffff;
-  border-color: #1d4ed8;
-}
-
-@media screen and (max-width: 640px) {
-  .news-item-card {
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-  .news-date-badge {
-    width: fit-content;
-  }
-}
-</style>
