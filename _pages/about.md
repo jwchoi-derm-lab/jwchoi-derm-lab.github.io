@@ -98,6 +98,14 @@ redirect_from:
 
 ---
 
+## 👥 Affiliated Scholars
+
+🎓Hyoung Soo Park, M.D., M.S. Dermatology Resident, Ajou University Hospital
+Affiliation: Department of Dermatology, Ajou University Hospital
+Background:
+M.S. in Medicine (Dermatology), Ajou University Graduate School — Thesis: Staphylococcus enrichment in cutaneous melanoma tissue microbiome
+M.D., Ajou University College of Medicine (2018)
+
 ## 🤝 Academic Collaboration & Opportunities
 
 👬 Microbiome Analysis Collaboration with Macrogen
