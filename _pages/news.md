@@ -14,7 +14,7 @@ author_profile: true
       A curated monthly digest of dermatology and skin-science coverage from <strong>EurekAlert!</strong>, <strong>News-Medical</strong>, and <strong>Medical News Today</strong> — filtered for relevance to our lab's focus areas: <strong>Skin Cancer & Surgery</strong>, <strong>Microbiome</strong>, and <strong>Hair & Nail Disorders</strong>.
     </p>
     <div class="news-update-badge">
-      <span class="pulse-dot"></span> Last auto-update covers: <strong>August 2026</strong> · Auto-refreshes on the 20th of each month
+      <span class="pulse-dot"></span> Last update covers: <strong>August 2026</strong>
     </div>
   </div>
 
