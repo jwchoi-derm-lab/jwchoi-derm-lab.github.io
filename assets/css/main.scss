@@ -40,7 +40,7 @@
 
 
 /* ========================================================
-   1. Site Background & Layout Engine
+   1. Site Background & Master Layout Engine
    ======================================================== */
 
 body, #main {
@@ -51,6 +51,19 @@ body, #main {
 .layout--single .page__title,
 .page__inner-wrap > .page__title {
   display: none !important;
+}
+
+/* Reset default absolute/float layout */
+#main {
+  position: relative !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 1.5rem 1rem !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
+  clear: both !important;
 }
 
 
@@ -103,23 +116,84 @@ button#theme-toggle,
 
 
 /* ========================================================
-   3. Sidebar Profile Card (Left Column) - Responsive
+   3. Sidebar & Main Content Grid Layout (Overlap-Proof)
    ======================================================== */
 
 .sidebar,
+.sidebar__right,
 .author__content,
 .author__urls-wrapper {
   background-color: #F0F7FF !important;
+  float: none !important;
+  clear: none !important;
 }
 
 .sidebar {
+  position: static !important;
+  box-sizing: border-box !important;
   padding: 1.5rem !important;
   border-radius: 16px !important;
   border: 1px solid #D0E4FF !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  width: 100% !important;
 }
 
-/* Perfect Circular Profile Avatar */
+.page,
+.archive,
+#main .page,
+#main .archive {
+  position: static !important;
+  float: none !important;
+  clear: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* --- 1024px 이상 넓은 화면 (데스크톱 2열 분할) --- */
+@media screen and (min-width: 1024px) {
+  #main {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 2.5rem !important;
+  }
+
+  .sidebar {
+    width: 280px !important;
+    min-width: 280px !important;
+    max-width: 280px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .page,
+  .archive {
+    flex: 1 1 0% !important;
+    min-width: 0 !important;
+    width: auto !important;
+  }
+}
+
+/* --- 1024px 미만 화면 (태블릿 & 모바일 1열 스택) --- */
+@media screen and (max-width: 1023px) {
+  #main {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+
+  .sidebar {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .page,
+  .archive {
+    width: 100% !important;
+  }
+}
+
+/* Circular Profile Avatar */
 .author__avatar {
   display: block !important;
   width: 150px !important;
@@ -145,7 +219,6 @@ button#theme-toggle,
   border: none !important;
 }
 
-/* Word-wrapping for affiliations and URLs */
 .sidebar,
 .author__urls-wrapper,
 .author__urls {
@@ -159,48 +232,6 @@ button#theme-toggle,
   word-break: break-word !important;
   line-height: 1.4 !important;
   margin-bottom: 0.5rem !important;
-}
-
-/* ========================================================
-   * RESPONSIVE BREAKPOINTS FIX (Prevent Overlap / Folding) *
-   ======================================================== */
-
-/* Desktop screens (>= 1024px): Side-by-Side 2 Columns */
-@media screen and (min-width: 1024px) {
-  .sidebar {
-    margin-top: 2.2rem !important;
-    min-width: 260px !important;
-    max-width: 300px !important;
-  }
-}
-
-/* Tablet & Mobile screens (< 1024px): Stacked Layout */
-@media screen and (max-width: 1023px) {
-  #main {
-    display: flex !important;
-    flex-direction: column !important;
-    padding: 1rem !important;
-  }
-
-  .sidebar {
-    position: static !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
-    margin: 1rem 0 1.5rem 0 !important;
-    float: none !important;
-  }
-
-  .page,
-  .archive,
-  .page__inner-wrap {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    float: none !important;
-  }
 }
 
 
