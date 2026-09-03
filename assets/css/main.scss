@@ -103,7 +103,7 @@ button#theme-toggle,
 
 
 /* ========================================================
-   3. Sidebar Profile Card (Left Column)
+   3. Sidebar Profile Card (Left Column) - Responsive
    ======================================================== */
 
 .sidebar,
@@ -113,13 +113,13 @@ button#theme-toggle,
 }
 
 .sidebar {
-  margin-top: 2.2rem !important;
   padding: 1.5rem !important;
   border-radius: 16px !important;
   border: 1px solid #D0E4FF !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
 
+/* Perfect Circular Profile Avatar */
 .author__avatar {
   display: block !important;
   width: 150px !important;
@@ -145,6 +145,7 @@ button#theme-toggle,
   border: none !important;
 }
 
+/* Word-wrapping for affiliations and URLs */
 .sidebar,
 .author__urls-wrapper,
 .author__urls {
@@ -160,8 +161,46 @@ button#theme-toggle,
   margin-bottom: 0.5rem !important;
 }
 
-.sidebar.sticky {
-  min-width: 250px !important;
+/* ========================================================
+   * RESPONSIVE BREAKPOINTS FIX (Prevent Overlap / Folding) *
+   ======================================================== */
+
+/* Desktop screens (>= 1024px): Side-by-Side 2 Columns */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    margin-top: 2.2rem !important;
+    min-width: 260px !important;
+    max-width: 300px !important;
+  }
+}
+
+/* Tablet & Mobile screens (< 1024px): Stacked Layout */
+@media screen and (max-width: 1023px) {
+  #main {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 1rem !important;
+  }
+
+  .sidebar {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 1rem 0 1.5rem 0 !important;
+    float: none !important;
+  }
+
+  .page,
+  .archive,
+  .page__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none !important;
+  }
 }
 
 
@@ -246,7 +285,6 @@ button#theme-toggle,
   text-decoration: none !important;
 }
 
-/* Category & Journal Badges */
 .pub-tag {
   display: inline-block !important;
   font-size: 0.72rem !important;
@@ -302,7 +340,7 @@ button#theme-toggle,
 
 .pillars-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
   gap: 1.2rem !important;
   margin: 1.5rem 0 !important;
 }
@@ -389,7 +427,7 @@ button#theme-toggle,
 
 .pi-details-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
   gap: 1.5rem !important;
   border-top: 1px dashed #e2e8f0 !important;
   padding-top: 1.2rem !important;
@@ -612,7 +650,7 @@ button#theme-toggle,
 
 .project-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
   gap: 1.4rem !important;
   margin: 1.5rem 0 !important;
 }
@@ -790,7 +828,7 @@ button#theme-toggle,
 
 .niche-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
   gap: 1.2rem !important;
   margin-top: 0.5rem !important;
 }
@@ -839,7 +877,7 @@ button#theme-toggle,
 
 .method-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
   gap: 1.2rem !important;
   margin: 1.5rem 0 !important;
 }
@@ -993,124 +1031,3 @@ button#theme-toggle,
 
 .btn-back { background: #f1f5f9 !important; color: #334155 !important; }
 .btn-inquire { background: #0d9488 !important; color: #ffffff !important; }
-/* ============================================================
-   News Page (/news/) — Card Grid & Accordion Styles
-   Append this block to the END of assets/css/main.scss
-   ============================================================ */
-
-.news-update-tag {
-  display: inline-block;
-  margin: 0.6rem 0 1.4rem 0;
-  padding: 0.5rem 1rem;
-  background: #F0F7FF;
-  border: 1px solid #D6E9FF;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  color: #1976D2;
-}
-
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1.2rem;
-}
-
-.news-card {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 1.1rem 1.3rem;
-  border: 1px solid #eef2f6;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.news-card:hover {
-  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
-  transform: translateY(-2px);
-}
-
-.news-card summary {
-  cursor: pointer;
-  list-style: none;
-  font-weight: 700;
-  font-size: 1.0rem;
-  line-height: 1.45;
-  color: #1e293b;
-}
-
-.news-card summary::-webkit-details-marker {
-  display: none;
-}
-
-.news-card summary::after {
-  content: "›";
-  float: right;
-  color: #94a3b8;
-  font-weight: 400;
-  transform: rotate(90deg);
-  transition: transform 0.2s ease;
-}
-
-.news-card[open] summary::after {
-  transform: rotate(270deg);
-}
-
-.news-source-tag {
-  display: inline-block;
-  font-size: 0.66rem;
-  font-weight: 700;
-  padding: 2px 9px;
-  border-radius: 10px;
-  margin-bottom: 6px;
-  letter-spacing: 0.2px;
-}
-
-.src-eurekalert { background: #E1F5FE; color: #0277BD; }
-.src-newsmedical { background: #E8F5E9; color: #2E7D32; }
-.src-mnt { background: #FFF3E0; color: #E65100; }
-
-.news-cat-badge {
-  display: inline-block;
-  font-size: 0.66rem;
-  font-weight: 700;
-  padding: 2px 9px;
-  border-radius: 10px;
-  margin-left: 6px;
-  margin-bottom: 6px;
-}
-
-.cat-cancer { background: #FCE4EC; color: #AD1457; }
-.cat-microbiome { background: #E0F2F1; color: #00695C; }
-.cat-hairnail { background: #F3E5F5; color: #6A1B9A; }
-.cat-epi { background: #E3F2FD; color: #1565C0; }
-
-.news-date-tag {
-  float: right;
-  font-size: 0.72rem;
-  color: #94a3b8;
-  font-weight: 500;
-}
-
-.news-summary-body {
-  margin-top: 0.7rem;
-  font-size: 0.9rem;
-  color: #475569;
-  line-height: 1.6;
-}
-
-.news-read-btn {
-  display: inline-block;
-  margin-top: 0.7rem;
-  padding: 6px 14px;
-  background: #1976D2;
-  color: #ffffff !important;
-  border-radius: 8px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  text-decoration: none !important;
-}
-
-.news-read-btn:hover {
-  background: #1259a3;
-}
