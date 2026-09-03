@@ -98,7 +98,8 @@ redirect_from:
 
 ---
 
-<!-- Affiliated Scholars -->
+👥 Affiliated Scholars
+
 <div class="pi-profile-box" style="margin-top: 2rem;">
   <div class="pi-header">
     <h2>Hyoung Soo Park, M.D., M.S.</h2>
