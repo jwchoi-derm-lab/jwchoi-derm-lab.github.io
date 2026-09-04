@@ -4,19 +4,19 @@ permalink: /projects/alopecia-areata-nail-disorders/
 author_profile: true
 toc: true
 toc_label: "Project Contents"
-toc_icon: "hand-dots"
+toc_icon: "chart-line"
 ---
 
 <div class="project-header-box" style="background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%) !important; border-left: 5px solid #2563eb !important;">
-  <div class="proj-meta-badge" style="color: #2563eb !important;">PHARMACOEPIDEMIOLOGY & ECTODERMAL APPENDAGE DISORDERS</div>
+  <div class="proj-meta-badge" style="color: #2563eb !important;">CLINICAL EPIDEMIOLOGY & RISK ANALYSIS</div>
   <h2 style="margin: 0.3rem 0 0.8rem 0; font-size: 1.35rem; color: #0f172a; line-height: 1.3;">Longitudinal Risk of Developing Nail Disorders in Patients with Alopecia Areata: A Nationwide Population-Based Matched Cohort Study</h2>
   <p class="proj-lead-text">
-    A nationwide population-based 1:5 matched cohort study evaluating the long-term cumulative incidence and independent risk trajectory of <b>nail apparatus disorders (nail pitting, dystrophy, and onycholysis)</b> according to <b>alopecia areata (AA) severity and disease duration</b>.
+    A nationwide, population-based 1:5 matched cohort study evaluating the long-term cumulative incidence, longitudinal hazard ratios, and risk trajectories of <b>nail disorders (pitting, dystrophy, Beau's lines, and onycholysis)</b> according to <b>alopecia areata severity and clinical course duration</b>.
   </p>
   <div class="proj-info-bar">
     <span><b>PI / Corresponding Author:</b> Jee Woong Choi, MD, PhD (Ajou Univ.)</span>
     <span><b>Study Type:</b> Nationwide Retrospective Matched Cohort (1:5 Matched)</span>
-    <span><b>Stack:</b> NHIS-NSC Database, Kaplan–Meier, Multivariable Cox Proportional-Hazards, Schoenfeld Residuals</span>
+    <span><b>Stack:</b> NHIS Administrative Claims (2004–2023), Kaplan–Meier, Cox Proportional Hazards, Schoenfeld Residuals</span>
   </div>
 </div>
 
@@ -24,123 +24,123 @@ toc_icon: "hand-dots"
 
 ## 🎯 Purpose of this Study
 
-Alopecia areata (AA) is a well-established autoimmune, non-scarring hair loss disorder driven by the collapse of hair follicle immune privilege. Because hair follicles and the nail apparatus both originate from the embryonic ectoderm and share structural, biological, and keratinized features, autoimmune attacks targeting follicular epitopes frequently extend to the nail matrix.
+Alopecia areata (AA) is a representative autoimmune, non-scarring hair loss disorder. Hair follicles and the nail apparatus originate from the embryonic ectoderm and share significant structural, biological, and keratinized properties. Prior small-scale observational studies have suggested that nail abnormalities occur frequently in patients with AA, likely due to shared immunological targets between the hair follicle and the nail matrix.
 
-While small-scale observational studies have reported various nail abnormalities (e.g., geometric pitting, trachyonychia, Beau's lines, and nail dystrophy) in patients with AA, large-scale, population-level longitudinal evidence assessing real-world incidence and risk factors has been lacking.
+However, large-scale, population-based epidemiological studies quantifying the exact cumulative incidence, excess risk compared with the general population, and the impact of AA clinical duration and severity on subsequent nail disorder risk have been lacking.
 
 This study aims to:
-- Establish a rigorous, nationwide population-based matched cohort (1:5 matching) using the Korean National Health Insurance Service (NHIS) database (2004–2023).
-- Quantify the long-term cumulative incidence and independent hazard ratio (HR) of developing incident nail disorders in patients with AA compared with matched controls.
-- Evaluate the biological gradient by stratifying the risk of nail disorders according to **AA disease severity (alopecia totalis/universalis vs. patchy AA)** and **clinical course duration (long-standing vs. episodic AA)**.
+- Establish a nationwide representative matched cohort from the Korean National Health Insurance Service (NHIS) claims database (2004–2023, 2.2% population sample) to track the long-term incidence of nail disorders in patients with AA compared with 1:5 matched controls.
+- Quantify the cumulative incidence (Kaplan–Meier) and estimate independent hazard ratios (HRs) via multivariable Cox proportional hazards modeling after rigorous adjustment for demographic and systemic confounding factors.
+- Perform epidemiological risk stratification to evaluate biological risk gradients across **disease severity (alopecia totalis/universalis vs. other AA)** and **clinical duration (long-standing vs. episodic AA)**.
 
 ---
 
-## 🔬 Overview & Rationale
+## 🔬 Overview & Epidemiological Framework
 
-Both the hair follicle and nail apparatus represent specialized ectodermal appendages. Autoimmune-mediated lymphocytic infiltration targeting the proximal nail matrix disrupts hard keratin synthesis, inducing structural nail plate abnormalities.
+By leveraging a 20-year longitudinal claims database, this study tracks incident nail disorders while eliminating misclassification through strict diagnostic thresholds, washout periods, and multivariable risk modeling.
 
-<!-- Modern 3-Tier Pathophysiological & Longitudinal Cohort Flow -->
+<!-- Modern 3-Tier Epidemiological Risk Architecture Flow -->
 <div class="study-flow-container">
   
-  <!-- Tier 1: Shared Autoimmune Trigger -->
+  <!-- Tier 1: Cohort Ingestion & Matching -->
   <div class="flow-tier-box tier-ingest" style="border-top-color: #2563eb !important;">
-    <div class="tier-badge" style="background: #dbeafe !important; color: #1e40af !important;">PRIMARY AUTOIMMUNE TRIGGER</div>
-    <h3>Alopecia Areata (Shared Ectodermal Autoimmune Attack)</h3>
-    <p>Autoimmune-mediated destruction and inflammatory cytokine release targeting hair follicle and nail matrix keratinocytes sharing embryonic ectodermal origins.</p>
+    <div class="tier-badge" style="background: #dbeafe !important; color: #1e40af !important;">STEP 1 · NATIONWIDE COHORT INGESTION & 1:5 MATCHING</div>
+    <h3>NHIS Claims Database (2004–2023) · AA Cohort vs. Matched Controls</h3>
+    <p>Identification of incident AA cases (≥3 separate diagnostic claims; ICD-10 L63) and 1:5 exact matching with non-AA controls based on index year, age, sex, and socioeconomic income strata after applying a 4-year washout period (2002–2005).</p>
   </div>
 
   <div class="flow-connector-arrow">
     <span class="connector-line"></span>
-    <span class="connector-text" style="color: #2563eb !important; background: #eff6ff !important; border-color: #bfdbfe !important;">Shared Epitope & Matrix Keratinization Defect</span>
+    <span class="connector-text" style="color: #2563eb !important; background: #eff6ff !important; border-color: #bfdbfe !important;">Longitudinal Follow-up & Confounder Adjustment</span>
     <span class="connector-line"></span>
   </div>
 
-  <!-- Tier 2: 3 Pathophysiological Vectors (3 Columns) -->
+  <!-- Tier 2: 3 Outcome & Stratification Vectors (3 Columns) -->
   <div class="niche-grid">
     
     <div class="niche-card" style="border-top-color: #2563eb !important;">
-      <div class="niche-icon">🔍</div>
-      <h4>Pitting & Trachyonychia</h4>
-      <span class="niche-tag" style="background: #eff6ff !important; color: #1d4ed8 !important;">Proximal Matrix Defect</span>
-      <p>Focal lymphocytic inflammation in the proximal nail matrix leads to defective parakeratosis and classical geometric pitting and roughness.</p>
+      <div class="niche-icon">📊</div>
+      <h4>AA-Associated Nail Changes</h4>
+      <span class="niche-tag" style="background: #eff6ff !important; color: #1d4ed8 !important;">Primary Endpoint</span>
+      <p>Tracking incident nail dystrophy (L60.3), pitting (L60.8), Beau's lines (L60.4), and onycholysis (L60.1) during longitudinal follow-up.</p>
     </div>
 
     <div class="niche-card" style="border-top-color: #4f46e5 !important;">
-      <div class="niche-icon">⚡</div>
-      <h4>Nail Dystrophy & Beau's Lines</h4>
-      <span class="niche-tag" style="background: #e0e7ff !important; color: #3730a3 !important;">Mitotic Arrest</span>
-      <p>Episodic, severe inflammatory surges cause transient mitotic arrest of matrix keratinocytes, resulting in horizontal grooves and brittle dystrophic plates.</p>
+      <div class="niche-icon">⚖️</div>
+      <h4>Mechanical Comparator</h4>
+      <span class="niche-tag" style="background: #e0e7ff !important; color: #3730a3 !important;">Ingrown Nail Control</span>
+      <p>Analyzing ingrown nails (L60.0) as a distinct mechanical/traumatic comparator to validate disease-specific autoimmune risk.</p>
     </div>
 
     <div class="niche-card" style="border-top-color: #7c3aed !important;">
-      <div class="niche-icon">🩺</div>
-      <h4>Onycholysis & Bed Damage</h4>
-      <span class="niche-tag" style="background: #ede9fe !important; color: #5b21b6 !important;">Hyponychial Detachment</span>
-      <p>Distal nail bed involvement destabilizes nail plate adhesion, resulting in secondary distal detachment and chronic subungual inflammation.</p>
+      <div class="niche-icon">📈</div>
+      <h4>Severity & Duration Gradients</h4>
+      <span class="niche-tag" style="background: #ede9fe !important; color: #5b21b6 !important;">Subgroup Stratification</span>
+      <p>Evaluating risk gradients across severe AA (AT L63.0 / AU L63.1) and long-standing disease (>1 year duration and ≥12 outpatient visits).</p>
     </div>
 
   </div>
 
   <div class="flow-connector-arrow" style="margin-top: 1.2rem;">
     <span class="connector-line"></span>
-    <span class="connector-text" style="color: #2563eb !important; background: #eff6ff !important; border-color: #bfdbfe !important;">Long-Term Longitudinal Nationwide Cohort Tracking (1:5 Matched)</span>
+    <span class="connector-text" style="color: #2563eb !important; background: #eff6ff !important; border-color: #bfdbfe !important;">Time-to-Event Survival Modeling (Kaplan–Meier & Cox Regression)</span>
     <span class="connector-line"></span>
   </div>
 
-  <!-- Tier 3: Endpoint -->
+  <!-- Tier 3: Epidemiological Outcome -->
   <div class="flow-tier-box tier-cohort" style="border-top-color: #1e40af !important;">
     <div class="tier-badge" style="background: #dbeafe !important; color: #1e40af !important;">EPIDEMIOLOGICAL CLINICAL ENDPOINT</div>
-    <h3>Incident Nail Apparatus Disorder Risk & Severity Gradients</h3>
-    <p>Time-to-event survival modeling (Kaplan–Meier & multivariable Cox regression) across the nationwide AA cohort vs. 1:5 matched controls to determine independent hazard ratios stratified by severity (AT/AU) and chronicity.</p>
+    <h3>Definitive Risk Quantification & Long-Term Prognostic Evidence</h3>
+    <p>Providing population-scale cumulative incidence curves and adjusted hazard ratios (aHRs) to guide targeted clinical nail surveillance in alopecia areata patients.</p>
   </div>
 
 </div>
 
 ---
 
-## 🛠️ Methodological Features
+## 🛠️ Methodological & Epidemiological Features
 
 <div class="method-grid">
   
   <div class="method-card">
     <div class="method-icon">🏛️</div>
-    <h4>Nationwide Representative 1:5 Matched Cohort</h4>
-    <p>Constructed a representative cohort from the Korean NHIS claims database (2004–2023, 2.2% population sample), matching AA patients to controls at a 1:5 ratio by index year, age, sex, and income level.</p>
+    <h4>Nationwide Population-Based 1:5 Matching</h4>
+    <p>Extracted a representative cohort from the Korean NHIS database (2004–2023, 2.2% population sample), matching AA patients to controls at a 1:5 ratio by index year, age, sex, and income level.</p>
   </div>
 
   <div class="method-card">
     <div class="method-icon">🛡️</div>
     <h4>Strict Washout & Confounder Elimination</h4>
-    <p>Applied a 4-year baseline washout period (2002–2005) to capture incident nail disorders, excluded malignancies to remove chemotherapy-induced onychotoxicity, and adjusted for systemic & cutaneous confounders.</p>
+    <p>Applied a 4-year baseline washout period (2002–2005) to capture incident cases only. Excluded malignancies to eliminate treatment-induced onychotoxicity and adjusted for systemic comorbidities and pre-existing inflammatory dermatoses.</p>
   </div>
 
   <div class="method-card">
     <div class="method-icon">📈</div>
-    <h4>Rigorous Time-to-Event Survival Modeling</h4>
-    <p>Calculated cumulative event incidence via Kaplan–Meier estimation with log-rank testing and performed multivariable Cox proportional-hazards regression verified by Schoenfeld residuals.</p>
+    <h4>Time-to-Event Survival Analysis</h4>
+    <p>Estimated cumulative incidence via Kaplan–Meier curves with log-rank testing. Quantified independent risk using multivariable Cox proportional hazards models rigorously verified with Schoenfeld residuals.</p>
   </div>
 
   <div class="method-card">
-    <div class="method-icon">🔬</div>
-    <h4>Severity & Chronicity Stratification</h4>
-    <p>Evaluated biological gradients by categorizing severe AA (alopecia totalis L63.0 / universalis L63.1) and long-standing AA (>1 year duration and ≥12 visits) to delineate disease burden impacts.</p>
+    <div class="method-icon">🔍</div>
+    <h4>Severity & Chronicity Subgroup Analysis</h4>
+    <p>Stratified risk by AA disease severity (alopecia totalis/universalis vs. patchy AA) and clinical course (long-standing vs. episodic AA) to determine the dose-response relationship of disease burden.</p>
   </div>
 
 </div>
 
 ---
 
-## 💡 Translational & Clinical Significance
+## 💡 Epidemiological & Clinical Significance
 
-1. **Ectodermal Appendage Cross-Talk Validation**: Provides definitive, population-level epidemiological evidence confirming the common autoimmune susceptibility linking the follicular and nail matrix compartments.
-2. **Proactive Nail Unit Surveillance**: Demonstrates that patients with severe (AT/AU) or long-standing AA harbor an elevated risk of severe onychodystrophy, emphasizing the necessity of early baseline nail examinations in clinical practice.
-3. **Comprehensive Management Strategy**: Informs holistic dermatologic care where unexplained nail changes in AA patients are recognized as integral manifestations of systemic appendage autoimmunity, rather than isolated mechanical trauma.
+1. **First Nationwide Longitudinal Risk Quantification**: Overcomes the limitations of small cross-sectional surveys by establishing the true population-level risk of incident nail disorders in patients with alopecia areata.
+2. **Biological Gradient & Severity Correlation**: Demonstrates that patients with extensive (AT/AU) or long-standing AA have a substantially higher hazard of developing severe onychodystrophy, confirming a strong clinical risk gradient.
+3. **Evidence-Based Clinical Surveillance**: Informs clinical guidelines on the necessity of proactive nail examination and early dermatologic intervention in patients presenting with chronic or severe alopecia areata.
 
 ---
 
 ## 🧭 Project Workflow & Current Progress
 
-<!-- Universal Standard 7-Step Progress Bar (Manuscript Prep Active) -->
+<!-- Universal Standard 7-Step Progress Bar -->
 <div class="arrow-progress-container">
   <div class="arrow-step step-done step-c1">
     <span class="step-name">Concept</span>
@@ -171,7 +171,7 @@ Both the hair follicle and nail apparatus represent specialized ectodermal appen
   <div class="status-badge-pulse" style="background: #2563eb !important;">CURRENT STAGE</div>
   <div class="status-content-wrap">
     <h3 style="color: #1e3a8a !important;">Stage: Manuscript Preparation Underway</h3>
-    <p style="color: #3b82f6 !important;">The nationwide longitudinal 1:5 matched cohort statistical analyses and Kaplan–Meier survival modeling have been completed; the research manuscript is actively being drafted for submission.</p>
+    <p style="color: #3b82f6 !important;">All population-based 1:5 matched cohort statistical analyses, Kaplan–Meier cumulative incidence estimates, and severity/duration stratified Cox proportional hazards regressions have been completed. The manuscript is actively being drafted for submission.</p>
   </div>
 </div>
 
