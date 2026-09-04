@@ -101,15 +101,15 @@ author_profile: true
   </p>
 </a>
 
-<!-- Project Card: AA and Nail Disorders -->
+<!-- Project Card: AA and Nail Disorders Risk Analysis -->
 <a href="/projects/alopecia-areata-nail-disorders/" class="proj-card card-epi">
   <div class="proj-card-header">
-    <span class="proj-badge badge-epi">Nationwide Matched Cohort</span>
+    <span class="proj-badge badge-epi">Clinical Epidemiology</span>
     <span class="proj-status">Manuscript Prep</span>
   </div>
-  <h3 class="proj-card-title">Longitudinal Risk of Developing Nail Disorders in Alopecia Areata: A 1:5 Matched Cohort Study</h3>
+  <h3 class="proj-card-title">Longitudinal Risk of Developing Nail Disorders in Alopecia Areata: A Nationwide Matched Cohort Study</h3>
   <p class="pillar-desc">
-    Nationwide population-scale investigation of incident onychodystrophy, pitting, and onycholysis according to alopecia areata severity (AT/AU) and disease chronicity.
+    Population-scale risk analysis of incident nail dystrophy, pitting, and onycholysis according to alopecia areata severity (AT/AU) and disease duration.
   </p>
 </a>
 
