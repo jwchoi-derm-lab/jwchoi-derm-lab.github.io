@@ -1,160 +1,161 @@
 ---
-layout: default
+layout: single
 permalink: /projects/normal-scalp-shotgun-metagenomics/
-title: "Multi-Kingdom Scalp Metagenome Reference: 8 BioProjects"
 author_profile: true
+toc: true
+toc_label: "Project Contents"
+toc_icon: "dna"
 ---
 
-<div class="project-header-box" style="border-left-color: #0d9488; background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%);">
-  <div class="proj-meta-badge" style="color: #0d9488;">PROJECT #12 · INTEGRATIVE SHOTGUN METAGENOMICS</div>
-  <h1 class="hero-title" style="margin-bottom: 0.6rem;">Cross-Cohort Shotgun Metagenomic Architecture of the Healthy Human Scalp Microbiome</h1>
+<div class="project-header-box" style="background: linear-gradient(135deg, #f0fdf4 0%, #f8fafc 100%) !important; border-left: 5px solid #059669 !important;">
+  <div class="proj-meta-badge" style="color: #059669 !important;">BIOINFORMATICS & SCALP SHOTGUN METAGENOMICS</div>
+  <h2 style="margin: 0.3rem 0 0.8rem 0; font-size: 1.35rem; color: #0f172a; line-height: 1.3;">A Comprehensive Shotgun Metagenomic Investigation of the Normal Scalp Microbiome: Public SRA Meta-Analysis Across 8 BioProjects</h2>
   <p class="proj-lead-text">
-    A standardized, cross-cohort multi-kingdom meta-analysis synthesizing raw whole-metagenome shotgun sequencing datasets from <strong>8 independent NCBI SRA BioProjects</strong>. This study establishes a unified, ultra-high-resolution reference atlas of the normal scalp microbiome spanning <strong>bacteria, fungi (mycobiome), viruses (virome), and uncultivated microbial dark matter</strong>.
+    An integrated multi-kingdom bioinformatic meta-analysis utilizing <b>public shotgun metagenomic datasets</b> from 8 NCBI SRA BioProjects to reconstruct <b>Metagenome-Assembled Genomes (MAGs)</b> and map the comprehensive bacterial, fungal (mycobiome), and viral (virome) landscape of the healthy human scalp.
   </p>
   <div class="proj-info-bar">
-    <span>🔬 <strong>Modality:</strong> Whole-Genome Shotgun (WGS) & Multi-Kingdom MAGs</span>
-    <span>👥 <strong>Data Source:</strong> 8 Public BioProjects (NCBI SRA Scalp Swabs)</span>
-    <span>📊 <strong>Taxa Covered:</strong> Bacteria, Fungi (Malassezia spp.), Viruses & Phages</span>
-    <span>📍 <strong>Status:</strong> Analysis & Reconstruction</span>
+    <span><b>PI:</b> Jee Woong Choi, MD, PhD (Ajou Univ.)</span>
+    <span><b>Study Type:</b> Shotgun Metagenomic Meta-Analysis (8 BioProjects)</span>
+    <span><b>Stack:</b> Kraken2, MEGAHIT, GUNC, GTDB-Tk, EukCC, RVDB</span>
   </div>
 </div>
 
-<!-- Standard 7-Stage Workflow Ribbon -->
+---
+
+## 🎯 Purpose of this Study
+
+The human scalp represents a unique and complex cutaneous microenvironment characterized by dense terminal hair follicles, rich sebum excretion, and constant environmental exposure. Although bacterial dysbiosis has been implicated in scalp disorders such as alopecia areata, androgenetic alopecia, and seborrheic dermatitis, establishing a definitive baseline has been constrained by small cohorts and the kingdom-restricted resolution of 16S rRNA amplicon sequencing.
+
+This study aims to:
+- Establish a standardized, large-scale shotgun metagenomic meta-analysis of the normal scalp surface microbiome across **8 public NCBI SRA BioProjects** using swab-derived datasets.
+- Perform high-resolution multi-kingdom taxonomic profiling across **bacteria, fungi (Malassezia spp.), viruses (bacteriophages & eukaryotic viruses), and archaea**.
+- Reconstruct high-quality **Metagenome-Assembled Genomes (MAGs)** and delineate the core metabolic pathways and trans-kingdom ecological equilibrium of the healthy scalp.
+
+---
+
+## 🔬 Overview & Rationale
+
+Shotgun metagenomics enables species- and strain-level identification, viral detection, and functional gene mapping, providing a comprehensive multi-kingdom reference atlas for dermatologic research.
+
+<!-- Modern 3-Tier Multi-Kingdom Metagenomic Flow -->
+<div class="study-flow-container">
+  
+  <div class="flow-tier-box tier-ingest" style="border-top-color: #059669 !important;">
+    <div class="tier-badge" style="background: #d1fae5 !important; color: #065f46 !important;">STEP 1 · DATA INGESTION & HOST DECONTAMINATION</div>
+    <h3>Public SRA Shotgun Datasets (8 Scalp Swab BioProjects)</h3>
+    <p>Automated retrieval of raw whole-metagenome sequencing runs from 8 NCBI SRA BioProjects, adapter trimming, Phred quality filtering (>Q20), and rigorous human host DNA depletion via reference genome (GRCh38/hg38) alignment.</p>
+  </div>
+
+  <div class="flow-connector-arrow">
+    <span class="connector-line"></span>
+    <span class="connector-text" style="color: #059669 !important; background: #f0fdf4 !important; border-color: #a7f3d0 !important;">Multi-Kingdom Metagenomic Assembly & Deconvolution</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <div class="niche-grid">
+    
+    <div class="niche-card" style="border-top-color: #059669 !important;">
+      <div class="niche-icon">🧬</div>
+      <h4>Bacterial MAGs & Strains</h4>
+      <span class="niche-tag" style="background: #f0fdf4 !important; color: #065f46 !important;">MEGAHIT + GTDB-Tk</span>
+      <p>De novo assembly, tetranucleotide binning, GUNC chimera filtering, and 95% ANI dereplication to resolve Cutibacterium and Staphylococcus strain variations.</p>
+    </div>
+
+    <div class="niche-card" style="border-top-color: #d97706 !important;">
+      <div class="niche-icon">🍄</div>
+      <h4>Fungal & Eukaryotic MAGs</h4>
+      <span class="niche-tag" style="background: #fef3c7 !important; color: #92400e !important;">EukCC + BUSCO</span>
+      <p>Dedicated eukaryotic binning and lineage-specific completeness profiling to characterize Malassezia restricta, M. globosa, and uncultured fungal clades.</p>
+    </div>
+
+    <div class="niche-card" style="border-top-color: #0284c7 !important;">
+      <div class="niche-icon">🦠</div>
+      <h4>Virome & Phage Discovery</h4>
+      <span class="niche-tag" style="background: #e0f2fe !important; color: #0369a1 !important;">RVDB + iTOL Phylogenetics</span>
+      <p>Profiling scalp bacteriophages (Cutibacterium/Staphylococcus phages) and eukaryotic viral families via conserved marker mapping and de novo assembly.</p>
+    </div>
+
+  </div>
+
+  <div class="flow-connector-arrow" style="margin-top: 1.2rem;">
+    <span class="connector-line"></span>
+    <span class="connector-text" style="color: #059669 !important; background: #f0fdf4 !important; border-color: #a7f3d0 !important;">Cross-Cohort Normalization & Metabolic Pathway Reconstruction</span>
+    <span class="connector-line"></span>
+  </div>
+
+  <div class="flow-tier-box tier-cohort" style="border-top-color: #047857 !important;">
+    <div class="tier-badge" style="background: #d1fae5 !important; color: #065f46 !important;">TRANSLATIONAL OUTCOME</div>
+    <h3>Comprehensive Multi-Kingdom Reference Atlas of the Healthy Scalp</h3>
+    <p>Establishing the foundational multi-kingdom baseline to differentiate normal physiological variation from pathologic dysbiosis across hair and scalp disorders.</p>
+  </div>
+
+</div>
+
+---
+
+## 🛠️ Methodological Features
+
+<div class="method-grid">
+  
+  <div class="method-card">
+    <div class="method-icon">📥</div>
+    <h4>Standardized Public SRA Harmonization</h4>
+    <p>Automated pipeline ingesting whole-genome shotgun datasets from 8 independent BioProjects, applying uniform adapter removal and stringent host-read subtraction.</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-icon">🔄</div>
+    <h4>Multi-Kingdom Kraken2 Profiling</h4>
+    <p>Standardized k-mer taxonomic assignment against a curated multi-kingdom database (bacteria, fungi, viruses), normalized for sequencing depth and cross-study comparability.</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-icon">🧩</div>
+    <h4>Multi-Kingdom De Novo MAG Binning</h4>
+    <p>Integration of MEGAHIT assembly, dRep 95% ANI clustering, GUNC quality assessment, and GTDB-Tk/EukCC taxonomic assignment across kingdoms.</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-icon">🔬</div>
+    <h4>Viral & Phage Community Characterization</h4>
+    <p>In silico discovery leveraging RVDB and curated prophage databases to resolve scalp phage-host dynamics, viral speciation, and phylogenetic placement (iTOL).</p>
+  </div>
+
+</div>
+
+---
+
+## 💡 Translational & Clinical Significance
+
+1. **Definitive Multi-Kingdom Reference Baseline**: Establishes the first standardized, multi-kingdom shotgun metagenomic reference atlas for the normal human scalp across multiple independent public cohorts.
+2. **Beyond Bacteria to Fungi and Virome**: Expands beyond 16S amplicon limitations to systematically resolve *Malassezia* clade equilibrium, bacteriophage-bacteria regulation, and eukaryotic viral residents.
+3. **Open Science & Benchmarking Platform**: Provides a transparent, reproducible computational workflow to benchmark disease-specific dysbiosis in alopecia areata, androgenetic alopecia, and seborrheic dermatitis.
+
+---
+
+## 🧭 Project Workflow & Current Progress
+
 <div class="arrow-progress-container">
-  <div class="arrow-step step-c1">
-    <span class="step-badge">01</span>
-    <span class="step-name">SRA Acquisition</span>
-  </div>
-  <div class="arrow-step step-c2">
-    <span class="step-badge">02</span>
-    <span class="step-name">Host Depletion</span>
-  </div>
-  <div class="arrow-step step-c3">
-    <span class="step-badge">03</span>
-    <span class="step-name">Taxonomic Profiling</span>
-  </div>
-  <div class="arrow-step step-c4">
-    <span class="step-badge">04</span>
-    <span class="step-name">Multi-Kingdom MAGs</span>
-  </div>
-  <div class="arrow-step step-c5">
-    <span class="step-badge">05</span>
-    <span class="step-name">Virome / Mycobiome</span>
-  </div>
-  <div class="arrow-step step-c6 step-active">
-    <span class="step-badge">06</span>
-    <span class="step-name">Comparative Profiling</span>
-  </div>
-  <div class="arrow-step step-c7">
-    <span class="step-badge">07</span>
-    <span class="step-name">Reference Atlas</span>
-  </div>
+  <div class="arrow-step step-done step-c1"><span class="step-name">Concept</span></div>
+  <div class="arrow-step step-done step-c2"><span class="step-name">IRB &<br>Initiation</span></div>
+  <div class="arrow-step step-done step-c3"><span class="step-name">Data<br>Acquisition</span></div>
+  <div class="arrow-step step-active step-c4"><span class="step-badge">CURRENT</span><span class="step-name">Analysis &<br>Viz</span></div>
+  <div class="arrow-step step-pending step-c5"><span class="step-name">Manuscript<br>Prep</span></div>
+  <div class="arrow-step step-pending step-c6"><span class="step-name">Peer Review</span></div>
+  <div class="arrow-step step-pending step-c7"><span class="step-name">Publication</span></div>
 </div>
 
-<!-- Active Stage Highlight Box -->
-<div class="status-highlight-card" style="border-left-color: #0d9488; background: #f0fdfa;">
-  <div class="status-badge-pulse" style="background: #0d9488;">CURRENT STAGE: 06</div>
+<div class="status-highlight-card" style="background: #f0fdf4 !important; border-left-color: #059669 !important;">
+  <div class="status-badge-pulse" style="background: #059669 !important;">CURRENT STAGE</div>
   <div class="status-content-wrap">
-    <h3 style="color: #115e59;">Comparative Profiling & Multi-Kingdom Baseline Harmonization</h3>
-    <p style="color: #0f766e;">
-      Harmonizing cross-study batch effects across 8 BioProjects, integrating bacterial species-level strain abundances with fungal (Malassezia) and viral (phage & eukaryotic virus) genomic assemblies to construct the definitive normal scalp baseline.
-    </p>
+    <h3 style="color: #064e3b !important;">Stage: Metagenomic Analysis & Visualization Underway</h3>
+    <p style="color: #047857 !important;">Public SRA shotgun datasets from 8 BioProjects have been acquired and host-depleted; multi-kingdom MAG binning, fungal/viral profiling, and diversity metrics are actively in progress.</p>
   </div>
 </div>
 
 ---
-
-## 📌 Background & Scientific Rationale
-
-The human scalp represents an ecologically distinct, lipid-rich cutaneous niche characterized by high follicular density, active sebum secretion, and continuous exposure to environmental stressors. While prior investigations into scalp disorders (such as alopecia areata, androgenetic alopecia, and seborrheic dermatitis) have largely relied on **16S rRNA amplicon sequencing**, several critical gaps remain:
-
-1. **Resolution Constraints:** 16S amplicon data are limited to genus-level classifications and cannot distinguish pathogenic strains from commensal strains (e.g., specific *Cutibacterium acnes* phylotypes vs. *Staphylococcus epidermidis/capitis* strains).
-2. **Kingdom-Blind Blindspots:** 16S sequencing exclusively profiles bacteria, completely omitting fungal communities (such as *Malassezia restricta* and *M. globosa*), bacteriophages, and eukaryotic viruses that play fundamental roles in scalp homeostasis.
-3. **Cohort & Batch Heterogeneity:** Independent shotgun datasets exist in the public domain (NCBI SRA), but differences in DNA extraction, sequencing platforms, and informatics pipelines have prevented the establishment of a cohesive baseline.
-
-This project addresses these challenges by applying a **standardized, reproducible bioinformatics pipeline** to 8 publicly available shotgun metagenomic BioProjects, providing a strain-level, multi-kingdom reference for translational scalp research.
-
----
-
-## 🎯 Research Objectives
-
-<div class="pillars-grid">
-  <div class="pillar-card">
-    <div class="pillar-icon">🧬</div>
-    <div class="pillar-content">
-      <h3>Multi-Kingdom Taxonomic Resolution</h3>
-      <p>Simultaneously characterize bacterial, fungal (mycobiome), and viral (virome) communities on the normal human scalp surface at species and strain levels.</p>
-    </div>
-  </div>
-  <div class="pillar-card">
-    <div class="pillar-icon">🧩</div>
-    <div class="pillar-content">
-      <h3>Multi-Kingdom MAGs Reconstruction</h3>
-      <p>Perform <em>de novo</em> assembly and binning to construct high-quality Metagenome-Assembled Genomes (MAGs) of uncultivated commensal strains and resident phages.</p>
-    </div>
-  </div>
-  <div class="pillar-card">
-    <div class="pillar-icon">🌐</div>
-    <div class="pillar-content">
-      <h3>Cross-Study Harmonization</h3>
-      <p>Mitigate cross-cohort technical batch effects across 8 independent BioProjects using CLR transformations and standardized host depletion.</p>
-    </div>
-  </div>
-  <div class="pillar-card">
-    <div class="pillar-icon">📈</div>
-    <div class="pillar-content">
-      <h3>Establish Health Baselines</h3>
-      <p>Define quantitative normal ranges for the <em>Cutibacterium</em>-to-<em>Staphylococcus</em> ratio, <em>Malassezia</em> clade distribution, and functional metabolic resistomes.</p>
-    </div>
-  </div>
-</div>
-
----
-
-## 🔬 Study Design & Multi-Kingdom Pipeline
-
-The study utilizes high-throughput shotgun metagenomic sequencing runs from **8 public BioProjects** deposited in the NCBI Sequence Read Archive (SRA), derived specifically from scalp swab samples of healthy individuals.
-
-```
-       [ 8 Public BioProjects (NCBI SRA Scalp Swabs) ]
-                              │
-                              ▼
-        [ Step 1: Preprocessing & Human Host Depletion ]
-          - Adapter & Low-Quality Trimming (fastp / MultiQC)
-          - Stringent Host Removal (Bowtie2 vs. hg38/GRCh38)
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        ▼                     ▼                     ▼
- [ 1. Bacteriome ]     [ 2. Mycobiome ]      [ 3. Virome & Phage ]
-  • Kraken2 / Bracken   • Fungal Marker DB    • RVDB / Curated NCBI
-  • MEGAHIT Assembly    • EukCC / BUSCO       • De novo Prophage Mining
-  • GTDB-Tk & dRep MAGs • Malassezia Clades   • Host-Phage Interaction
-        └─────────────────────┬─────────────────────┘
-                              │
-                              ▼
-       [ Multi-Kingdom Functional & Ecological Integration ]
-         - HUMAnN3 / MetaCyc Core Metabolic Pathway Profiling
-         - Trans-Kingdom Inter-Species Correlation Networks
-         - Robust Reference Dataset for Scalp Dysbiosis
-```
-
-### 1. Quality Control & Host Decontamination
-Raw shotgun paired-end reads are filtered to remove low-quality bases (Phred score < 25) and sequencing adapters. Given the high host DNA content typical of cutaneous swab samples, reads are aligned against the human reference genome (`GRCh38/hg38`) via Bowtie2. Only non-human, high-quality microbial reads are retained for downstream multi-kingdom reconstruction.
-
-### 2. Multi-Kingdom MAG Reconstruction & Profiling
-- **Bacterial MAGs:** Unmapped reads undergo *de novo* assembly using MEGAHIT. Contigs are binned via tetranucleotide frequency and coverage profiles. Assembly quality and contamination are assessed using CheckM/GUNC, dereplicated at 95% ANI via dRep, and classified with GTDB-Tk.
-- **Fungal Profiling (Mycobiome):** High-depth eukaryotic binning combined with EukCC and lineage-specific BUSCO evaluations is applied to resolve *Malassezia restricta*, *Malassezia globosa*, and other cutaneous fungal commensals.
-- **Virome & Bacteriophage Discovery:** Both reference-based mapping against the Reference Viral Database (RVDB) and *in silico* prophage identification are implemented to characterize resident scalp bacteriophages (e.g., *Cutibacterium* and *Staphylococcus* phages) and eukaryotic virus families.
-
----
-
-## 💡 Scientific Significance & Clinical Impact
-
-- **First Multi-Kingdom Scalp Metagenomic Reference:** Bridges the gap left by 16S rRNA surveys by delivering a comprehensive atlas of bacterial strains, fungal species (*Malassezia*), and viral/phage networks on the normal scalp.
-- **Foundational Baseline for Hair & Scalp Disorders:** Provides the essential control baseline required to distinguish true microbial dysbiosis from natural physiological variation in alopecia areata, androgenetic alopecia, and seborrheic dermatitis.
-- **Open Science & Reproducible Workflows:** All computational pipelines, host-depletion protocols, and curated MAG catalogs are released as open-access bioinformatics workflows for the global dermatologic community.
 
 <div class="project-nav-footer">
-  <a href="/projects/" class="btn-back">← Back to Projects</a>
-  <a href="mailto:jwchoi.md@gmail.com" class="btn-inquire">Inquire Collaboration</a>
+  <a href="/projects/" class="btn-back">← Back to Projects Overview</a>
+  <a href="mailto:jwchoi.md@gmail.com" class="btn-inquire">✉️ Inquire for Collaboration</a>
 </div>
