@@ -140,7 +140,7 @@ Both the hair follicle and nail apparatus represent specialized ectodermal appen
 
 ## 🧭 Project Workflow & Current Progress
 
-<!-- Universal Standard 7-Step Progress Bar -->
+<!-- Universal Standard 7-Step Progress Bar (Manuscript Prep Active) -->
 <div class="arrow-progress-container">
   <div class="arrow-step step-done step-c1">
     <span class="step-name">Concept</span>
@@ -154,11 +154,11 @@ Both the hair follicle and nail apparatus represent specialized ectodermal appen
   <div class="arrow-step step-done step-c4">
     <span class="step-name">Analysis &<br>Viz</span>
   </div>
-  <div class="arrow-step step-done step-c5">
+  <div class="arrow-step step-active step-c5">
+    <span class="step-badge">CURRENT</span>
     <span class="step-name">Manuscript<br>Prep</span>
   </div>
-  <div class="arrow-step step-active step-c6">
-    <span class="step-badge">CURRENT</span>
+  <div class="arrow-step step-pending step-c6">
     <span class="step-name">Peer Review</span>
   </div>
   <div class="arrow-step step-pending step-c7">
@@ -170,8 +170,8 @@ Both the hair follicle and nail apparatus represent specialized ectodermal appen
 <div class="status-highlight-card" style="background: #eff6ff !important; border-left-color: #2563eb !important;">
   <div class="status-badge-pulse" style="background: #2563eb !important;">CURRENT STAGE</div>
   <div class="status-content-wrap">
-    <h3 style="color: #1e3a8a !important;">Stage: Submission & Peer Review Underway</h3>
-    <p style="color: #3b82f6 !important;">The nationwide longitudinal matched cohort manuscript investigating the cumulative incidence and severity-stratified risk of nail disorders in alopecia areata is currently under expert peer review.</p>
+    <h3 style="color: #1e3a8a !important;">Stage: Manuscript Preparation Underway</h3>
+    <p style="color: #3b82f6 !important;">The nationwide longitudinal 1:5 matched cohort statistical analyses and Kaplan–Meier survival modeling have been completed; the research manuscript is actively being drafted for submission.</p>
   </div>
 </div>
 
