@@ -93,7 +93,7 @@ author_profile: true
 <a href="/projects/normal-scalp-shotgun-metagenomics/" class="proj-card card-microbiome">
   <div class="proj-card-header">
     <span class="proj-badge badge-microbiome">Multi-Kingdom Shotgun</span>
-    <span class="proj-status">In Progress</span>
+    <span class="proj-status">Analysis & Viz</span>
   </div>
   <h3 class="proj-card-title">Cross-Cohort Multi-Kingdom Shotgun Metagenomics of the Normal Scalp: 8 BioProjects</h3>
   <p class="pillar-desc">
