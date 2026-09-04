@@ -89,4 +89,16 @@ author_profile: true
     <h3 class="proj-card-title">A Multi-Omics Investigation into the Tumorigenic Roles of the Skin Microbiome and Microbial Dark Matter in Skin Cancer</h3>
   </a>
 
+  <!-- Project Card: Normal Scalp Shotgun Metagenomics -->
+<a href="/projects/normal-scalp-shotgun-metagenomics/" class="proj-card card-microbiome">
+  <div class="proj-card-header">
+    <span class="proj-badge badge-microbiome">Multi-Kingdom Shotgun</span>
+    <span class="proj-status">In Progress</span>
+  </div>
+  <h3 class="proj-card-title">Cross-Cohort Multi-Kingdom Shotgun Metagenomics of the Normal Scalp: 8 BioProjects</h3>
+  <p class="pillar-desc">
+    Harmonized multi-kingdom metagenomic profiling and MAG reconstruction of bacteria, fungi (Malassezia), and virome/phages across 8 independent NCBI SRA cohorts.
+  </p>
+</a>
+
 </div>
