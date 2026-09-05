@@ -96,9 +96,6 @@ author_profile: true
     <span class="proj-status">Analysis & Viz</span>
   </div>
   <h3 class="proj-card-title">Cross-Cohort Multi-Kingdom Shotgun Metagenomics of the Normal Scalp: 8 BioProjects</h3>
-  <p class="pillar-desc">
-    Harmonized multi-kingdom metagenomic profiling and MAG reconstruction of bacteria, fungi (Malassezia), and virome/phages across 8 independent NCBI SRA cohorts.
-  </p>
 </a>
 
 <!-- Project Card: AA and Nail Disorders Risk Analysis -->
@@ -108,9 +105,6 @@ author_profile: true
     <span class="proj-status">Manuscript Prep</span>
   </div>
   <h3 class="proj-card-title">Longitudinal Risk of Developing Nail Disorders in Alopecia Areata: A Nationwide Matched Cohort Study</h3>
-  <p class="pillar-desc">
-    Population-scale risk analysis of incident nail dystrophy, pitting, and onycholysis according to alopecia areata severity (AT/AU) and disease duration.
-  </p>
 </a>
 
 </div>
