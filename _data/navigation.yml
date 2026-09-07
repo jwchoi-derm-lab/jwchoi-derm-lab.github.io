@@ -9,5 +9,5 @@ main:
     url: /journal-updates/
   - title: "News"
     url: /news/
-  - title: "Guestbook"
+  - title: "Discussion"
     url: /guestbook/
