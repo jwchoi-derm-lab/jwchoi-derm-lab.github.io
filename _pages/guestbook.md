@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Guestbook & Discussion Board"
+title: "Discussion Board"
 permalink: /guestbook/
 author_profile: true
 ---
@@ -26,7 +26,7 @@ author_profile: true
 </style>
 
 <p class="page__lead">
-  Leave a message, ask a question about our research, or start a discussion. All comments are hosted directly on GitHub Discussions, so replies are posted here in real time.
+  Leave a message, ask a question about our research, or start a discussion. All comments are hosted directly on GitHub Discussions, so replies are posted here.
 </p>
 
 <div class="guestbook-intro-box">
