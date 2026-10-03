@@ -26,7 +26,7 @@ author_profile: true
   Curated literature reviews and computational summaries from leading dermatology journals. Sourced automatically each month via the PubMed E-utilities API and summarized with the Gemini API, filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>.
 </p>
 
-<div class="news-update-tag">🔄 Last auto-update covers: <b>August 2026</b> · Auto-refreshes on the 20th of each month</div>
+<div class="news-update-tag">🔄 Last auto-update covers: <b>August 2026</b> </div>
 
 <div class="journal-nav-bar">
   <a href="#jaad" class="jlink jlink-jaad">JAAD</a>
