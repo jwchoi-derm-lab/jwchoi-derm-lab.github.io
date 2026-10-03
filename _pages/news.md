@@ -1,7 +1,7 @@
 ---
-layout: archive
-title: "News: Skin Science in the Media"
+layout: single
 permalink: /news/
+title: "News: Skin Science in the Media"
 author_profile: true
 ---
 
