@@ -1,7 +1,7 @@
 ---
-layout: single
-permalink: /news/
+layout: archive
 title: "News: Skin Science in the Media"
+permalink: /news/
 author_profile: true
 ---
 
@@ -9,7 +9,7 @@ author_profile: true
   A curated monthly digest of dermatology and skin-science coverage from <b>EurekAlert!</b>, <b>News-Medical</b>, and <b>Medical News Today</b> -- filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>, and summarized with the Gemini API. This page auto-refreshes on the 20th of every month to reflect the prior month's coverage.
 </p>
 
-<div class="news-update-tag">🔄 Last auto-update covers: <b>August 2026</b> · Auto-refreshes on the 20th of each month</div>
+<div class="news-update-tag">🔄 Last auto-update covers: <b>September 2026</b> · Auto-refreshes on the 20th of each month</div>
 
 <div class="news-grid">
 <details class="news-card">
