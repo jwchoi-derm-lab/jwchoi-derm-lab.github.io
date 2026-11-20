@@ -26,7 +26,7 @@ author_profile: true
   Curated literature reviews and computational summaries from leading dermatology journals. Sourced automatically each month via the PubMed E-utilities API and summarized with the Gemini API, filtered for relevance to our lab's focus areas: <b>Skin Cancer & Surgery</b>, <b>Microbiome</b>, and <b>Hair & Nail Disorders</b>.
 </p>
 
-<div class="news-update-tag">🔄 Last auto-update covers: <b>September 2026</b> · Auto-refreshes on the 20th of each month</div>
+<div class="news-update-tag">🔄 Last auto-update covers: <b>October 2026</b> · Auto-refreshes on the 20th of each month</div>
 
 <div class="journal-nav-bar">
   <a href="#jaad" class="jlink jlink-jaad">JAAD</a>
@@ -43,7 +43,7 @@ author_profile: true
 
   <details class="monthly-issue-accordion">
     <summary class="issue-summary">
-      <span class="issue-date">September 2026</span>
+      <span class="issue-date">October 2026</span>
       <span class="issue-tag">Auto-Updated Review</span>
     </summary>
 
@@ -53,24 +53,25 @@ author_profile: true
         <div class="focus-group">
           <span class="focus-label label-epi">General Dermatology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42815802/" target="_blank">Certolizumab Pegol for Hidradenitis Suppurativa: A Systematic Review. (PMID: 42815802)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42815801/" target="_blank">Cutaneous tale-tellers in dermatology. (PMID: 42815801)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42810518/" target="_blank">Revisiting Tick Removal Practices: Avoiding Routine Skin Biopsy. (PMID: 42810518)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42986283/" target="_blank">Correction to "Hidden risks behind the cosmetic use of silica spicules for transdermal delivery" [Journal of the American Academy of Dermatology 2026 April;94(4):e285-e286]. (PMID: 42986283)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966508/" target="_blank">Mycoplasma pneumoniae infection in pediatric IgA vasculitis: a correlation study on clinical characteristics, disease activity, relapse/recurrence and renal involvement. (PMID: 42966508)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966507/" target="_blank">Artificial Intelligence and Human Editor Concordance in Dermatology Desk-Rejection Decisions: A Cross-Sectional Study. (PMID: 42966507)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-cancer">Skin Cancer & Surgery</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42805349/" target="_blank">Parkinson, melanoma, and the dermatologist. (PMID: 42805349)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42790786/" target="_blank">Surgical pearl: Biplanar island myocutaneous flap for large forehead defects. (PMID: 42790786)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42790784/" target="_blank">Validation of the Melanoma Institute Australia Prediction Tool for Sentinel Node Metastasis Risk Amongst Patients with Cutaneous Head and Neck Melanoma. (PMID: 42790784)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966509/" target="_blank">Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited. (PMID: 42966509)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma Response to Zabawski et al., "Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited". (PMID: 42966505)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions.Reply to "A Novel Utilization of Liposomal Bupivacaine in Nail Procedures". (PMID: 42966504)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-hair">Hair & Nail Disorders</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42800559/" target="_blank">Metabolic syndrome and early-onset androgenetic alopecia: A retrospective matched case-control study with a novel risk scoring system. (PMID: 42800559)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42785684/" target="_blank">Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis. (PMID: 42785684)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966501/" target="_blank">Teleonychology: A 5-Year Retrospective Single-Center Experience. (PMID: 42966501)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42957001/" target="_blank">Oral and Topical Minoxidil Show Comparable Efficacy but Different Rates of Progression in Female Pattern Hair Loss: A Single-Center Retrospective Cohort Study. (PMID: 42957001)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42925991/" target="_blank">Ritlecitinib Monotherapy versus Baseline Combination with Systemic Corticosteroids for Alopecia Areata: A Multicenter Retrospective Study. (PMID: 42925991)</a>.</li>
           </ul>
         </div>
       </div>
@@ -79,74 +80,74 @@ author_profile: true
 
       <div class="article-card non-original">
         <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42815802/" target="_blank">Certolizumab Pegol for Hidradenitis Suppurativa: A Systematic Review.</a>
+          <span class="art-type-badge type-nonoriginal">Published Erratum / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42986283/" target="_blank">Correction to "Hidden risks behind the cosmetic use of silica spicules for transdermal delivery" [Journal of the American Academy of Dermatology 2026 April;94(4):e285-e286].</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Abdul Ghafoor AA, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.103 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42815802/" target="_blank">42815802</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Editorial / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42815801/" target="_blank">Cutaneous tale-tellers in dermatology.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Pudasaini P | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.094 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42815801/" target="_blank">42815801</a></div>
-        <div class="no-abstract-note">📌 This entry is a Editorial and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Editorial / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810518/" target="_blank">Revisiting Tick Removal Practices: Avoiding Routine Skin Biopsy.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Molaei G, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.095 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810518/" target="_blank">42810518</a></div>
-        <div class="no-abstract-note">📌 This entry is a Editorial and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+        <div class="art-meta"><b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.055 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42986283/" target="_blank">42986283</a></div>
+        <div class="no-abstract-note">📌 This entry is a Published Erratum and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810517/" target="_blank">Over-the-Counter: The Assumption of Accessibility and Affordability.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966509/" target="_blank">Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Martin EJ, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.08.129 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810517/" target="_blank">42810517</a></div>
-        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810516/" target="_blank">Beyond assumptions: Individualizing communication for deaf and hard-of-hearing patients.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Husseinali M, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.091 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810516/" target="_blank">42810516</a></div>
-        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810515/" target="_blank">One Curriculum, Full Spectrum: The Ethics of "Skin of Color" in Dermatologic Education.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Voronina V, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.092 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810515/" target="_blank">42810515</a></div>
-        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810514/" target="_blank">When the pledge fails: Ethics of isotretinoin prescribing in adolescents enrolled in iPLEDGE.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Chung J, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.09.093 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810514/" target="_blank">42810514</a></div>
+        <div class="art-meta"><b>Authors:</b> Zabawski EJ, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.07.150 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966509/" target="_blank">42966509</a></div>
         <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42808933/" target="_blank">Sequential 595-nm PDL plus long-pulsed 1064-nm Nd:YAG with minute-scale interpulse delay outperforms pulsed dye laser alone for flat port-wine capillary malformation.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966508/" target="_blank">Mycoplasma pneumoniae infection in pediatric IgA vasculitis: a correlation study on clinical characteristics, disease activity, relapse/recurrence and renal involvement.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Yu W, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Sep 2026</i>. doi: 10.1016/j.jaad.2026.08.032 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42808933/" target="_blank">42808933</a></div>
+        <div class="art-meta"><b>Authors:</b> Zhang YF, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.088 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966508/" target="_blank">42966508</a></div>
         <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966507/" target="_blank">Artificial Intelligence and Human Editor Concordance in Dermatology Desk-Rejection Decisions: A Cross-Sectional Study.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Armstrong GZ, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.094 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966507/" target="_blank">42966507</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966506/" target="_blank">Ethical Implications of Cash-Only Practices in Dermatology.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Wu AX, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.092 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966506/" target="_blank">42966506</a></div>
+        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma Response to Zabawski et al., "Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited".</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Ricardo JW, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.091 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">42966505</a></div>
+        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions.Reply to "A Novel Utilization of Liposomal Bupivacaine in Nail Procedures".</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Ricardo JW, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.08.140 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">42966504</a></div>
+        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966503/" target="_blank">Advocating Fairly for Off-Label Intravenous Immunoglobulin During Scarcity.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Islam RK, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.089 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966503/" target="_blank">42966503</a></div>
+        <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
     </div>
   </details>
@@ -157,7 +158,7 @@ author_profile: true
 
   <details class="monthly-issue-accordion">
     <summary class="issue-summary">
-      <span class="issue-date">September 2026</span>
+      <span class="issue-date">October 2026</span>
       <span class="issue-tag">Auto-Updated Review</span>
     </summary>
 
@@ -167,24 +168,23 @@ author_profile: true
         <div class="focus-group">
           <span class="focus-label label-epi">General Dermatology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42814444/" target="_blank">Pseudofolliculitis Barbae Diagnosis and Treatment in US Veterans. (PMID: 42814444)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42814431/" target="_blank">Longitudinal Growth in Children With Epidermal Differentiation Disorders. (PMID: 42814431)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42814422/" target="_blank">Generalized Linear Keratotic Papules in a Man in His 30s. (PMID: 42814422)</a>.</li>
-          </ul>
-        </div>
-        <div class="focus-group">
-          <span class="focus-label label-hair">Hair & Nail Disorders</span>
-          <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42814435/" target="_blank">Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement. (PMID: 42814435)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42684692/" target="_blank">Delphi Consensus Statement on Treatment of Severe Alopecia Areata in US Adults. (PMID: 42684692)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42949758/" target="_blank">Reaction Risk During Monthly Therapy for Hansen Disease. (PMID: 42949758)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42949740/" target="_blank">Errors in Table 1 and Supplement. (PMID: 42949740)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42949737/" target="_blank">Targeted and Immune-Based Therapies in Cutaneous T-Cell Lymphomas: A Systematic Review and Meta-Analysis. (PMID: 42949737)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-cancer">Skin Cancer & Surgery</span>
           <ul class="focus-list">
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42905683/" target="_blank">Evaluating the Performance of Melanoma Risk Prediction Models. (PMID: 42905683)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42873519/" target="_blank">Cancer Risk in Patients With Overall and Site-Specific Lichen Planus. (PMID: 42873519)</a>.</li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/42714879/" target="_blank">Diffuse Melanosis Cutis and Melanuria in Advanced Melanoma. (PMID: 42714879)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42684729/" target="_blank">Comparison of Pleomorphic Dermal Sarcoma to Advanced Cutaneous Squamous Cell Carcinoma and Soft-Tissue Sarcoma. (PMID: 42684729)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42525402/" target="_blank">Enfortumab Vedotin-Induced Cutaneous Toxic Effects and Survival in Urothelial Carcinoma. (PMID: 42525402)</a>.</li>
+          </ul>
+        </div>
+        <div class="focus-group">
+          <span class="focus-label label-hair">Hair & Nail Disorders</span>
+          <ul class="focus-list">
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42584887/" target="_blank">Upadacitinib for Severe Alopecia Areata in Adults and Adolescents: Two Phase 3 UP-AA Randomized Clinical Trials. (PMID: 42584887)</a>.</li>
           </ul>
         </div>
       </div>
@@ -194,79 +194,79 @@ author_profile: true
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814444/" target="_blank">Pseudofolliculitis Barbae Diagnosis and Treatment in US Veterans.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949758/" target="_blank">Reaction Risk During Monthly Therapy for Hansen Disease.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Smith CA, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3777 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814444/" target="_blank">42814444</a></div>
+        <div class="art-meta"><b>Authors:</b> H V, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4154 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949758/" target="_blank">42949758</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949740/" target="_blank">Errors in Table 1 and Supplement.</a>
+        </div>
+        <div class="art-meta"><b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4721 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949740/" target="_blank">42949740</a></div>
         <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814435/" target="_blank">Low-Dose Oral Minoxidil Use for Pediatric Hair Disorders: An International Consensus Statement.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949737/" target="_blank">Targeted and Immune-Based Therapies in Cutaneous T-Cell Lymphomas: A Systematic Review and Meta-Analysis.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Akiska YM, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3749 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814435/" target="_blank">42814435</a></div>
+        <div class="art-meta"><b>Authors:</b> Bai JQA, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4263 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949737/" target="_blank">42949737</a></div>
         <div class="art-summary">
-<p>IMPORTANCE: Low-dose oral minoxidil (LDOM) is increasingly used off-label to treat pediatric hair disorders; however, standardized guidance for patient selection, dosing, safety, and monitoring in patients younger than 12 years is lacking. OBJECTIVE: To establish expert consensus recommendations for LDOM use in pediatric patients (age <12 years) with hair disorders. EVIDENCE REVIEW: Survey development was informed by a review of the literature on LDOM pharmacology, safety, and clinical use, with emphasis on pediatric populations. A modified Delphi process was conducted from June 30, 2025, to March 7, 2026. Of 98 clinicians completing a prescreening survey, 51 met eligibility criteria (>10...</p>
+<p>IMPORTANCE: Advanced cutaneous T-cell lymphomas (CTCLs), including mycosis fungoides (MF) and Sézary syndrome (SS), are associated with substantial morbidity and limited durable treatment options. Although several targeted and immune-based therapies have emerged, their comparative efficacy, durability, and safety have not been comprehensively synthesized. OBJECTIVE: To evaluate the efficacy and safety of targeted and immune-based monotherapies for CTCL and characterize subtype-specific outcomes in MF and SS. DATA SOURCES: MEDLINE, Embase, and CENTRAL databases were searched from inception to April 10, 2026. STUDY SELECTION: Studies reporting efficacy or safety outcomes in patients with CTCL...</p>
+        </div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949736/" target="_blank">Reaction Risk During Monthly Therapy for Hansen Disease-Reply.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Warp PV, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4148 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949736/" target="_blank">42949736</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949724/" target="_blank">Geospatial Associations of Hidradenitis Suppurativa With Structurally Related Airborne Toxins.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> McCaffrey T, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4159 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949724/" target="_blank">42949724</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949722/" target="_blank">An Unusually Shaped Mass Over the Proximal Nail Fold.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Raghavan A, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4222 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949722/" target="_blank">42949722</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949718/" target="_blank">Estrogen Use and Porphyria Cutanea Tarda.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Erichsen PA, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4329 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949718/" target="_blank">42949718</a></div>
+        <div class="art-summary">
+<p>IMPORTANCE: Estrogen-containing therapy is considered a risk factor for porphyria cutanea tarda (PCT), but the evidence is limited to clinical series and case reports. OBJECTIVE: To investigate whether estrogen-containing therapy is associated with incident PCT, overall and according to estrogen-containing therapy type and route of administration. DESIGN, SETTING, AND PARTICIPANTS: In this matched case-control study using data from Danish nationwide registries conducted from January 1, 1995, through November 1, 2024, female individuals with a first-time hospital diagnosis of PCT were matched 1:100 with population control patients on age, sex, and index date. EXPOSURE: At least 1 redeemed...</p>
         </div>
       </div>
 
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814431/" target="_blank">Longitudinal Growth in Children With Epidermal Differentiation Disorders.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42949703/" target="_blank">Site-Specific Treatment and Remission Patterns in Multisite Mucous Membrane Pemphigoid.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Echeandia-Francis C, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3782 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814431/" target="_blank">42814431</a></div>
+        <div class="art-meta"><b>Authors:</b> McAleer L, et al. | <b>Citation:</b> <i>JAMA Dermatology; Oct 2026</i>. doi: 10.1001/jamadermatol.2026.4256 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42949703/" target="_blank">42949703</a></div>
         <div class="art-summary">
-<p>IMPORTANCE: Children with epidermal differentiation disorders (EDDs) frequently exhibit impaired growth, yet longitudinal growth trajectories across multiple EDD genotypes have not been systematically evaluated. OBJECTIVE: To characterize longitudinal growth outcomes, including height, weight, and head circumference, in children with EDDs and evaluate genotype-specific associations. DESIGN, SETTING, AND PARTICIPANTS: This longitudinal cohort study of children with EDDs used registry-based survey data and pediatric growth measurements through age 18 years. Data were collected from June 2022 to June 2025 and analyzed in September 2025. Participants were recruited through the National Registry...</p>
+<p>IMPORTANCE: Mucous membrane pemphigoid (MMP) is a chronic autoimmune blistering disease associated with progressive mucosal scarring and substantial morbidity. Prior studies have often reported remission rates in cohorts combining localized and multisite disease, with limited data on simultaneous remission across all involved sites in patients with multisite disease. OBJECTIVE: To evaluate multisite complete remission (mCR) and site-specific treatment response patterns in patients with multisite MMP. DESIGN, SETTING, AND PARTICIPANTS: This retrospective cohort study took place at a single tertiary dermatology and ophthalmology referral center at the University of Texas Southwestern Medical...</p>
         </div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814422/" target="_blank">Generalized Linear Keratotic Papules in a Man in His 30s.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Zhu J, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.2792 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814422/" target="_blank">42814422</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814419/" target="_blank">BCMA-Targeted T-Cell Engager Therapy for Refractory Pemphigus.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Ronicke M, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3051 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814419/" target="_blank">42814419</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card">
-        <div class="art-title">
-          <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42776558/" target="_blank">Best Practices for Managing Pseudofolliculitis Barbae: An Expert Consensus Delphi Study.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Alomary SA, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3579 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42776558/" target="_blank">42776558</a></div>
-        <div class="art-summary">
-<p>IMPORTANCE: Pseudofolliculitis barbae (PFB) is a chronic inflammatory disease caused by penetration of a shaved, curved hair shaft into the skin. Standardized recommendations for diagnosing and managing PFB are needed. OBJECTIVE: To establish expert consensus recommendations outlining best practices for diagnosing and managing PFB. EVIDENCE REVIEW: A 3-round Delphi consensus study was conducted using a panel of board-certified US dermatologists with expertise in PFB. Consensus statements addressing diagnostic criteria, behavioral modification, topical and systemic therapies, procedural interventions, and occupational considerations were developed and evaluated using a 9-point Likert scale....</p>
-        </div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42776554/" target="_blank">Robustness of Network Meta-Analysis in Chronic Plaque Psoriasis.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Sbidian E, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3659 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42776554/" target="_blank">42776554</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42776553/" target="_blank">Robustness of Network Meta-Analysis in Chronic Plaque Psoriasis-Reply.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Armstrong AW, et al. | <b>Citation:</b> <i>JAMA Dermatology; Sep 2026</i>. doi: 10.1001/jamadermatol.2026.3645 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42776553/" target="_blank">42776553</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
     </div>
   </details>
@@ -277,7 +277,7 @@ author_profile: true
 
   <details class="monthly-issue-accordion">
     <summary class="issue-summary">
-      <span class="issue-date">September 2026</span>
+      <span class="issue-date">October 2026</span>
       <span class="issue-tag">Auto-Updated Review</span>
     </summary>
 
@@ -287,24 +287,31 @@ author_profile: true
         <div class="focus-group">
           <span class="focus-label label-epi">General Dermatology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42812124/" target="_blank">Dental Sinus: Cutaneous Clues to a Root Cause. (PMID: 42812124)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42812121/" target="_blank">Circadian rhythm and minoxidil: avenues for further investigation. (PMID: 42812121)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42811737/" target="_blank">Daytime oral minoxidil: a new question, and an open mechanism. (PMID: 42811737)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42963995/" target="_blank">Mapping psoriasis comorbidities: insights from a longitudinal phenome-wide study. (PMID: 42963995)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42958733/" target="_blank">Phenome-wide Longitudinal Association Study of Hospital-recorded Comorbidity in Psoriasis. (PMID: 42958733)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42952132/" target="_blank">Understanding the Experiences and Needs of Parents With Children With Epidermolysis Bullosa. A Qualitative Study to Inform the Development of a Self-help Toolkit. (PMID: 42952132)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-cancer">Skin Cancer & Surgery</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42811755/" target="_blank">Low-risk lesion, increased-risk patient: separating lesion prognosis from future melanoma risk. (PMID: 42811755)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42777160/" target="_blank">Shared risk factors, divergent trends in keratinocyte carcinomas. (PMID: 42777160)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42760605/" target="_blank">Beyond the Surface of Long-term Survival in Stage IV Melanoma: A Multicenter Cross-sectional Study. (PMID: 42760605)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42934182/" target="_blank">Molecular landscape of hidradenoma and hidradenocarcinoma: associations with morphology and biology. (PMID: 42934182)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42872364/" target="_blank">Comment on 'Health-related quality of life in patients with basal cell naevus syndrome and high-frequency basal cell carcinoma: a questionnaire study': reply from authors. (PMID: 42872364)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42870432/" target="_blank">Comment on 'Health-related Quality of Life in Patients With Basal Cell Naevus Syndrome and High-frequency Basal Cell Carcinoma: a Questionnaire Study'. (PMID: 42870432)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-microbiome">Microbiome & Cutaneous Biology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42717822/" target="_blank">Less inflammation, greater photoprotection? Rethinking the role of the skin microbiome after ultraviolet exposure. (PMID: 42717822)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42699980/" target="_blank">Distinct genotype-phenotype patterns in non-syndromic hereditary hypotrichosis: a multicenter Chinese cohort. (PMID: 42699980)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42876023/" target="_blank">Skin Microbiome Metabolism in Cutaneous Microenvironments: Implications for Skin Health and Disease. (PMID: 42876023)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42870427/" target="_blank">Distinct Gut Microbiota Signatures are Associated With Progression of Atherosclerosis in Patients With Psoriasis: Results From the EDSAP Study. (PMID: 42870427)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42862888/" target="_blank">An ADAR1 variant as a candidate modifier of cutaneous disease severity in familial psoriasis. (PMID: 42862888)</a>.</li>
+          </ul>
+        </div>
+        <div class="focus-group">
+          <span class="focus-label label-hair">Hair & Nail Disorders</span>
+          <ul class="focus-list">
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42817581/" target="_blank">K17 hi Hair Follicle Cells Orchestrate Psoriatic Inflammation Through S100A1-Dependent Signaling. (PMID: 42817581)</a>.</li>
           </ul>
         </div>
       </div>
@@ -314,77 +321,77 @@ author_profile: true
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42812124/" target="_blank">Dental Sinus: Cutaneous Clues to a Root Cause.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42963995/" target="_blank">Mapping psoriasis comorbidities: insights from a longitudinal phenome-wide study.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Farrugia S, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag428 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42812124/" target="_blank">42812124</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42812121/" target="_blank">Circadian rhythm and minoxidil: avenues for further investigation.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Maas D, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag429 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42812121/" target="_blank">42812121</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42811755/" target="_blank">Low-risk lesion, increased-risk patient: separating lesion prognosis from future melanoma risk.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Balado-Simó P, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag427 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42811755/" target="_blank">42811755</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42811737/" target="_blank">Daytime oral minoxidil: a new question, and an open mechanism.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Sareen J, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag426 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42811737/" target="_blank">42811737</a></div>
+        <div class="art-meta"><b>Authors:</b> Alabas OA, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag480 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42963995/" target="_blank">42963995</a></div>
         <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42810978/" target="_blank">Scalp-ear-nipple syndrome: a clinical and pathogenetic review using novel artificial intelligence methodology.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42958733/" target="_blank">Phenome-wide Longitudinal Association Study of Hospital-recorded Comorbidity in Psoriasis.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Green AC, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag260 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42810978/" target="_blank">42810978</a></div>
+        <div class="art-meta"><b>Authors:</b> Leonard G, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag450 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42958733/" target="_blank">42958733</a></div>
         <div class="art-summary">
-<p>Scalp-ear-nipple (SEN) syndrome (OMIM #181270) is a rare autosomal dominant ectodermal dysplasia characterized by aplasia cutis congenita (ACC) of the scalp, overfolded ear helices and breast aplasia. Since the identification of heterozygous KCTD1 pathogenic variants as the molecular cause in 2013, our understanding of this condition has undergone substantial revision. KCTD1 encodes a 257-amino-acid BTB domain-containing protein that forms pentameric complexes and functions as a transcriptional repressor of transcription factor AP-2α. All currently reported SEN-causing variants cluster within a narrow window (residues 20-74) of the BTB and pre-BTB domains, consistent with a...</p>
+<p>BACKGROUND: International guidelines recommend screening individuals with psoriasis, a common chronic inflammatory skin condition, for a range of conditions across the spectrum of human disease. Despite this, gaps may remain within our knowledge of the full breadth of comorbidity in psoriasis. OBJECTIVES: To perform a phenome-wide longitudinal association study of psoriasis and its comorbidities. METHOD: We conducted cohort studies (matched for age, sex and general practice) for each block (group of related conditions) of outcomes within the International Classification of Diseases - Clinical Modification (10th ed.) using Clinical Practice Research Datalink Aurum primary care data linked to...</p>
         </div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42803275/" target="_blank">Chronic spontaneous urticaria: have we solved treatment before understanding the disease?</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Ardern-Jones MR | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag401 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42803275/" target="_blank">42803275</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42791607/" target="_blank">Epidermal Necrolysis in Children: Clinical Characteristics and Prognosis: An International Retrospective Multicenter Study (ChildTEN Study).</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Mouton B, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag422 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42791607/" target="_blank">42791607</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42791206/" target="_blank">Efficacy and Safety of Risankizumab in Paediatric Patients With Psoriasis in the OptIMMize-1 Phase III Study.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42952132/" target="_blank">Understanding the Experiences and Needs of Parents With Children With Epidermolysis Bullosa. A Qualitative Study to Inform the Development of a Self-help Toolkit.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Magnolo N, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Sep 2026</i>. doi: 10.1093/bjd/ljag403 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42791206/" target="_blank">42791206</a></div>
+        <div class="art-meta"><b>Authors:</b> Hughes O, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag477 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42952132/" target="_blank">42952132</a></div>
         <div class="art-summary">
-<p>BACKGROUND: Treatment options for paediatric patients with psoriasis are limited, and additional, more advanced therapies are needed. Risankizumab is an interleukin-23 inhibitor approved to treat moderate-to-severe psoriasis in adults. OBJECTIVES: To evaluate efficacy and safety of risankizumab through 52 weeks in paediatric patients with moderate-to-severe psoriasis. METHODS: OptIMMize-1 (NCT04435600) was a phase III, multicentre, 4-part study. Parts 1, 3, and 4 were 52-week, open-label studies. Part 2 consisted of a 16-week initial treatment period (Period A; 2:1 risankizumab:ustekinumab randomization), followed by an up to 36-week randomized treatment or withdrawal period (Period B) for...</p>
+<p>BACKGROUND: Epidermolysis Bullosa (EB) is a rare genetic condition characterised by skin fragility and blistering. There is no cure for EB and management includes wound care, dressing changes, and medications for pain relief and chronic itch. Parents of children with EB have a significant additional caregiving role, including provision of physical care, and this alongside other aspects of the condition can put parents at risk of psychological stress and distress. OBJECTIVES: The primary aim of this study was to understand the support needs of parent caregivers of children with EB. A secondary aim was to consider how these needs might be addressed with the development of a self-help toolkit....</p>
         </div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42947634/" target="_blank">Reply to 'Summer initiation of ruxolitinib in vitiligo: natural phototherapy confounds the seasonal signal'.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Alberti-Violetti S, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag471 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42947634/" target="_blank">42947634</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42934996/" target="_blank">Serum Proteomic Profiling by Olink Reveal Identifies Stage-Dependent and Progression-Associated Biomarkers in Mycosis Fungoides.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Choi ME, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag478 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42934996/" target="_blank">42934996</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42934182/" target="_blank">Molecular landscape of hidradenoma and hidradenocarcinoma: associations with morphology and biology.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Ferreira I, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag474 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42934182/" target="_blank">42934182</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42929156/" target="_blank">The Science of Skin Ageing Comes of Age: Molecular Insights, Precision Targets and Emerging Therapeutics.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> McGrath JA | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag467 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42929156/" target="_blank">42929156</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
+      </div>
+
+      <div class="article-card non-original">
+        <div class="art-title">
+          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42924490/" target="_blank">Treatment Lapses Impact Early-Stage Mycosis Fungoides Outcomes: A 14-Year Retrospective Cohort Study.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Warp PV, et al. | <b>Citation:</b> <i>British Journal of Dermatology (BJD); Oct 2026</i>. doi: 10.1093/bjd/ljag475 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42924490/" target="_blank">42924490</a></div>
+        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
     </div>
   </details>
@@ -395,7 +402,7 @@ author_profile: true
 
   <details class="monthly-issue-accordion">
     <summary class="issue-summary">
-      <span class="issue-date">September 2026</span>
+      <span class="issue-date">October 2026</span>
       <span class="issue-tag">Auto-Updated Review</span>
     </summary>
 
@@ -405,33 +412,33 @@ author_profile: true
         <div class="focus-group">
           <span class="focus-label label-epi">General Dermatology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42815711/" target="_blank">Evidence that IL-4/IL-13-Responsive IGFLs Promote Allergic Skin Inflammation. (PMID: 42815711)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42814046/" target="_blank">Peripheral serotonin in skin homeostasis. (PMID: 42814046)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42785471/" target="_blank">Post-trial provisions: Unblinding after a randomized blinded trial of spironolactone or doxycycline to treat acne in women. (PMID: 42785471)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966619/" target="_blank">Phototherapy for Psoriasis in Contemporary, Biologic-Focused Practice. (PMID: 42966619)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42962881/" target="_blank">Targeting the Immunometabolic Checkpoint IL4I1 Suppresses the Progression of Pathological Scars. (PMID: 42962881)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42962880/" target="_blank">An anatomical framework for cutaneous sympathetic organization in mice reveals overlapping ganglionic territories and long-range stellate projections. (PMID: 42962880)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-cancer">Skin Cancer & Surgery</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42772594/" target="_blank">Accumulation of the immunosuppressive metabolite 1-methylnicotinamide in human basal cell carcinoma. (PMID: 42772594)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42772593/" target="_blank">DNPH1 exerts context-dependent tumor-promoting and -repressing functions during melanoma development. (PMID: 42772593)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42772592/" target="_blank">Knowledge of Skin Cancer Risk Factors in the United States. (PMID: 42772592)</a>.</li>
-          </ul>
-        </div>
-        <div class="focus-group">
-          <span class="focus-label label-hair">Hair & Nail Disorders</span>
-          <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42727722/" target="_blank">Contact hypersensitivity promotes hair regeneration through SPP1-secreting macrophages. (PMID: 42727722)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42716209/" target="_blank">Fluoxetine activates melanocyte stem cells indirectly through the epithelial 5-hydroxytryptamine (5-HT) receptor 1A/Wnt signaling to regenerate melanocytes. (PMID: 42716209)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42692190/" target="_blank">A causal effect of increased GLP1R expression on male-pattern hair loss is suggested by 2-sample Mendelian randomization. (PMID: 42692190)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42962879/" target="_blank">C3a/C3aR1 axis promotes invasion of cutaneous squamous cell carcinoma and is associated with metastasis and poor prognosis. (PMID: 42962879)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42854951/" target="_blank">Functional roles of Wnt/β-catenin pathway components in pre-basal cell carcinoma-like cell proliferation and survival. (PMID: 42854951)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42822662/" target="_blank">Toll-like receptor 4 epidermal genetic deletion protects against acute and tumorigenic UV exposure in SKH-1 mouse skin. (PMID: 42822662)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-microbiome">Microbiome & Cutaneous Biology</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42716214/" target="_blank">Distinct heart rate variability signatures characterize uremic pruritus in adults and children. (PMID: 42716214)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42678332/" target="_blank">When T cells cast nets: Skin commensals shape extracellular trap responses. (PMID: 42678332)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42262298/" target="_blank">The role of neutrophils and neutrophil extracellular traps in Staphylococcus aureus colonization in healthy and inflamed skin. (PMID: 42262298)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42918489/" target="_blank">Cohousing alters gut microbiota and disease severity in experimental pemphigoid disease. (PMID: 42918489)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42880441/" target="_blank">Endothelial aryl hydrocarbon receptor-APLNR signaling preserves vascular glycocalyx integrity and limits neutrophil-driven skin injury during local methicillin-resistant Staphylococcus aureus infection. (PMID: 42880441)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42242497/" target="_blank">Expansion of pathogens and restoration of human skin microbiome in CD4 T-cell lymphopenia. (PMID: 42242497)</a>.</li>
+          </ul>
+        </div>
+        <div class="focus-group">
+          <span class="focus-label label-hair">Hair & Nail Disorders</span>
+          <ul class="focus-list">
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42869216/" target="_blank">IL-31 targets the hair follicle bulge across species and delays plucking-induced anagen in mice. (PMID: 42869216)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42831846/" target="_blank">Targeting the γc pathway in alopecia areata: What does it add in the era of JAK inhibitors? (PMID: 42831846)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42190866/" target="_blank">Hirsutism beyond PCOS: Genome-wide evidence for genetic factors. (PMID: 42190866)</a>.</li>
           </ul>
         </div>
       </div>
@@ -441,76 +448,86 @@ author_profile: true
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42815711/" target="_blank">Evidence that IL-4/IL-13-Responsive IGFLs Promote Allergic Skin Inflammation.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966619/" target="_blank">Phototherapy for Psoriasis in Contemporary, Biologic-Focused Practice.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Wang Q, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.08.028 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42815711/" target="_blank">42815711</a></div>
+        <div class="art-meta"><b>Authors:</b> Fadel S, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.023 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966619/" target="_blank">42966619</a></div>
         <div class="art-summary">
-<p>IGF-Like (IGFL) Family member proteins are a putative cytokine family whose functions are not defined. Here we demonstrate that IGFL1 and IGFL4 are significantly increased in lesional atopic dermatitis (AD) skin and mouse Igfl is significantly increased in an oxazolone (Oxa)-induced model of allergic skin inflammation. In addition, studies with Igfl-deficient mice revealed significant reductions in markers of disease severity. RNA sequencing and qPCR demonstrated reduced Il4, Il13, and other type 2 inflammation-associated transcripts in Oxa treated skin from Igfl-deficient mice. As the Oxa model is Th2 cytokine-dependent, we hypothesized IL-4 and/or IL-13 promote Igfl expression. In support...</p>
+<p>Phototherapy has been a cornerstone of psoriasis management since before the biologic era, and despite being eclipsed by systemic agents, it retains meaningful clinical utility. Narrowband ultraviolet B (NB-UVB) achieves clinically significant clearance rates, has been associated with greater improvement in overall health-related quality of life compared to adalimumab, and is effective across all skin tones. NB-UVB is associated with spatially distinct transcriptomic changes within plaques and downregulation of HLA-C-mediated antigen presentation on melanocytes. Home-based phototherapy, assessed in the LITE trial, performs non-inferiorly to office-based UV and is an accessible alternative....</p>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42962881/" target="_blank">Targeting the Immunometabolic Checkpoint IL4I1 Suppresses the Progression of Pathological Scars.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Bao Q, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.021 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42962881/" target="_blank">42962881</a></div>
+        <div class="art-summary">
+<p>Keloids are refractory fibroproliferative disorders driven by dysregulated fibrosis and chronic inflammation. Current research has largely focused on the TGF-β signaling pathway and fibroblasts-the classical drivers of keloid formation-yet clinical outcomes remain unsatisfactory. To address this, we shifted our research focus to the immunometabolic axis, with particular emphasis on the regulatory role of IL4I1 (an amino acid oxidase) as an immunometabolic checkpoint. Our results demonstrated that IL4I1 was significantly upregulated in keloid tissues, accompanied by activation of its mediated tryptophan-kynurenine metabolic pathway and increased downstream lipid peroxidation products. In...</p>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42962880/" target="_blank">An anatomical framework for cutaneous sympathetic organization in mice reveals overlapping ganglionic territories and long-range stellate projections.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Tilley L, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.022 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42962880/" target="_blank">42962880</a></div>
+        <div class="art-summary">
+<p>The sympathetic nervous system regulates skin homeostasis by controlling thermoregulation, piloerection, vascular tone, epithelial stem cell activity, and immune surveillance. Although sympathetic nerves remodel during aging and inflammatory skin disease, the anatomical organization of cutaneous sympathetic circuits remains poorly defined. Here, we established a skin-specific retrograde viral tracing approach to define the anatomical organization of cutaneous sympathetic innervation. Dual-color retrograde tracing revealed that cutaneous sympathetic innervation is strictly ipsilateral and organized into broad, overlapping territories rather than discrete segmental domains. Anterior dorsal...</p>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42962879/" target="_blank">C3a/C3aR1 axis promotes invasion of cutaneous squamous cell carcinoma and is associated with metastasis and poor prognosis.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Heiskanen L, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.019 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42962879/" target="_blank">42962879</a></div>
+        <div class="art-summary">
+<p>Cutaneous squamous cell carcinoma (CSCC) is the most common metastatic skin cancer, with poor prognosis of metastatic disease. We investigated the role of the complement axis C3a/C3aR1 in CSCC progression. C3aR1 mRNA levels were elevated in CSCC tumors in vivo compared with normal skin. Single-cell RNA sequencing revealed C3aR1 expression in macrophages within CSCCs. In 3D spheroid co-cultures of CSCC cells, fibroblasts, and macrophages, RNA sequencing showed increased C3aR1 mRNA expression in the presence of M2-like macrophages. Immunofluorescence staining localized C3aR1-expressing cells predominantly at the peripheral region of spheroids. Recombinant C3a enhanced CSCC cell invasion,...</p>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42957084/" target="_blank">RIPK4 regulates keratinocyte differentiation via an IKKα-IRF6 signaling axis.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Štepic B, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.018 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42957084/" target="_blank">42957084</a></div>
+        <div class="art-summary">
+<p>RIPK4, IKKα and IRF6 are important regulators of epidermal development and homeostasis. The phenotypes of mice or men carrying inactivating variants show similar and overlapping defects in epidermal development, however, whether they act in a linear or parallel signaling pathway remains poorly understood. We show that in cultured normal human primary keratinocytes RIPK4 as well as IKKα and IRF6 control the expression of a genetic program responsible for formation of the cornified envelope, tight junctions and the lipid barrier. Both IKKα and RIPK4 can lead to IRF6 phosphorylation and activate IRF6 reporter activity in a kinase-dependent manner and RIPK4-induced IRF6 reporter activation is...</p>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="art-title">
+          <span class="art-type-badge type-original">Original Article</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42951126/" target="_blank">Isotretinoin Alleviates Rosacea-like Inflammation by Partially Involving TET2 Upregulation and JAK2/STAT3 Suppression.</a>
+        </div>
+        <div class="art-meta"><b>Authors:</b> Zhang X, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.016 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42951126/" target="_blank">42951126</a></div>
+        <div class="art-summary">
+<p>Epigenetic dysregulation is implicated in inflammatory skin diseases such as rosacea, but its specific mechanisms in epidermal innate immunity remain unclear. Isotretinoin is an effective therapy for rosacea, yet its epigenetic mechanism of action is incompletely understood. This study analyzed human rosacea transcriptomic data, established an epidermis-specific Tet2 knockout (TET2eKO) mouse model, and knocked down TET2 in keratinocytes. TET2 and its catalytic product 5hmC were significantly downregulated in human rosacea lesions and in an LL-37-induced rosacea-like mouse model. TET2eKO mice exhibited exacerbated LL-37-induced erythema, telangiectasia, dermal thickening, and immune cell...</p>
         </div>
       </div>
 
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42814046/" target="_blank">Peripheral serotonin in skin homeostasis.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42931730/" target="_blank">Advancing global dermato-epidemiology: A roadmap for action through the Global Dermato-Epidemiology Forum (GDEF).</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Kleszczyński K, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.07.011 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42814046/" target="_blank">42814046</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42785471/" target="_blank">Post-trial provisions: Unblinding after a randomized blinded trial of spironolactone or doxycycline to treat acne in women.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Barbieri JS, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.09.849 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42785471/" target="_blank">42785471</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42785470/" target="_blank">Targeting epidermal TRPV3 calcium channel alleviates psoriasis-like inflammation in vitro and in vivo.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Fraillon E, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.09.848 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42785470/" target="_blank">42785470</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42772596/" target="_blank">Distinct IL-17A and retinoic acid-associated gene programs are enriched in epithelialized tunnels in severe hidradenitis suppurativa.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Montgomery AB, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.09.847 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42772596/" target="_blank">42772596</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42772595/" target="_blank">The itch-dominant phenotype of atopic dermatitis carries a disproportionate psychosocial burden.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Misery L, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.08.026 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42772595/" target="_blank">42772595</a></div>
-        <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
-      </div>
-
-      <div class="article-card non-original">
-        <div class="art-title">
-          <span class="art-type-badge type-nonoriginal">Journal Article / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42772594/" target="_blank">Accumulation of the immunosuppressive metabolite 1-methylnicotinamide in human basal cell carcinoma.</a>
-        </div>
-        <div class="art-meta"><b>Authors:</b> Bopp L, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.09.845 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42772594/" target="_blank">42772594</a></div>
+        <div class="art-meta"><b>Authors:</b> Keddie SH, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.08.023 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42931730/" target="_blank">42931730</a></div>
         <div class="no-abstract-note">📌 This entry is a Journal Article and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
       </div>
 
       <div class="article-card">
         <div class="art-title">
           <span class="art-type-badge type-original">Original Article</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42772593/" target="_blank">DNPH1 exerts context-dependent tumor-promoting and -repressing functions during melanoma development.</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42918489/" target="_blank">Cohousing alters gut microbiota and disease severity in experimental pemphigoid disease.</a>
         </div>
-        <div class="art-meta"><b>Authors:</b> Sui Y, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Sep 2026</i>. doi: 10.1016/j.jid.2026.09.843 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42772593/" target="_blank">42772593</a></div>
+        <div class="art-meta"><b>Authors:</b> Liu X, et al. | <b>Citation:</b> <i>Journal of Investigative Dermatology (JID); Oct 2026</i>. doi: 10.1016/j.jid.2026.10.011 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42918489/" target="_blank">42918489</a></div>
         <div class="art-summary">
-<p>Metastatic cutaneous melanoma is a highly lethal and multifarious disease that is driven by the interplay between UV-induced DNA damage and oncogenic lesions, yet enzymes coupling these processes remain incompletely defined. We uncovered the deoxynucleotide hydrolase DNPH1 as an overexpressed melanoma enzyme associated with metastasis and poorer patient survival. DNPH1 overexpression or downregulation in human melanoma cells enhanced or lowered, respectively, their in vitro growth rate. In vivo, Dnph1 loss delayed melanoma initiation and reduced distant metastasis in UV light-exposed, BRAF-V600E-expressing mice. Similarly, Dnph1 knockout in conjunction with oncogenic BRAF-V600E slowed...</p>
+<p>Pemphigoid diseases are autoimmune blistering disorders in which alterations of the skin and gut microbiota have been reported, yet how microbial variation relates to disease severity remains unclear. Using a bullous pemphigoid-like mouse model, we compared genetically identical C57BL/6J mice from 2 breeding facilities that differed in their baseline microbiota. Mice from Charles River developed markedly milder disease than in-house-bred animals. Cohousing partially homogenized their gut microbiota, shifting in-house mice asymmetrically toward the Charles River community, coinciding with reduced disease severity in cohoused in-house mice. The skin microbiota showed more modest and less...</p>
         </div>
       </div>
     </div>
