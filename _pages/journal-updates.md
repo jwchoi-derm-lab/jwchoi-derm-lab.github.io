@@ -62,14 +62,14 @@ author_profile: true
           <span class="focus-label label-cancer">Skin Cancer & Surgery</span>
           <ul class="focus-list">
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966509/" target="_blank">Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited. (PMID: 42966509)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma Response to Zabawski et al., "Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited". (PMID: 42966505)</a>.</li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions.Reply to "A Novel Utilization of Liposomal Bupivacaine in Nail Procedures". (PMID: 42966504)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma. (PMID: 42966505)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions. (PMID: 42966504)</a>.</li>
           </ul>
         </div>
         <div class="focus-group">
           <span class="focus-label label-hair">Hair & Nail Disorders</span>
           <ul class="focus-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966501/" target="_blank">Teleonychology: A 5-Year Retrospective Single-Center Experience. (PMID: 42966501)</a>.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/42966501/" target="_blank">Teleonychology: A 5-year retrospective single-center experience. (PMID: 42966501)</a>.</li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/42957001/" target="_blank">Oral and Topical Minoxidil Show Comparable Efficacy but Different Rates of Progression in Female Pattern Hair Loss: A Single-Center Retrospective Cohort Study. (PMID: 42957001)</a>.</li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/42925991/" target="_blank">Ritlecitinib Monotherapy versus Baseline Combination with Systemic Corticosteroids for Alopecia Areata: A Multicenter Retrospective Study. (PMID: 42925991)</a>.</li>
           </ul>
@@ -126,7 +126,7 @@ author_profile: true
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma Response to Zabawski et al., "Finger predominance in nail unit squamous cell carcinoma: an etiologic clue revisited".</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">Recognizing "red flags" for nail unit squamous cell carcinoma.</a>
         </div>
         <div class="art-meta"><b>Authors:</b> Ricardo JW, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.10.091 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966505/" target="_blank">42966505</a></div>
         <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
@@ -135,7 +135,7 @@ author_profile: true
       <div class="article-card non-original">
         <div class="art-title">
           <span class="art-type-badge type-nonoriginal">Letter / No Abstract</span>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions.Reply to "A Novel Utilization of Liposomal Bupivacaine in Nail Procedures".</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">Long-acting local anesthetics in nail surgery: Current evidence and future directions.</a>
         </div>
         <div class="art-meta"><b>Authors:</b> Ricardo JW, et al. | <b>Citation:</b> <i>Journal of the American Academy of Dermatology (JAAD); Oct 2026</i>. doi: 10.1016/j.jaad.2026.08.140 | <b>PMID:</b> <a href="https://pubmed.ncbi.nlm.nih.gov/42966504/" target="_blank">42966504</a></div>
         <div class="no-abstract-note">📌 This entry is a Letter and does not include a structured abstract on PubMed. <b>Please refer to the original article (PMID link) for full details.</b></div>
