@@ -470,9 +470,13 @@ def get_gemini_client():
 
     try:
         from google import genai
+        from google.genai import types
 
         _GEMINI_CLIENT = genai.Client(
             api_key=api_key,
+            http_options=types.HttpOptions(
+                api_version="v1beta"
+            ),
         )
 
         return _GEMINI_CLIENT
