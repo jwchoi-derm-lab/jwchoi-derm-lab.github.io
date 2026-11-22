@@ -50,7 +50,7 @@ from bs4 import BeautifulSoup
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_PATH = REPO_ROOT / "_pages" / "news.md"
+OUTPUT_PATH = REPO_ROOT / "news.md"
 
 MAX_ITEMS = 15
 REQUEST_TIMEOUT = 25
