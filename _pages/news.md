@@ -14,14 +14,14 @@ author_profile: true
 </p>
 
 <div class="news-update-tag">
-  Last collection run: <b>2026-11-22 15:30 UTC</b>
+  Last collection run: <b>2026-11-22 15:37 UTC</b>
 </div>
 
 <p class="news-collection-note">
   Sources represented in this collection: Medical News Today.
   Article publication dates have not been verified for
   a specific coverage month.
-  Descriptions are taken from source listings; AI summaries were unavailable for this run.
+  All displayed summaries were rewritten from source snippets using Gemini.
 </p>
 
 <div class="news-grid">
@@ -34,7 +34,7 @@ author_profile: true
     Understanding Icotyde for treatment of plaque psoriasis
   </summary>
   <div class="news-summary-body">
-    Learn about Icotyde (icotrokinra), an oral tablet medication for plaque psoriasis. Discover how it works, how to take it, and important safety tips in…
+    Icotyde (icotrokinra) is an oral tablet medication being studied for the treatment of plaque psoriasis. Research explores its mechanism of action, administration guidelines, and associated safety profiles.
     <br><br>
     <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/drugs-icotyde" target="_blank" rel="noopener noreferrer">Read Full Article ↗</a>
   </div>
@@ -47,7 +47,7 @@ author_profile: true
     What does MRSA on the face look like?
   </summary>
   <div class="news-summary-body">
-    Methicillin-resistant Staphylococcus aureus (MRSA) is a type of staph bacteria that is highly resistant to common antibiotics. Learn what a MRSA…
+    Methicillin-resistant Staphylococcus aureus (MRSA) is a staph bacterial strain that demonstrates high resistance to common antibiotics. The provided text does not contain further information regarding the facial presentation of MRSA.
     <br><br>
     <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/mrsa-on-face" target="_blank" rel="noopener noreferrer">Read Full Article ↗</a>
   </div>
@@ -60,7 +60,7 @@ author_profile: true
     What are some causes of melanoma other than sun?
   </summary>
   <div class="news-summary-body">
-    Sun is a major cause of melanoma, but i is not the only one. Explore lesser-known risk factors like genetics, immune health, and other skin conditions,
+    While sun exposure is a major cause of melanoma, other factors also contribute to the condition. Research explores lesser-known risk factors, including genetics, immune health, and existing skin conditions.
     <br><br>
     <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/causes-of-melanoma-other-than-sun" target="_blank" rel="noopener noreferrer">Read Full Article ↗</a>
   </div>
@@ -73,7 +73,7 @@ author_profile: true
     What to know about psoriasis healing stages
   </summary>
   <div class="news-summary-body">
-    Psoriasis symptoms flare up and heal in three stages. They can last from weeks to months before starting to improve.
+    Psoriasis symptoms flare up and heal in distinct stages. These stages can last anywhere from weeks to months before the condition begins to improve.
     <br><br>
     <a class="news-read-btn" href="https://www.medicalnewstoday.com/articles/psoriasis-healing-stages" target="_blank" rel="noopener noreferrer">Read Full Article ↗</a>
   </div>
