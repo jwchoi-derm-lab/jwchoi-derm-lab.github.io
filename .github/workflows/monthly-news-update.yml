@@ -39,7 +39,39 @@ jobs:
           if [ -f _pages/news.md ]; then
             sha256sum _pages/news.md
           fi
+      - name: List available Gemini models
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          from google import genai
+          from google.genai import types
 
+          client = genai.Client(
+              api_key=os.environ["GEMINI_API_KEY"],
+              http_options=types.HttpOptions(
+                  api_version="v1beta"
+              ),
+          )
+
+          count = 0
+
+          for model in client.models.list():
+              actions = model.supported_actions or []
+
+              if "generateContent" in actions:
+                  count += 1
+                  print(
+                      f"[MODEL] {model.name} | "
+                      f"actions={actions}"
+                  )
+
+          if count == 0:
+              raise RuntimeError(
+                  "No generateContent models were returned."
+              )
+          PY
       - name: Run news generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
