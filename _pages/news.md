@@ -14,7 +14,7 @@ author_profile: true
 </p>
 
 <div class="news-update-tag">
-  Last collection run: <b>2026-11-22 15:22 UTC</b>
+  Last collection run: <b>2026-11-22 15:26 UTC</b>
 </div>
 
 <p class="news-collection-note">
